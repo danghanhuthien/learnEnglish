@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>VocabMaster — Học Từ Vựng</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0a0a0f; --bg2: #12121a; --bg3: #1a1a26;
+  --surface: #1e1e2e; --surface2: #252538;
+  --border: rgba(255,255,255,0.08); --border2: rgba(255,255,255,0.15);
+  --text: #e8e8f0; --text2: #9898b0; --text3: #5a5a70;
+  --accent: #7c6af7; --accent2: #a78bfa;
+  --green: #34d399; --red: #f87171; --amber: #fbbf24; --blue: #60a5fa; --pink: #f472b6;
+  --r: 12px; --r2: 8px; --r3: 20px;
+  --shadow: 0 4px 24px rgba(0,0,0,0.4); --shadow2: 0 8px 40px rgba(124,106,247,0.2);
+  --nav-h: 64px;
+}
+html, body, #root { height: 100%; }
+body { font-family: 'Sora', sans-serif; background: var(--bg); color: var(--text); overflow-x: hidden; }
+input, select, textarea, button { font-family: 'Sora', sans-serif; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg2); }
+::-webkit-scrollbar-thumb { background: var(--surface2); border-radius: 4px; }
+
+.app { display: flex; height: 100vh; }
+
+/* SIDEBAR (desktop) */
+.sidebar { width: 220px; flex-shrink: 0; background: var(--bg2); border-right: 1px solid var(--border); display: flex; flex-direction: column; padding: 24px 0; }
+.sidebar-logo { padding: 0 20px 24px; border-bottom: 1px solid var(--border); margin-bottom: 16px; }
+.sidebar-logo h1 { font-size: 18px; font-weight: 700; background: linear-gradient(135deg, var(--accent2), var(--pink)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.sidebar-logo p { font-size: 11px; color: var(--text3); margin-top: 2px; }
+.nav-item { display: flex; align-items: center; gap: 10px; padding: 10px 20px; cursor: pointer; color: var(--text2); font-size: 13px; font-weight: 500; transition: all 0.15s; border-left: 2px solid transparent; }
+.nav-item:hover { color: var(--text); background: var(--surface); }
+.nav-item.active { color: var(--accent2); background: rgba(124,106,247,0.1); border-left-color: var(--accent); }
+.nav-icon { font-size: 16px; width: 20px; text-align: center; }
+.sidebar-bottom { margin-top: auto; padding: 16px 20px; border-top: 1px solid var(--border); }
+.streak-badge { background: linear-gradient(135deg, rgba(251,191,36,0.15), rgba(251,191,36,0.05)); border: 1px solid rgba(251,191,36,0.3); border-radius: var(--r2); padding: 10px 14px; display: flex; align-items: center; gap: 8px; }
+.streak-badge .num { font-size: 20px; font-weight: 700; color: var(--amber); }
+.streak-badge .label { font-size: 11px; color: var(--text2); }
+
+/* BOTTOM NAV (mobile) */
+.bottom-nav { display: none; position: fixed; bottom: 0; left: 0; right: 0; height: var(--nav-h); background: var(--bg2); border-top: 1px solid var(--border); z-index: 100; }
+.bottom-nav-inner { display: flex; height: 100%; }
+.bottom-nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; cursor: pointer; color: var(--text3); transition: all 0.15s; }
+.bottom-nav-item.active { color: var(--accent2); }
+.bottom-nav-item .bn-icon { font-size: 20px; line-height: 1; }
+.bottom-nav-item .bn-label { font-size: 10px; font-weight: 600; }
+
+/* MAIN */
+.main { flex: 1; overflow-y: auto; display: flex; flex-direction: column; min-width: 0; }
+.page-header { padding: 24px 28px 16px; border-bottom: 1px solid var(--border); }
+.page-header h2 { font-size: 20px; font-weight: 700; }
+.page-header p { color: var(--text2); font-size: 13px; margin-top: 4px; }
+.page-body { padding: 20px 28px; flex: 1; }
+
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); padding: 20px; }
+.card-sm { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r2); padding: 12px 14px; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 10px 18px; border-radius: var(--r2); font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s; border: none; }
+.btn-primary { background: var(--accent); color: white; }
+.btn-primary:hover { background: #6c5cf0; transform: translateY(-1px); box-shadow: var(--shadow2); }
+.btn-secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border2); }
+.btn-secondary:hover { background: var(--surface); }
+.btn-danger { background: rgba(248,113,113,0.15); color: var(--red); border: 1px solid rgba(248,113,113,0.3); }
+.btn-ghost { background: transparent; color: var(--text2); border: 1px solid var(--border); }
+.btn-ghost:hover { color: var(--text); border-color: var(--border2); }
+.btn-amber { background: rgba(251,191,36,0.15); color: var(--amber); border: 1px solid rgba(251,191,36,0.3); }
+.btn-amber:hover { background: rgba(251,191,36,0.25); }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none !important; }
+.btn-lg { padding: 14px 28px; font-size: 15px; border-radius: var(--r); }
+
+.input { background: var(--bg3); border: 1px solid var(--border2); border-radius: var(--r2); padding: 10px 14px; color: var(--text); font-size: 13px; width: 100%; outline: none; transition: border 0.15s; }
+.input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(124,106,247,0.15); }
+.input::placeholder { color: var(--text3); }
+select.input option { background: var(--surface); }
+
+.badge { display: inline-flex; align-items: center; padding: 3px 10px; border-radius: 100px; font-size: 11px; font-weight: 600; }
+.badge-verb { background: rgba(96,165,250,0.15); color: var(--blue); }
+.badge-noun { background: rgba(52,211,153,0.15); color: var(--green); }
+.badge-adj { background: rgba(251,191,36,0.15); color: var(--amber); }
+.badge-adv { background: rgba(244,114,182,0.15); color: var(--pink); }
+.badge-other { background: rgba(124,106,247,0.15); color: var(--accent2); }
+.learned-badge { display: inline-flex; align-items: center; gap: 3px; padding: 2px 8px; border-radius: 100px; font-size: 10px; font-weight: 600; background: rgba(52,211,153,0.15); color: var(--green); }
+
+.stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 20px; }
+.stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); padding: 16px; }
+.stat-card .value { font-size: 28px; font-weight: 700; line-height: 1; }
+.stat-card .label { font-size: 12px; color: var(--text2); margin-top: 6px; }
+.stat-card .sub { font-size: 11px; color: var(--text3); margin-top: 4px; }
+.progress-bar { height: 6px; background: var(--bg3); border-radius: 100px; overflow: hidden; margin-top: 10px; }
+.progress-fill { height: 100%; border-radius: 100px; transition: width 0.5s ease; }
+
+.toolbar { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center; }
+.table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 540px; }
+th { background: var(--bg3); color: var(--text3); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--border); white-space: nowrap; }
+td { padding: 11px 14px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: rgba(255,255,255,0.02); }
+.word-cell { font-weight: 600; color: var(--accent2); font-family: 'JetBrains Mono', monospace; }
+.acc-bar { width: 48px; height: 4px; background: var(--bg3); border-radius: 100px; overflow: hidden; display: inline-block; }
+.acc-fill { height: 100%; border-radius: 100px; }
+
+.quiz-wrap { max-width: 540px; margin: 0 auto; }
+.quiz-progress { display: flex; gap: 3px; margin-bottom: 20px; }
+.quiz-progress-dot { height: 4px; flex: 1; border-radius: 100px; background: var(--bg3); }
+.quiz-progress-dot.done { background: var(--green); }
+.quiz-progress-dot.current { background: var(--accent); }
+.quiz-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r3); padding: 32px 24px; text-align: center; margin-bottom: 14px; box-shadow: var(--shadow); }
+.quiz-word { font-size: 30px; font-weight: 700; color: var(--accent2); font-family: 'JetBrains Mono', monospace; margin-bottom: 8px; word-break: break-all; }
+.quiz-hint { font-size: 13px; color: var(--text3); margin-bottom: 24px; }
+.choice-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.choice-btn { background: var(--bg3); border: 1.5px solid var(--border2); border-radius: var(--r); padding: 14px 12px; font-size: 13px; cursor: pointer; transition: all 0.15s; color: var(--text); font-family: 'Sora', sans-serif; text-align: left; line-height: 1.4; }
+.choice-btn:hover:not(:disabled) { border-color: var(--accent); background: rgba(124,106,247,0.1); }
+.choice-btn.correct { border-color: var(--green); background: rgba(52,211,153,0.15); color: var(--green); }
+.choice-btn.wrong { border-color: var(--red); background: rgba(248,113,113,0.15); color: var(--red); }
+.quiz-input-area { display: flex; gap: 10px; }
+.quiz-input { font-size: 18px; text-align: center; font-family: 'JetBrains Mono', monospace; }
+.audio-btn { width: 72px; height: 72px; border-radius: 50%; border: none; background: linear-gradient(135deg, var(--accent), var(--pink)); cursor: pointer; font-size: 28px; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: var(--shadow2); transition: transform 0.15s; }
+.audio-btn:hover { transform: scale(1.05); }
+.audio-btn:active { transform: scale(0.96); }
+
+.result-circle { width: 110px; height: 110px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-direction: column; margin: 0 auto 20px; }
+
+.topic-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.topic-name { width: 86px; font-size: 12px; font-weight: 500; flex-shrink: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.topic-bar { flex: 1; height: 7px; background: var(--bg3); border-radius: 100px; overflow: hidden; }
+.topic-fill { height: 100%; border-radius: 100px; transition: width 0.5s; }
+.topic-pct { width: 32px; text-align: right; font-size: 12px; color: var(--text2); }
+
+/* MODAL — bottom sheet on mobile, centered on desktop */
+.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); display: flex; align-items: flex-end; justify-content: center; z-index: 1000; backdrop-filter: blur(4px); }
+.modal { background: var(--surface); border: 1px solid var(--border2); border-radius: var(--r3) var(--r3) 0 0; padding: 28px 20px; width: 100%; max-width: 520px; box-shadow: 0 -8px 40px rgba(0,0,0,0.5); max-height: 90vh; overflow-y: auto; }
+.modal h3 { font-size: 17px; font-weight: 700; margin-bottom: 18px; }
+.form-group { margin-bottom: 12px; }
+.form-group label { display: block; font-size: 11px; font-weight: 600; color: var(--text2); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+.mode-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 20px; }
+.mode-card { background: var(--bg3); border: 1.5px solid var(--border2); border-radius: var(--r); padding: 16px 10px; cursor: pointer; transition: all 0.15s; text-align: center; }
+.mode-card:hover { border-color: var(--accent); }
+.mode-card.selected { border-color: var(--accent); background: rgba(124,106,247,0.12); }
+.mode-card .mode-icon { font-size: 22px; margin-bottom: 6px; }
+.mode-card .mode-title { font-size: 12px; font-weight: 600; margin-bottom: 2px; }
+.mode-card .mode-desc { font-size: 10px; color: var(--text3); line-height: 1.3; }
+
+.weak-item { display: flex; align-items: center; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--border); }
+.weak-item:last-child { border-bottom: none; }
+.calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; margin-top: 10px; }
+.cal-cell { aspect-ratio: 1; border-radius: 3px; display: flex; align-items: center; justify-content: center; }
+
+.confirm-box { background: rgba(248,113,113,0.08); border: 1px solid rgba(248,113,113,0.2); border-radius: var(--r2); padding: 12px 14px; font-size: 13px; color: var(--text2); line-height: 1.5; }
+
+.toast { position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%); background: var(--surface2); border: 1px solid var(--border2); border-radius: var(--r); padding: 12px 20px; font-size: 13px; z-index: 9999; box-shadow: var(--shadow); animation: slideUp 0.2s ease; white-space: nowrap; }
+@keyframes slideUp { from { opacity: 0; transform: translateX(-50%) translateY(10px); } to { opacity: 1; transform: translateX(-50%) translateY(0); } }
+
+.empty-state { text-align: center; padding: 48px 20px; color: var(--text3); }
+.empty-state .icon { font-size: 44px; margin-bottom: 14px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+/* ===== MOBILE BREAKPOINT ===== */
+@media (max-width: 640px) {
+  .sidebar { display: none; }
+  .bottom-nav { display: block; }
+  .main { padding-bottom: var(--nav-h); }
+
+  .page-header { padding: 14px 16px 12px; }
+  .page-header h2 { font-size: 17px; }
+  .page-body { padding: 12px 16px; }
+
+  .stats-grid { gap: 8px; margin-bottom: 14px; }
+  .stat-card { padding: 12px 10px; }
+  .stat-card .value { font-size: 22px; }
+  .stat-card .label { font-size: 11px; }
+
+  .grid-2 { grid-template-columns: 1fr; gap: 12px; }
+
+  .toolbar { gap: 6px; }
+  .toolbar .btn { padding: 8px 10px; font-size: 11px; }
+  .toolbar .input { font-size: 13px; }
+
+  .quiz-card { padding: 22px 16px; }
+  .quiz-word { font-size: 24px; }
+  .choice-grid { grid-template-columns: 1fr; gap: 8px; }
+  .choice-btn { padding: 12px; }
+
+  .mode-cards { grid-template-columns: 1fr; gap: 8px; }
+  .mode-card { display: flex; flex-direction: row; align-items: center; gap: 12px; text-align: left; padding: 12px 14px; }
+  .mode-card .mode-icon { font-size: 22px; margin-bottom: 0; flex-shrink: 0; }
+
+  .result-btns { flex-direction: column !important; }
+  .toast { bottom: 72px; font-size: 12px; }
+
+  .stats-grid.four { grid-template-columns: repeat(2, 1fr) !important; }
+  .modal-overlay { align-items: flex-end; }
+}
+
+@media (min-width: 641px) {
+  .modal-overlay { align-items: center; }
+  .modal { border-radius: var(--r3); max-width: 460px; }
+  .toast { bottom: 24px; }
+}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const { useState, useEffect, useRef } = React;
+const { createRoot } = ReactDOM;
+
+const SAMPLE_WORDS = [
+  { id:crypto.randomUUID(), word:"accomplish", meaning:"hoàn thành, đạt được", type:"verb", topic:"business", example:"She accomplished her goal.", accuracy:80, wrong_count:1, review_count:5, learned:true },
+  { id:crypto.randomUUID(), word:"analyze", meaning:"phân tích", type:"verb", topic:"business", example:"We need to analyze the data.", accuracy:60, wrong_count:3, review_count:5, learned:true },
+  { id:crypto.randomUUID(), word:"strategy", meaning:"chiến lược", type:"noun", topic:"business", example:"A new business strategy.", accuracy:90, wrong_count:0, review_count:3, learned:true },
+  { id:crypto.randomUUID(), word:"ambiguous", meaning:"mơ hồ, không rõ ràng", type:"adj", topic:"academic", example:"The instructions were ambiguous.", accuracy:40, wrong_count:5, review_count:5, learned:true },
+  { id:crypto.randomUUID(), word:"consequently", meaning:"do đó, vì vậy", type:"adv", topic:"academic", example:"He failed; consequently, he was dismissed.", accuracy:70, wrong_count:2, review_count:4, learned:true },
+  { id:crypto.randomUUID(), word:"hypothesis", meaning:"giả thuyết", type:"noun", topic:"academic", example:"The hypothesis was proven correct.", accuracy:50, wrong_count:4, review_count:5, learned:true },
+  { id:crypto.randomUUID(), word:"negotiate", meaning:"đàm phán", type:"verb", topic:"business", example:"They negotiated a deal.", accuracy:0, wrong_count:0, review_count:0, learned:false },
+  { id:crypto.randomUUID(), word:"eloquent", meaning:"hùng hồn, lưu loát", type:"adj", topic:"general", example:"An eloquent speaker.", accuracy:0, wrong_count:0, review_count:0, learned:false },
+  { id:crypto.randomUUID(), word:"innovative", meaning:"sáng tạo, đổi mới", type:"adj", topic:"business", example:"An innovative approach.", accuracy:0, wrong_count:0, review_count:0, learned:false },
+  { id:crypto.randomUUID(), word:"prevalent", meaning:"phổ biến, thịnh hành", type:"adj", topic:"academic", example:"Disease is prevalent in that region.", accuracy:0, wrong_count:0, review_count:0, learned:false },
+];
+
+function genId(){ return crypto.randomUUID(); }
+function shuffle(arr){ return [...arr].sort(()=>Math.random()-0.5); }
+function getToday(){ return new Date().toISOString().split('T')[0]; }
+function accColor(acc){ return acc>=80?'var(--green)':acc>=60?'var(--amber)':'var(--red)'; }
+
+function useLocalStorage(key, init){
+  const [val,setVal]=useState(()=>{ try{const s=localStorage.getItem(key);return s?JSON.parse(s):init;}catch{return init;} });
+  useEffect(()=>{ try{localStorage.setItem(key,JSON.stringify(val));}catch{} },[key,val]);
+  return [val,setVal];
+}
+
+function Toast({msg,onDone}){
+  useEffect(()=>{const t=setTimeout(onDone,2500);return()=>clearTimeout(t);},[]);
+  return React.createElement('div',{className:'toast'},msg);
+}
+
+// ===== HOME =====
+function Home({words,streak,history}){
+  const today=getToday();
+  const todayH=history.filter(h=>h.date===today);
+  const pctToday=todayH.length>0?Math.round(todayH.filter(h=>h.correct).length/todayH.length*100):0;
+  const notLearned=words.filter(w=>!w.learned).length;
+  const topicStats={};
+  words.forEach(w=>{ if(!topicStats[w.topic]) topicStats[w.topic]={sum:0,count:0}; topicStats[w.topic].sum+=w.accuracy; topicStats[w.topic].count++; });
+  return React.createElement('div',null,
+    React.createElement('div',{className:'page-header'},
+      React.createElement('h2',null,'👋 Xin chào!'),
+      React.createElement('p',null,new Date().toLocaleDateString('vi-VN',{weekday:'long',day:'numeric',month:'long'}))
+    ),
+    React.createElement('div',{className:'page-body'},
+      React.createElement('div',{className:'stats-grid'},
+        React.createElement('div',{className:'stat-card'},
+          React.createElement('div',{className:'value',style:{color:'var(--amber)'}},`🔥${streak}`),
+          React.createElement('div',{className:'label'},'Streak'),
+          React.createElement('div',{className:'sub'},'ngày liên tiếp')
+        ),
+        React.createElement('div',{className:'stat-card'},
+          React.createElement('div',{className:'value',style:{color:accColor(pctToday)}},`${pctToday}%`),
+          React.createElement('div',{className:'label'},'Đúng hôm nay'),
+          React.createElement('div',{className:'progress-bar'},
+            React.createElement('div',{className:'progress-fill',style:{width:`${pctToday}%`,background:accColor(pctToday)}})
+          )
+        ),
+        React.createElement('div',{className:'stat-card'},
+          React.createElement('div',{className:'value',style:{color:'var(--accent2)'}},notLearned),
+          React.createElement('div',{className:'label'},'Chưa học'),
+          React.createElement('div',{className:'sub'},`/ ${words.length} từ`)
+        )
+      ),
+      React.createElement('div',{className:'grid-2',style:{gap:14}},
+        React.createElement('div',{className:'card'},
+          React.createElement('h3',{style:{fontSize:13,fontWeight:600,marginBottom:12,color:'var(--text2)'}},'📊 THEO CHỦ ĐỀ'),
+          Object.entries(topicStats).length===0
+            ?React.createElement('div',{style:{color:'var(--text3)',fontSize:13}},'Chưa có dữ liệu')
+            :Object.entries(topicStats).map(([t,s])=>{
+              const pct=Math.round(s.sum/s.count);
+              return React.createElement('div',{key:t,className:'topic-row'},
+                React.createElement('div',{className:'topic-name'},t),
+                React.createElement('div',{className:'topic-bar'},React.createElement('div',{className:'topic-fill',style:{width:`${pct}%`,background:accColor(pct)}})),
+                React.createElement('div',{className:'topic-pct'},`${pct}%`)
+              );
+            })
+        ),
+        React.createElement('div',{className:'card'},
+          React.createElement('h3',{style:{fontSize:13,fontWeight:600,marginBottom:12,color:'var(--red)'}},'⚠️ TỪ YẾU'),
+          words.filter(w=>w.accuracy<60&&w.review_count>0).sort((a,b)=>a.accuracy-b.accuracy).slice(0,5).length===0
+            ?React.createElement('div',{style:{color:'var(--text3)',fontSize:13}},'Không có từ yếu! 🎉')
+            :words.filter(w=>w.accuracy<60&&w.review_count>0).sort((a,b)=>a.accuracy-b.accuracy).slice(0,5).map(w=>
+                React.createElement('div',{key:w.id,className:'weak-item'},
+                  React.createElement('div',{style:{fontFamily:'JetBrains Mono',fontSize:13,fontWeight:600,color:'var(--accent2)',flex:1}},w.word),
+                  React.createElement('div',{style:{fontSize:12,color:'var(--red)'}},`${w.accuracy}%`)
+                )
+              )
+        )
+      )
+    )
+  );
+}
+
+// ===== WORD LIST =====
+function WordList({words,setWords,toast}){
+  const [search,setSearch]=useState('');
+  const [filterTopic,setFilterTopic]=useState('all');
+  const [filterType,setFilterType]=useState('all');
+  const [showModal,setShowModal]=useState(false);
+  const [editWord,setEditWord]=useState(null);
+  const [form,setForm]=useState({word:'',meaning:'',type:'verb',topic:'general',example:''});
+  const fileRef=useRef(); const jsonRef=useRef();
+  const topics=['all',...new Set(words.map(w=>w.topic))];
+  const filtered=words.filter(w=>{
+    const q=search.toLowerCase();
+    return (filterTopic==='all'||w.topic===filterTopic)&&(filterType==='all'||w.type===filterType)&&(!q||w.word.includes(q)||w.meaning.includes(q));
+  });
+  function openAdd(){setEditWord(null);setForm({word:'',meaning:'',type:'verb',topic:'general',example:''});setShowModal(true);}
+  function openEdit(w){setEditWord(w);setForm({word:w.word,meaning:w.meaning,type:w.type,topic:w.topic,example:w.example||''});setShowModal(true);}
+  function saveWord(){
+    if(!form.word.trim()||!form.meaning.trim()) return;
+    if(editWord){setWords(ws=>ws.map(w=>w.id===editWord.id?{...w,...form}:w));toast('✅ Cập nhật xong!');}
+    else{setWords(ws=>[...ws,{id:genId(),...form,accuracy:0,wrong_count:0,review_count:0,learned:false}]);toast('✅ Thêm từ mới!');}
+    setShowModal(false);
+  }
+  function deleteWord(id){setWords(ws=>ws.filter(w=>w.id!==id));toast('🗑️ Đã xóa');}
+  function importExcel(e){
+    const file=e.target.files[0];if(!file) return;
+    const reader=new FileReader();
+    reader.onload=ev=>{
+      const wb=XLSX.read(ev.target.result,{type:'array'});
+      const ws=wb.Sheets[wb.SheetNames[0]];
+      const rows=XLSX.utils.sheet_to_json(ws);
+      const nw=rows.map(r=>({id:genId(),word:(r.word||r.Word||'').toString().trim(),meaning:(r.meaning||r.Meaning||'').toString().trim(),type:(r.type||r.Type||'other').toString().toLowerCase().trim(),topic:(r.topic||r.Topic||'general').toString().toLowerCase().trim(),example:(r.example||r.Example||'').toString().trim(),accuracy:0,wrong_count:0,review_count:0,learned:false})).filter(w=>w.word&&w.meaning);
+      setWords(ws=>[...ws,...nw]);toast(`✅ Imported ${nw.length} từ!`);
+    };
+    reader.readAsArrayBuffer(file);e.target.value='';
+  }
+  function exportJSON(){
+    const blob=new Blob([JSON.stringify(words,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`vocabmaster_${getToday()}.json`;a.click();URL.revokeObjectURL(url);
+    toast('💾 Exported!');
+  }
+  function importJSON(e){
+    const file=e.target.files[0];if(!file) return;
+    const reader=new FileReader();
+    reader.onload=ev=>{try{const d=JSON.parse(ev.target.result);if(Array.isArray(d)){setWords(d);toast(`✅ Loaded ${d.length} từ!`);}}catch{toast('❌ File lỗi!');}};
+    reader.readAsText(file);e.target.value='';
+  }
+  const typeColors={verb:'badge-verb',noun:'badge-noun',adj:'badge-adj',adv:'badge-adv',other:'badge-other'};
+  return React.createElement('div',null,
+    React.createElement('div',{className:'page-header'},
+      React.createElement('h2',null,'📖 Từ vựng'),
+      React.createElement('p',null,`${filtered.length}/${words.length} từ · ${words.filter(w=>w.learned).length} đã học`)
+    ),
+    React.createElement('div',{className:'page-body'},
+      React.createElement('div',{className:'toolbar'},
+        React.createElement('input',{className:'input',style:{flex:1,minWidth:100},placeholder:'🔍 Tìm từ...',value:search,onChange:e=>setSearch(e.target.value)}),
+        React.createElement('select',{className:'input',style:{width:110},value:filterTopic,onChange:e=>setFilterTopic(e.target.value)},
+          topics.map(t=>React.createElement('option',{key:t,value:t},t==='all'?'Tất cả':t))
+        ),
+        React.createElement('select',{className:'input',style:{width:100},value:filterType,onChange:e=>setFilterType(e.target.value)},
+          ['all','verb','noun','adj','adv','other'].map(t=>React.createElement('option',{key:t,value:t},t==='all'?'Loại':t))
+        )
+      ),
+      React.createElement('div',{className:'toolbar',style:{marginTop:-4}},
+        React.createElement('button',{className:'btn btn-ghost',style:{fontSize:11,padding:'7px 10px'},onClick:()=>fileRef.current.click()},'📊 Excel'),
+        React.createElement('button',{className:'btn btn-ghost',style:{fontSize:11,padding:'7px 10px'},onClick:()=>jsonRef.current.click()},'📂 JSON'),
+        React.createElement('button',{className:'btn btn-ghost',style:{fontSize:11,padding:'7px 10px'},onClick:exportJSON},'💾 Export'),
+        React.createElement('button',{className:'btn btn-primary',style:{marginLeft:'auto'},onClick:openAdd},'+ Thêm'),
+      ),
+      React.createElement('input',{ref:fileRef,type:'file',accept:'.xlsx,.xls',style:{display:'none'},onChange:importExcel}),
+      React.createElement('input',{ref:jsonRef,type:'file',accept:'.json',style:{display:'none'},onChange:importJSON}),
+      filtered.length===0
+        ?React.createElement('div',{className:'empty-state'},
+            React.createElement('div',{className:'icon'},'📚'),
+            React.createElement('p',null,'Chưa có từ. Thêm mới hoặc import Excel!')
+          )
+        :React.createElement('div',{className:'table-wrap'},
+            React.createElement('table',null,
+              React.createElement('thead',null,
+                React.createElement('tr',null,
+                  React.createElement('th',null,'TỪ'),
+                  React.createElement('th',null,'NGHĨA'),
+                  React.createElement('th',null,'LOẠI'),
+                  React.createElement('th',null,'CHỦ ĐỀ'),
+                  React.createElement('th',null,'ACC'),
+                  React.createElement('th',null,'TRẠNG THÁI'),
+                  React.createElement('th',null,''),
+                )
+              ),
+              React.createElement('tbody',null,
+                filtered.map(w=>React.createElement('tr',{key:w.id},
+                  React.createElement('td',{className:'word-cell'},w.word),
+                  React.createElement('td',{style:{fontSize:12,maxWidth:150,wordBreak:'break-word'}},w.meaning),
+                  React.createElement('td',null,React.createElement('span',{className:`badge ${typeColors[w.type]||'badge-other'}`},w.type)),
+                  React.createElement('td',{style:{fontSize:12,color:'var(--text2)'}},w.topic),
+                  React.createElement('td',null,
+                    React.createElement('div',{style:{display:'flex',alignItems:'center',gap:6}},
+                      React.createElement('div',{className:'acc-bar'},React.createElement('div',{className:'acc-fill',style:{width:`${w.accuracy}%`,background:accColor(w.accuracy)}})),
+                      React.createElement('span',{style:{fontSize:11,color:accColor(w.accuracy)}},`${w.accuracy}%`)
+                    )
+                  ),
+                  React.createElement('td',null,
+                    w.learned
+                      ?React.createElement('span',{className:'learned-badge'},'✓ Học rồi')
+                      :React.createElement('span',{style:{fontSize:11,color:'var(--text3)'}},w.review_count===0?'Chưa học':'Đang học')
+                  ),
+                  React.createElement('td',null,
+                    React.createElement('div',{style:{display:'flex',gap:4}},
+                      React.createElement('button',{className:'btn btn-ghost',style:{padding:'4px 8px',fontSize:12},onClick:()=>openEdit(w)},'✏️'),
+                      React.createElement('button',{className:'btn btn-danger',style:{padding:'4px 8px',fontSize:12},onClick:()=>deleteWord(w.id)},'🗑️'),
+                    )
+                  )
+                ))
+              )
+            )
+          ),
+      showModal&&React.createElement('div',{className:'modal-overlay',onClick:e=>e.target===e.currentTarget&&setShowModal(false)},
+        React.createElement('div',{className:'modal'},
+          React.createElement('h3',null,editWord?'✏️ Sửa từ':'➕ Thêm từ'),
+          React.createElement('div',{className:'form-group'},
+            React.createElement('label',null,'Từ tiếng Anh'),
+            React.createElement('input',{className:'input',placeholder:'e.g. accomplish',value:form.word,onChange:e=>setForm(f=>({...f,word:e.target.value}))})
+          ),
+          React.createElement('div',{className:'form-group'},
+            React.createElement('label',null,'Nghĩa tiếng Việt'),
+            React.createElement('input',{className:'input',placeholder:'e.g. hoàn thành',value:form.meaning,onChange:e=>setForm(f=>({...f,meaning:e.target.value}))})
+          ),
+          React.createElement('div',{className:'grid-2'},
+            React.createElement('div',{className:'form-group'},
+              React.createElement('label',null,'Loại từ'),
+              React.createElement('select',{className:'input',value:form.type,onChange:e=>setForm(f=>({...f,type:e.target.value}))},
+                ['verb','noun','adj','adv','other'].map(t=>React.createElement('option',{key:t},t))
+              )
+            ),
+            React.createElement('div',{className:'form-group'},
+              React.createElement('label',null,'Chủ đề'),
+              React.createElement('input',{className:'input',placeholder:'e.g. business',value:form.topic,onChange:e=>setForm(f=>({...f,topic:e.target.value}))})
+            )
+          ),
+          React.createElement('div',{className:'form-group'},
+            React.createElement('label',null,'Ví dụ'),
+            React.createElement('input',{className:'input',placeholder:'Câu ví dụ...',value:form.example,onChange:e=>setForm(f=>({...f,example:e.target.value}))})
+          ),
+          React.createElement('div',{style:{display:'flex',gap:10,marginTop:16}},
+            React.createElement('button',{className:'btn btn-secondary',style:{flex:1},onClick:()=>setShowModal(false)},'Huỷ'),
+            React.createElement('button',{className:'btn btn-primary',style:{flex:1},onClick:saveWord},editWord?'Cập nhật':'Thêm từ'),
+          )
+        )
+      )
+    )
+  );
+}
+
+// ===== QUIZ =====
+function Quiz({words,setWords,addHistory,toast}){
+  const [phase,setPhase]=useState('setup');
+  const [mode,setMode]=useState(1);
+  const [filterTopic,setFilterTopic]=useState('all');
+  const [quizCount,setQuizCount]=useState(10);
+  const [showResetConfirm,setShowResetConfirm]=useState(false);
+  const [queue,setQueue]=useState([]);
+  const [current,setCurrent]=useState(0);
+  const [answers,setAnswers]=useState([]);
+  const [userInput,setUserInput]=useState('');
+  const [chosen,setChosen]=useState(null);
+  const [choices,setChoices]=useState([]);
+  const [startTime,setStartTime]=useState(null);
+  const [elapsed,setElapsed]=useState(0);
+  const timerRef=useRef(); const inputRef=useRef();
+  const topics=['all',...new Set(words.map(w=>w.topic))];
+
+  // Chỉ lấy từ CHƯA learned theo topic filter
+  const pool=words.filter(w=>!w.learned&&(filterTopic==='all'||w.topic===filterTopic));
+  const learnedCount=words.filter(w=>w.learned).length;
+  const totalInFilter=words.filter(w=>filterTopic==='all'||w.topic===filterTopic).length;
+  const learnedInFilter=words.filter(w=>w.learned&&(filterTopic==='all'||w.topic===filterTopic)).length;
+
+  function resetLearned(){
+    setWords(ws=>ws.map(w=>({...w,learned:false})));
+    setShowResetConfirm(false);
+    toast('🔄 Reset xong! Tất cả từ sẵn sàng học lại.');
+  }
+
+  function startQuiz(){
+    if(pool.length<4){toast('❌ Cần ít nhất 4 từ chưa học!');return;}
+    const q=shuffle(pool).slice(0,Math.min(quizCount,pool.length));
+    setQueue(q);setCurrent(0);setAnswers([]);setUserInput('');setChosen(null);
+    setStartTime(Date.now());setElapsed(0);setPhase('quiz');
+    if(mode===2) buildChoices(q[0],words);
+    if(mode===3) setTimeout(()=>speak(q[0].word),400);
+  }
+
+  function buildChoices(word,allWords){
+    const wrongs=shuffle(allWords.filter(w=>w.id!==word.id)).slice(0,3).map(w=>w.meaning);
+    setChoices(shuffle([word.meaning,...wrongs]));
+  }
+  function speak(word){
+    if(!window.speechSynthesis) return;
+    const u=new SpeechSynthesisUtterance(word);u.lang='en-US';u.rate=0.9;speechSynthesis.speak(u);
+  }
+  useEffect(()=>{
+    if(phase==='quiz'){timerRef.current=setInterval(()=>setElapsed(Date.now()-startTime),1000);return()=>clearInterval(timerRef.current);}
+  },[phase,startTime]);
+
+  const w=queue[current];
+
+  function checkInput(){
+    if(!userInput.trim()) return;
+    recordAnswer(userInput.trim().toLowerCase()===w.word.toLowerCase());
+  }
+  function checkChoice(c){
+    if(chosen!==null) return;
+    setChosen(c);
+    setTimeout(()=>recordAnswer(c===w.meaning),900);
+  }
+  function recordAnswer(correct){
+    setAnswers(a=>[...a,{word:w,correct,userAns:userInput}]);
+    // Đánh dấu learned = true sau khi đã trả lời (dù đúng hay sai)
+    setWords(ws=>ws.map(wd=>{
+      if(wd.id!==w.id) return wd;
+      const rc=wd.review_count+1;
+      const wc=correct?wd.wrong_count:wd.wrong_count+1;
+      const acc=Math.round(Math.max(0,(rc-wc)/rc*100));
+      return {...wd,review_count:rc,wrong_count:wc,accuracy:acc,learned:true};
+    }));
+    addHistory({date:getToday(),wordId:w.id,correct});
+    const next=current+1;
+    if(next>=queue.length){clearInterval(timerRef.current);setPhase('result');return;}
+    setCurrent(next);setUserInput('');setChosen(null);
+    if(mode===2) buildChoices(queue[next],words);
+    if(mode===3) setTimeout(()=>speak(queue[next].word),300);
+    setTimeout(()=>inputRef.current?.focus(),100);
+  }
+
+  // SETUP PHASE
+  if(phase==='setup') return React.createElement('div',null,
+    React.createElement('div',{className:'page-header'},
+      React.createElement('h2',null,'🧠 Quiz'),
+      React.createElement('p',null,`${pool.length} từ chưa học · đã xong ${learnedInFilter}/${totalInFilter}`)
+    ),
+    React.createElement('div',{className:'page-body'},
+      // Status + Reset card
+      React.createElement('div',{className:'card',style:{marginBottom:16,borderColor:pool.length===0?'rgba(251,191,36,0.35)':'var(--border)'}},
+        React.createElement('div',{style:{display:'flex',alignItems:'center',gap:12,flexWrap:'wrap'}},
+          React.createElement('div',{style:{flex:1,minWidth:0}},
+            React.createElement('div',{style:{fontSize:14,fontWeight:600,marginBottom:4}},
+              pool.length===0?'🎉 Học hết rồi! Nhấn Reset để học lại':`📚 Còn ${pool.length} từ chưa học`
+            ),
+            React.createElement('div',{style:{fontSize:12,color:'var(--text2)'}},
+              `Đã học: ${learnedCount}/${words.length} từ tổng`
+            ),
+            // Progress bar
+            React.createElement('div',{className:'progress-bar',style:{marginTop:8}},
+              React.createElement('div',{className:'progress-fill',style:{width:`${words.length>0?Math.round(learnedCount/words.length*100):0}%`,background:'var(--accent)'}})
+            )
+          ),
+          React.createElement('button',{className:'btn btn-amber',style:{flexShrink:0,whiteSpace:'nowrap'},onClick:()=>setShowResetConfirm(v=>!v)},
+            showResetConfirm?'✕ Huỷ':'🔄 Reset học lại'
+          )
+        ),
+        showResetConfirm&&React.createElement('div',null,
+          React.createElement('div',{className:'confirm-box',style:{marginTop:14}},
+            '⚠️ Tất cả từ sẽ được đánh dấu "chưa học" và xuất hiện lại trong quiz. Accuracy (%) hiện tại vẫn giữ nguyên.'
+          ),
+          React.createElement('div',{style:{display:'flex',gap:8,marginTop:10}},
+            React.createElement('button',{className:'btn btn-secondary',style:{flex:1},onClick:()=>setShowResetConfirm(false)},'Không, giữ lại'),
+            React.createElement('button',{className:'btn btn-danger',style:{flex:1},onClick:resetLearned},'✅ Reset ngay'),
+          )
+        )
+      ),
+      // Mode select
+      React.createElement('div',{className:'mode-cards'},
+        [{m:1,icon:'⌨️',title:'Gõ từ',desc:'Xem nghĩa → gõ từ TA'},{m:2,icon:'🎯',title:'Trắc nghiệm',desc:'Xem từ → chọn nghĩa'},{m:3,icon:'🎧',title:'Nghe - Gõ',desc:'Nghe audio → gõ lại từ'}].map(({m,icon,title,desc})=>
+          React.createElement('div',{key:m,className:`mode-card ${mode===m?'selected':''}`,onClick:()=>setMode(m)},
+            React.createElement('div',{className:'mode-icon'},icon),
+            React.createElement('div',{style:{flex:1}},
+              React.createElement('div',{className:'mode-title'},title),
+              React.createElement('div',{className:'mode-desc'},desc)
+            )
+          )
+        )
+      ),
+      // Settings
+      React.createElement('div',{className:'card',style:{maxWidth:400}},
+        React.createElement('h3',{style:{fontSize:13,fontWeight:600,marginBottom:12,color:'var(--text2)'}},'⚙️ CÀI ĐẶT'),
+        React.createElement('div',{className:'grid-2'},
+          React.createElement('div',{className:'form-group'},
+            React.createElement('label',null,'Chủ đề'),
+            React.createElement('select',{className:'input',value:filterTopic,onChange:e=>setFilterTopic(e.target.value)},
+              topics.map(t=>React.createElement('option',{key:t,value:t},t==='all'?'Tất cả':t))
+            )
+          ),
+          React.createElement('div',{className:'form-group'},
+            React.createElement('label',null,'Số câu'),
+            React.createElement('select',{className:'input',value:quizCount,onChange:e=>setQuizCount(+e.target.value)},
+              [5,10,15,20,30].map(n=>React.createElement('option',{key:n,value:n},`${n} câu`))
+            )
+          )
+        ),
+        React.createElement('button',{
+          className:'btn btn-primary btn-lg',
+          style:{width:'100%',marginTop:8},
+          onClick:startQuiz,
+          disabled:pool.length<4
+        },pool.length<4?`Cần ≥4 từ chưa học (hiện có ${pool.length})`:'🚀 Bắt đầu Quiz')
+      )
+    )
+  );
+
+  // RESULT PHASE
+  if(phase==='result'){
+    const correct=answers.filter(a=>a.correct).length;
+    const pct=Math.round(correct/answers.length*100);
+    const secs=Math.round(elapsed/1000);
+    const wrong=answers.filter(a=>!a.correct);
+    const remainingPool=words.filter(w=>!w.learned&&(filterTopic==='all'||w.topic===filterTopic));
+    return React.createElement('div',null,
+      React.createElement('div',{className:'page-header'},React.createElement('h2',null,'🎉 Kết quả')),
+      React.createElement('div',{className:'page-body'},
+        React.createElement('div',{style:{maxWidth:500,margin:'0 auto'}},
+          React.createElement('div',{className:'card',style:{textAlign:'center',marginBottom:14,padding:28}},
+            React.createElement('div',{className:'result-circle',style:{background:`conic-gradient(${accColor(pct)} ${pct}%, var(--bg3) 0)`,border:'4px solid var(--surface2)'}},
+              React.createElement('div',{style:{width:84,height:84,borderRadius:'50%',background:'var(--surface)',display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column'}},
+                React.createElement('div',{style:{fontSize:22,fontWeight:700,color:accColor(pct)}},`${pct}%`),
+              )
+            ),
+            React.createElement('div',{style:{fontSize:18,fontWeight:700,marginBottom:4}},`${correct}/${answers.length} đúng`),
+            React.createElement('div',{style:{fontSize:13,color:'var(--text2)'}},`⏱ ${Math.floor(secs/60)}:${String(secs%60).padStart(2,'0')}`),
+            remainingPool.length>0&&React.createElement('div',{style:{fontSize:12,color:'var(--accent2)',marginTop:8}},`Còn ${remainingPool.length} từ chưa học!`),
+            React.createElement('div',{className:'result-btns',style:{display:'flex',gap:10,justifyContent:'center',marginTop:20}},
+              React.createElement('button',{className:'btn btn-secondary',onClick:()=>setPhase('setup')},'↩ Cài đặt'),
+              React.createElement('button',{className:'btn btn-primary',onClick:startQuiz,disabled:remainingPool.length<4},remainingPool.length<4?'Hết từ!':'▶ Tiếp tục học'),
+            )
+          ),
+          wrong.length>0&&React.createElement('div',{className:'card'},
+            React.createElement('h3',{style:{fontSize:13,fontWeight:600,marginBottom:12,color:'var(--red)'}},`❌ ${wrong.length} TỪ SAI`),
+            wrong.map((a,i)=>React.createElement('div',{key:i,className:'weak-item'},
+              React.createElement('div',{style:{fontFamily:'JetBrains Mono',fontWeight:600,color:'var(--accent2)',width:100,fontSize:13,flexShrink:0}},a.word.word),
+              React.createElement('div',{style:{fontSize:12,flex:1,minWidth:0}},
+                React.createElement('div',{style:{color:'var(--text2)',wordBreak:'break-word'}},a.word.meaning),
+                a.userAns&&a.userAns.trim()&&React.createElement('div',{style:{color:'var(--red)',fontSize:11,marginTop:2}},`Gõ: "${a.userAns}"`)
+              )
+            ))
+          )
+        )
+      )
+    );
+  }
+
+  // QUIZ PHASE
+  const prog=Array.from({length:queue.length},(_,i)=>
+    React.createElement('div',{key:i,className:`quiz-progress-dot ${i<current?'done':i===current?'current':''}`})
+  );
+  return React.createElement('div',null,
+    React.createElement('div',{className:'page-header'},
+      React.createElement('h2',null,['','⌨️ Gõ từ','🎯 Trắc nghiệm','🎧 Nghe - Gõ'][mode]),
+      React.createElement('p',null,`Câu ${current+1}/${queue.length}`)
+    ),
+    React.createElement('div',{className:'page-body'},
+      React.createElement('div',{className:'quiz-wrap'},
+        React.createElement('div',{className:'quiz-progress'},...prog),
+        React.createElement('div',{className:'quiz-card'},
+          mode===1&&React.createElement('div',null,
+            React.createElement('div',{style:{fontSize:12,color:'var(--text2)',marginBottom:8}},'Nghĩa tiếng Việt:'),
+            React.createElement('div',{style:{fontSize:19,fontWeight:600,marginBottom:6,lineHeight:1.4}},w.meaning),
+            React.createElement('div',{className:'quiz-hint'},`${w.topic} · ${w.type}`),
+            React.createElement('div',{className:'quiz-input-area'},
+              React.createElement('input',{ref:inputRef,className:'input quiz-input',placeholder:'Gõ từ tiếng Anh...',value:userInput,onChange:e=>setUserInput(e.target.value),onKeyDown:e=>e.key==='Enter'&&checkInput(),autoFocus:true}),
+              React.createElement('button',{className:'btn btn-primary',onClick:checkInput},'→')
+            )
+          ),
+          mode===2&&React.createElement('div',null,
+            React.createElement('div',{style:{fontSize:12,color:'var(--text2)',marginBottom:8}},'Từ tiếng Anh:'),
+            React.createElement('div',{className:'quiz-word'},w.word),
+            React.createElement('div',{className:'quiz-hint'},`${w.type} · ${w.topic}`),
+            React.createElement('div',{className:'choice-grid'},
+              choices.map((c,i)=>{
+                let cls='choice-btn';
+                if(chosen!==null){if(c===w.meaning) cls+=' correct';else if(c===chosen) cls+=' wrong';}
+                return React.createElement('button',{key:i,className:cls,onClick:()=>checkChoice(c),disabled:chosen!==null},c);
+              })
+            )
+          ),
+          mode===3&&React.createElement('div',null,
+            React.createElement('button',{className:'audio-btn',onClick:()=>speak(w.word)},'🔊'),
+            React.createElement('div',{className:'quiz-hint'},'Nhấn 🔊 để nghe lại · Gõ từ vừa nghe'),
+            React.createElement('div',{className:'quiz-input-area'},
+              React.createElement('input',{ref:inputRef,className:'input quiz-input',placeholder:'Gõ từ vừa nghe...',value:userInput,onChange:e=>setUserInput(e.target.value),onKeyDown:e=>e.key==='Enter'&&checkInput(),autoFocus:true}),
+              React.createElement('button',{className:'btn btn-primary',onClick:checkInput},'→')
+            )
+          )
+        ),
+        w.example&&React.createElement('div',{className:'card-sm',style:{textAlign:'center',color:'var(--text2)',fontSize:13,fontStyle:'italic',lineHeight:1.5}},
+          `"${w.example}"`
+        )
+      )
+    )
+  );
+}
+
+// ===== PROGRESS =====
+function Progress({words,history,streak}){
+  const topicStats={};
+  words.forEach(w=>{if(!topicStats[w.topic]) topicStats[w.topic]={sum:0,count:0};topicStats[w.topic].sum+=w.accuracy;topicStats[w.topic].count++;});
+  const last30=Array.from({length:30},(_,i)=>{
+    const d=new Date();d.setDate(d.getDate()-(29-i));
+    const key=d.toISOString().split('T')[0];
+    const dh=history.filter(h=>h.date===key);
+    return {key,pct:dh.length>0?Math.round(dh.filter(h=>h.correct).length/dh.length*100):0,count:dh.length,day:d.getDate()};
+  });
+  const totalReview=words.reduce((s,w)=>s+w.review_count,0);
+  const reviewed=words.filter(w=>w.review_count>0);
+  const overallAcc=reviewed.length>0?Math.round(reviewed.reduce((s,w)=>s+w.accuracy,0)/reviewed.length):0;
+  const weakWords=words.filter(w=>w.review_count>0&&w.accuracy<60).sort((a,b)=>a.accuracy-b.accuracy).slice(0,10);
+  return React.createElement('div',null,
+    React.createElement('div',{className:'page-header'},
+      React.createElement('h2',null,'📈 Tiến độ'),
+      React.createElement('p',null,'Thống kê học tập')
+    ),
+    React.createElement('div',{className:'page-body'},
+      React.createElement('div',{className:'stats-grid four',style:{gridTemplateColumns:'repeat(4,1fr)'}},
+        React.createElement('div',{className:'stat-card'},React.createElement('div',{className:'value',style:{fontSize:22,color:'var(--amber)'}},`🔥${streak}`),React.createElement('div',{className:'label'},'Streak')),
+        React.createElement('div',{className:'stat-card'},React.createElement('div',{className:'value',style:{fontSize:22,color:'var(--accent2)'}},totalReview),React.createElement('div',{className:'label'},'Lượt ôn')),
+        React.createElement('div',{className:'stat-card'},React.createElement('div',{className:'value',style:{fontSize:22,color:accColor(overallAcc)}},`${overallAcc}%`),React.createElement('div',{className:'label'},'% đúng')),
+        React.createElement('div',{className:'stat-card'},React.createElement('div',{className:'value',style:{fontSize:22,color:'var(--green)'}},words.filter(w=>w.accuracy>=80).length),React.createElement('div',{className:'label'},'Thành thạo')),
+      ),
+      React.createElement('div',{className:'grid-2',style:{gap:14}},
+        React.createElement('div',{className:'card'},
+          React.createElement('h3',{style:{fontSize:13,fontWeight:600,marginBottom:12,color:'var(--text2)'}},'📊 THEO CHỦ ĐỀ'),
+          Object.entries(topicStats).map(([t,s])=>{
+            const pct=Math.round(s.sum/s.count);
+            return React.createElement('div',{key:t,className:'topic-row'},
+              React.createElement('div',{className:'topic-name'},t),
+              React.createElement('div',{className:'topic-bar'},React.createElement('div',{className:'topic-fill',style:{width:`${pct}%`,background:accColor(pct)}})),
+              React.createElement('div',{className:'topic-pct'},`${pct}%`)
+            );
+          })
+        ),
+        React.createElement('div',{className:'card'},
+          React.createElement('h3',{style:{fontSize:13,fontWeight:600,marginBottom:12,color:'var(--text2)'}},'📅 30 NGÀY QUA'),
+          React.createElement('div',{className:'calendar-grid'},
+            ['CN','T2','T3','T4','T5','T6','T7'].map(d=>React.createElement('div',{key:d,style:{fontSize:9,color:'var(--text3)',textAlign:'center',padding:'2px 0'}},d)),
+            last30.map(d=>React.createElement('div',{key:d.key,className:'cal-cell',title:`${d.key}: ${d.count} lần, ${d.pct}% đúng`,style:{background:d.count===0?'var(--bg3)':d.pct>=80?'rgba(52,211,153,0.7)':d.pct>=50?'rgba(251,191,36,0.6)':'rgba(248,113,113,0.6)',borderRadius:3}},
+              React.createElement('span',{style:{fontSize:8,color:d.count===0?'var(--text3)':'transparent'}},d.day)
+            ))
+          ),
+          React.createElement('div',{style:{marginTop:10,display:'flex',gap:10}},
+            [['var(--green)','Tốt'],['var(--amber)','Khá'],['var(--red)','Yếu']].map(([c,l])=>
+              React.createElement('div',{key:l,style:{display:'flex',alignItems:'center',gap:5,fontSize:11,color:'var(--text2)'}},
+                React.createElement('div',{style:{width:9,height:9,borderRadius:2,background:c}}),l
+              )
+            )
+          )
+        )
+      ),
+      weakWords.length>0&&React.createElement('div',{className:'card',style:{marginTop:14}},
+        React.createElement('h3',{style:{fontSize:13,fontWeight:600,marginBottom:12,color:'var(--red)'}},'⚠️ CẦN ÔN THÊM (dưới 60%)'),
+        React.createElement('div',{style:{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax(200px,1fr))',gap:'0 20px'}},
+          weakWords.map(w=>React.createElement('div',{key:w.id,className:'weak-item'},
+            React.createElement('div',{style:{fontFamily:'JetBrains Mono',fontWeight:600,color:'var(--accent2)',flex:1,fontSize:13}},w.word),
+            React.createElement('div',{style:{fontSize:11,color:'var(--text2)',marginRight:6,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap',maxWidth:100}},w.meaning),
+            React.createElement('div',{style:{fontSize:12,color:'var(--red)',fontWeight:700,flexShrink:0}},`${w.accuracy}%`)
+          ))
+        )
+      )
+    )
+  );
+}
+
+// ===== APP =====
+function App(){
+  const [words,setWords]=useLocalStorage('vocab_words',SAMPLE_WORDS);
+  const [history,setHistory]=useLocalStorage('vocab_history',[]);
+  const [streak,setStreak]=useLocalStorage('vocab_streak',0);
+  const [lastStudy,setLastStudy]=useLocalStorage('vocab_lastStudy','');
+  const [page,setPage]=useState('home');
+  const [toastMsg,setToastMsg]=useState(null);
+
+  useEffect(()=>{
+    const today=getToday();
+    const yd=new Date();yd.setDate(yd.getDate()-1);
+    const ydStr=yd.toISOString().split('T')[0];
+    if(lastStudy!==today){
+      if(lastStudy===ydStr) setStreak(s=>s+1);
+      else if(lastStudy!=='') setStreak(0);
+      setLastStudy(today);
+    }
+  },[]);
+
+  const nav=[
+    {id:'home',icon:'🏠',label:'Home'},
+    {id:'words',icon:'📖',label:'Từ vựng'},
+    {id:'quiz',icon:'🧠',label:'Quiz'},
+    {id:'progress',icon:'📈',label:'Tiến độ'},
+  ];
+
+  return React.createElement('div',{className:'app'},
+    React.createElement('div',{className:'sidebar'},
+      React.createElement('div',{className:'sidebar-logo'},
+        React.createElement('h1',null,'VocabMaster'),
+        React.createElement('p',null,'Học từ vựng thông minh')
+      ),
+      nav.map(n=>React.createElement('div',{key:n.id,className:`nav-item ${page===n.id?'active':''}`,onClick:()=>setPage(n.id)},
+        React.createElement('span',{className:'nav-icon'},n.icon),n.label
+      )),
+      React.createElement('div',{className:'sidebar-bottom'},
+        React.createElement('div',{className:'streak-badge'},
+          React.createElement('div',{className:'num'},streak),
+          React.createElement('div',{className:'label'},
+            React.createElement('div',null,'ngày streak'),
+            React.createElement('div',{style:{color:'var(--text3)',fontSize:10,marginTop:2}},`${words.length} từ`)
+          )
+        )
+      )
+    ),
+    React.createElement('div',{className:'main'},
+      page==='home'&&React.createElement(Home,{words,streak,history}),
+      page==='words'&&React.createElement(WordList,{words,setWords,toast:msg=>setToastMsg(msg)}),
+      page==='quiz'&&React.createElement(Quiz,{words,setWords,addHistory:h=>setHistory(hs=>[...hs,h]),toast:msg=>setToastMsg(msg)}),
+      page==='progress'&&React.createElement(Progress,{words,history,streak}),
+    ),
+    React.createElement('div',{className:'bottom-nav'},
+      React.createElement('div',{className:'bottom-nav-inner'},
+        nav.map(n=>React.createElement('div',{key:n.id,className:`bottom-nav-item ${page===n.id?'active':''}`,onClick:()=>setPage(n.id)},
+          React.createElement('span',{className:'bn-icon'},n.icon),
+          React.createElement('span',{className:'bn-label'},n.label)
+        ))
+      )
+    ),
+    toastMsg&&React.createElement(Toast,{msg:toastMsg,onDone:()=>setToastMsg(null)})
+  );
+}
+
+createRoot(document.getElementById('root')).render(React.createElement(App));
+</script>
+</body>
+</html>
