@@ -18,10 +18,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "This is a book of poetry.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-003",
@@ -2490,10 +2490,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "Wait here until I come back.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-209",
@@ -2730,10 +2730,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She has a lot of books.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-229",
@@ -3126,10 +3126,10 @@
     "type": "noun",
     "topic": "business",
     "example": "Do you have a plan for the weekend?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-262",
@@ -4171,9 +4171,9 @@
     "topic": "general",
     "example": "The road to success is not easy.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-349",
