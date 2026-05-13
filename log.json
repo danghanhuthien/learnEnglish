@@ -754,5 +754,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:47:29.521Z",
+    "wordId": "word-336",
+    "word": "tell",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
