@@ -106,5 +106,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:26:18.211Z",
+    "wordId": "word-112",
+    "word": "because",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
