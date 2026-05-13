@@ -3282,10 +3282,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "Believe in yourself.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-275",
@@ -3690,10 +3690,10 @@
     "type": "verb",
     "topic": "general",
     "example": "The report covers all main topics.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-309",
@@ -3822,10 +3822,10 @@
     "type": "number",
     "topic": "grammar",
     "example": "She wakes up at seven every morning.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-320",
@@ -4098,10 +4098,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "Is there anything I can help you with?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-343",
@@ -5934,10 +5934,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She stood in the middle of the room.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-496",
