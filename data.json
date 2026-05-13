@@ -462,10 +462,10 @@
     "type": "verb",
     "topic": "grammar",
     "example": "I have been here before.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-040",
@@ -1482,10 +1482,10 @@
     "type": "verb",
     "topic": "general",
     "example": "Let's go to the park.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-125",
@@ -1602,10 +1602,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "Please turn off the lights.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-135",
@@ -4446,10 +4446,10 @@
     "type": "number",
     "topic": "general",
     "example": "The company earns one million dollars a year.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-372",
@@ -5814,10 +5814,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She makes me smile.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-486",
