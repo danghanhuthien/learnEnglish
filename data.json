@@ -1951,9 +1951,9 @@
     "topic": "grammar",
     "example": "I'm very excited.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-164",
@@ -3426,10 +3426,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "It is cold outside today.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-287",
@@ -3582,10 +3582,10 @@
     "type": "noun",
     "topic": "business",
     "example": "How much does it cost?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-300",
@@ -3594,10 +3594,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She is working from home today.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-301",
@@ -5718,10 +5718,10 @@
     "type": "noun",
     "topic": "general",
     "example": "I love learning new languages.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-478",
