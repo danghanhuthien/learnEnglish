@@ -133,5 +133,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:28:39.502Z",
+    "wordId": "word-216",
+    "word": "every",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
