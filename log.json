@@ -25,5 +25,14 @@
     "mode": "choice",
     "correct": false,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:14:45.773Z",
+    "wordId": "word-393",
+    "word": "city",
+    "mode": "choice",
+    "correct": false,
+    "userAns": null
   }
 ]
