@@ -232,5 +232,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:29:24.455Z",
+    "wordId": "word-342",
+    "word": "anything",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
