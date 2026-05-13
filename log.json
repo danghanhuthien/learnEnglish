@@ -34,5 +34,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:25:46.899Z",
+    "wordId": "word-267",
+    "word": "become",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
