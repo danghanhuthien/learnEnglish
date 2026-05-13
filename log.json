@@ -511,5 +511,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:31:35.027Z",
+    "wordId": "word-289",
+    "word": "eyes",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
