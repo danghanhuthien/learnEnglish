@@ -340,5 +340,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:30:13.612Z",
+    "wordId": "word-441",
+    "word": "actually",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
