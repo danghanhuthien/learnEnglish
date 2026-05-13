@@ -1314,10 +1314,10 @@
     "type": "verb",
     "topic": "general",
     "example": "Let's make a plan.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-111",
@@ -1506,10 +1506,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "It is too hot today.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-127",
@@ -1746,10 +1746,10 @@
     "type": "verb",
     "topic": "general",
     "example": "What did you say?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-147",
@@ -1758,10 +1758,10 @@
     "type": "verb",
     "topic": "grammar",
     "example": "I am going to the market.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-148",
@@ -2791,9 +2791,9 @@
     "topic": "general",
     "example": "Please bring your ID card.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-234",
@@ -3858,10 +3858,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She is known for her kindness.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-323",
@@ -4206,10 +4206,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "The door opened by itself.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-352",
@@ -5202,10 +5202,10 @@
     "type": "noun",
     "topic": "general",
     "example": "The girl is singing beautifully.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-435",
@@ -6354,10 +6354,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She took a picture at the beach.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-531",
@@ -6990,10 +6990,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She started learning English at age 5.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-584",
