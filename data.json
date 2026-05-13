@@ -2,7 +2,7 @@
   {
     "id": "word-001",
     "word": "the",
-    "meaning": "cÃ¡i, chiáº¿c (máº¡o tá»« xÃ¡c Äá»nh)",
+    "meaning": "cái, chiếc (mạo từ xác định)",
     "type": "article",
     "topic": "grammar",
     "example": "The sun rises in the east.",
@@ -14,7 +14,7 @@
   {
     "id": "word-002",
     "word": "of",
-    "meaning": "cá»§a, vá»",
+    "meaning": "của, về",
     "type": "preposition",
     "topic": "grammar",
     "example": "This is a book of poetry.",
@@ -26,7 +26,7 @@
   {
     "id": "word-003",
     "word": "and",
-    "meaning": "vÃ ",
+    "meaning": "và",
     "type": "conjunction",
     "topic": "grammar",
     "example": "I like cats and dogs.",
@@ -38,7 +38,7 @@
   {
     "id": "word-004",
     "word": "to",
-    "meaning": "Äáº¿n, Äá» (giá»i tá»« / báº¥t Äá»nh tá»«)",
+    "meaning": "đến, để (giới từ / bất định từ)",
     "type": "preposition",
     "topic": "grammar",
     "example": "I want to go to school.",
@@ -50,7 +50,7 @@
   {
     "id": "word-005",
     "word": "a",
-    "meaning": "má»t (máº¡o tá»« khÃ´ng xÃ¡c Äá»nh)",
+    "meaning": "một (mạo từ không xác định)",
     "type": "article",
     "topic": "grammar",
     "example": "She has a cat.",
@@ -62,7 +62,7 @@
   {
     "id": "word-006",
     "word": "in",
-    "meaning": "trong, á» trong",
+    "meaning": "trong, ở trong",
     "type": "preposition",
     "topic": "grammar",
     "example": "She lives in Paris.",
@@ -74,7 +74,7 @@
   {
     "id": "word-007",
     "word": "that",
-    "meaning": "ráº±ng, ÄÃ³, cÃ¡i ÄÃ³",
+    "meaning": "rằng, đó, cái đó",
     "type": "conjunction",
     "topic": "grammar",
     "example": "I think that she is right.",
@@ -86,7 +86,7 @@
   {
     "id": "word-008",
     "word": "is",
-    "meaning": "lÃ , thÃ¬ (Äá»ng tá»« tobe ngÃ´i 3 sá» Ã­t)",
+    "meaning": "là, thì (động từ tobe ngôi 3 số ít)",
     "type": "verb",
     "topic": "grammar",
     "example": "She is a teacher.",
@@ -98,7 +98,7 @@
   {
     "id": "word-009",
     "word": "it",
-    "meaning": "nÃ³ (Äáº¡i tá»« trung tÃ­nh)",
+    "meaning": "nó (đại từ trung tính)",
     "type": "pronoun",
     "topic": "grammar",
     "example": "It is raining outside.",
@@ -110,7 +110,7 @@
   {
     "id": "word-010",
     "word": "was",
-    "meaning": "ÄÃ£ lÃ , ÄÃ£ (quÃ¡ khá»© cá»§a is/am)",
+    "meaning": "đã là, đã (quá khứ của is/am)",
     "type": "verb",
     "topic": "grammar",
     "example": "He was happy yesterday.",
@@ -122,7 +122,7 @@
   {
     "id": "word-011",
     "word": "for",
-    "meaning": "cho, vÃ¬, trong (khoáº£ng thá»i gian)",
+    "meaning": "cho, vì, trong (khoảng thời gian)",
     "type": "preposition",
     "topic": "grammar",
     "example": "I bought flowers for you.",
@@ -134,7 +134,7 @@
   {
     "id": "word-012",
     "word": "'s",
-    "meaning": "cá»§a (sá» há»¯u cÃ¡ch), hoáº·c viáº¿t táº¯t is/has",
+    "meaning": "của (sở hữu cách), hoặc viết tắt is/has",
     "type": "particle",
     "topic": "grammar",
     "example": "This is John's book.",
@@ -146,7 +146,7 @@
   {
     "id": "word-013",
     "word": "on",
-    "meaning": "trÃªn, vÃ o (ngÃ y)",
+    "meaning": "trên, vào (ngày)",
     "type": "preposition",
     "topic": "grammar",
     "example": "The book is on the table.",
@@ -158,7 +158,7 @@
   {
     "id": "word-014",
     "word": "be",
-    "meaning": "lÃ , thÃ¬ (dáº¡ng nguyÃªn máº«u cá»§a tobe)",
+    "meaning": "là, thì (dạng nguyên mẫu của tobe)",
     "type": "verb",
     "topic": "grammar",
     "example": "I want to be a doctor.",
@@ -170,7 +170,7 @@
   {
     "id": "word-015",
     "word": "with",
-    "meaning": "vá»i, cÃ¹ng vá»i",
+    "meaning": "với, cùng với",
     "type": "preposition",
     "topic": "grammar",
     "example": "She went to the park with her friend.",
@@ -182,7 +182,7 @@
   {
     "id": "word-016",
     "word": "I",
-    "meaning": "tÃ´i",
+    "meaning": "tôi",
     "type": "pronoun",
     "topic": "grammar",
     "example": "I am a student.",
@@ -194,7 +194,7 @@
   {
     "id": "word-017",
     "word": "he",
-    "meaning": "anh áº¥y, Ã´ng áº¥y",
+    "meaning": "anh ấy, ông ấy",
     "type": "pronoun",
     "topic": "grammar",
     "example": "He is my brother.",
@@ -206,7 +206,7 @@
   {
     "id": "word-018",
     "word": "as",
-    "meaning": "nhÆ°, vá»i tÆ° cÃ¡ch lÃ , khi",
+    "meaning": "như, với tư cách là, khi",
     "type": "conjunction",
     "topic": "grammar",
     "example": "She works as a nurse.",
@@ -218,7 +218,7 @@
   {
     "id": "word-019",
     "word": "by",
-    "meaning": "bá»i, báº±ng cÃ¡ch, gáº§n",
+    "meaning": "bởi, bằng cách, gần",
     "type": "preposition",
     "topic": "grammar",
     "example": "The letter was written by him.",
@@ -230,7 +230,7 @@
   {
     "id": "word-020",
     "word": "you",
-    "meaning": "báº¡n, anh, chá» (ngÃ´i 2)",
+    "meaning": "bạn, anh, chị (ngôi 2)",
     "type": "pronoun",
     "topic": "grammar",
     "example": "You are very kind.",
@@ -242,7 +242,7 @@
   {
     "id": "word-021",
     "word": "at",
-    "meaning": "á», táº¡i, lÃºc",
+    "meaning": "ở, tại, lúc",
     "type": "preposition",
     "topic": "grammar",
     "example": "Meet me at the station.",
@@ -254,7 +254,7 @@
   {
     "id": "word-022",
     "word": "are",
-    "meaning": "lÃ , thÃ¬ (tobe ngÃ´i 2 vÃ  sá» nhiá»u)",
+    "meaning": "là, thì (tobe ngôi 2 và số nhiều)",
     "type": "verb",
     "topic": "grammar",
     "example": "They are good friends.",
@@ -266,7 +266,7 @@
   {
     "id": "word-023",
     "word": "this",
-    "meaning": "nÃ y, cÃ¡i nÃ y",
+    "meaning": "này, cái này",
     "type": "pronoun",
     "topic": "grammar",
     "example": "This is my phone.",
@@ -278,7 +278,7 @@
   {
     "id": "word-024",
     "word": "not",
-    "meaning": "khÃ´ng (phá»§ Äá»nh)",
+    "meaning": "không (phủ định)",
     "type": "adverb",
     "topic": "grammar",
     "example": "I do not like spicy food.",
@@ -290,7 +290,7 @@
   {
     "id": "word-025",
     "word": "have",
-    "meaning": "cÃ³, ÄÃ£ (trá»£ Äá»ng tá»«)",
+    "meaning": "có, đã (trợ động từ)",
     "type": "verb",
     "topic": "grammar",
     "example": "I have two brothers.",
@@ -302,7 +302,7 @@
   {
     "id": "word-026",
     "word": "had",
-    "meaning": "ÄÃ£ cÃ³ (quÃ¡ khá»© cá»§a have)",
+    "meaning": "đã có (quá khứ của have)",
     "type": "verb",
     "topic": "grammar",
     "example": "She had a great time.",
@@ -314,7 +314,7 @@
   {
     "id": "word-027",
     "word": "his",
-    "meaning": "cá»§a anh áº¥y, cá»§a Ã´ng áº¥y",
+    "meaning": "của anh ấy, của ông ấy",
     "type": "pronoun",
     "topic": "grammar",
     "example": "That is his car.",
@@ -326,7 +326,7 @@
   {
     "id": "word-028",
     "word": "from",
-    "meaning": "tá»«, tá»« phÃ­a",
+    "meaning": "từ, từ phía",
     "type": "preposition",
     "topic": "grammar",
     "example": "She is from Vietnam.",
@@ -338,7 +338,7 @@
   {
     "id": "word-029",
     "word": "but",
-    "meaning": "nhÆ°ng, mÃ ",
+    "meaning": "nhưng, mà",
     "type": "conjunction",
     "topic": "grammar",
     "example": "I like coffee but not tea.",
@@ -350,7 +350,7 @@
   {
     "id": "word-030",
     "word": "they",
-    "meaning": "há», chÃºng (ngÃ´i 3 sá» nhiá»u)",
+    "meaning": "họ, chúng (ngôi 3 số nhiều)",
     "type": "pronoun",
     "topic": "grammar",
     "example": "They are coming tomorrow.",
@@ -362,7 +362,7 @@
   {
     "id": "word-031",
     "word": "which",
-    "meaning": "cÃ¡i nÃ o, cÃ¡i mÃ  (Äáº¡i tá»« quan há»)",
+    "meaning": "cái nào, cái mà (đại từ quan hệ)",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Which book do you want?",
@@ -374,7 +374,7 @@
   {
     "id": "word-032",
     "word": "or",
-    "meaning": "hoáº·c, hay",
+    "meaning": "hoặc, hay",
     "type": "conjunction",
     "topic": "grammar",
     "example": "Tea or coffee?",
@@ -386,7 +386,7 @@
   {
     "id": "word-033",
     "word": "an",
-    "meaning": "má»t (máº¡o tá»« trÆ°á»c nguyÃªn Ã¢m)",
+    "meaning": "một (mạo từ trước nguyên âm)",
     "type": "article",
     "topic": "grammar",
     "example": "She ate an apple.",
@@ -398,7 +398,7 @@
   {
     "id": "word-034",
     "word": "were",
-    "meaning": "ÄÃ£ lÃ  (quÃ¡ khá»© cá»§a are)",
+    "meaning": "đã là (quá khứ của are)",
     "type": "verb",
     "topic": "grammar",
     "example": "They were at school.",
@@ -410,7 +410,7 @@
   {
     "id": "word-035",
     "word": "her",
-    "meaning": "cá»§a cÃ´ áº¥y, cÃ´ áº¥y (tÃ¢n ngá»¯)",
+    "meaning": "của cô ấy, cô ấy (tân ngữ)",
     "type": "pronoun",
     "topic": "grammar",
     "example": "I gave her the book.",
@@ -422,7 +422,7 @@
   {
     "id": "word-036",
     "word": "she",
-    "meaning": "cÃ´ áº¥y, bÃ  áº¥y",
+    "meaning": "cô ấy, bà ấy",
     "type": "pronoun",
     "topic": "grammar",
     "example": "She is my sister.",
@@ -434,7 +434,7 @@
   {
     "id": "word-037",
     "word": "we",
-    "meaning": "chÃºng tÃ´i, chÃºng ta",
+    "meaning": "chúng tôi, chúng ta",
     "type": "pronoun",
     "topic": "grammar",
     "example": "We are a team.",
@@ -446,7 +446,7 @@
   {
     "id": "word-038",
     "word": "there",
-    "meaning": "á» ÄÃ³, cÃ³ (there is/are)",
+    "meaning": "ở đó, có (there is/are)",
     "type": "adverb",
     "topic": "grammar",
     "example": "There is a park near my house.",
@@ -458,7 +458,7 @@
   {
     "id": "word-039",
     "word": "been",
-    "meaning": "ÄÃ£ tá»«ng lÃ  (quÃ¡ khá»© phÃ¢n tá»« cá»§a be)",
+    "meaning": "đã từng là (quá khứ phân từ của be)",
     "type": "verb",
     "topic": "grammar",
     "example": "I have been here before.",
@@ -470,7 +470,7 @@
   {
     "id": "word-040",
     "word": "their",
-    "meaning": "cá»§a há»",
+    "meaning": "của họ",
     "type": "pronoun",
     "topic": "grammar",
     "example": "This is their house.",
@@ -482,7 +482,7 @@
   {
     "id": "word-041",
     "word": "one",
-    "meaning": "má»t, ngÆ°á»i ta",
+    "meaning": "một, người ta",
     "type": "number",
     "topic": "grammar",
     "example": "I have one sister.",
@@ -494,7 +494,7 @@
   {
     "id": "word-042",
     "word": "has",
-    "meaning": "cÃ³ (tobe ngÃ´i 3 sá» Ã­t cá»§a have)",
+    "meaning": "có (tobe ngôi 3 số ít của have)",
     "type": "verb",
     "topic": "grammar",
     "example": "She has a dog.",
@@ -506,7 +506,7 @@
   {
     "id": "word-043",
     "word": "will",
-    "meaning": "sáº½ (trá»£ Äá»ng tá»« tÆ°Æ¡ng lai)",
+    "meaning": "sẽ (trợ động từ tương lai)",
     "type": "verb",
     "topic": "grammar",
     "example": "I will call you tomorrow.",
@@ -518,7 +518,7 @@
   {
     "id": "word-044",
     "word": "n't",
-    "meaning": "khÃ´ng (viáº¿t táº¯t cá»§a not)",
+    "meaning": "không (viết tắt của not)",
     "type": "particle",
     "topic": "grammar",
     "example": "I don't know the answer.",
@@ -530,7 +530,7 @@
   {
     "id": "word-045",
     "word": "can",
-    "meaning": "cÃ³ thá», ÄÆ°á»£c phÃ©p",
+    "meaning": "có thể, được phép",
     "type": "verb",
     "topic": "grammar",
     "example": "Can you help me?",
@@ -542,7 +542,7 @@
   {
     "id": "word-046",
     "word": "all",
-    "meaning": "táº¥t cáº£, toÃ n bá»",
+    "meaning": "tất cả, toàn bộ",
     "type": "adjective",
     "topic": "grammar",
     "example": "All students passed the exam.",
@@ -554,7 +554,7 @@
   {
     "id": "word-047",
     "word": "would",
-    "meaning": "sáº½ (quÃ¡ khá»© cá»§a will, dÃ¹ng trong Äiá»u kiá»n)",
+    "meaning": "sẽ (quá khứ của will, dùng trong điều kiện)",
     "type": "verb",
     "topic": "grammar",
     "example": "I would like some tea.",
@@ -566,7 +566,7 @@
   {
     "id": "word-048",
     "word": "do",
-    "meaning": "lÃ m, thá»±c hiá»n (trá»£ Äá»ng tá»«)",
+    "meaning": "làm, thực hiện (trợ động từ)",
     "type": "verb",
     "topic": "grammar",
     "example": "Do you like music?",
@@ -578,7 +578,7 @@
   {
     "id": "word-049",
     "word": "if",
-    "meaning": "náº¿u, náº¿u nhÆ°",
+    "meaning": "nếu, nếu như",
     "type": "conjunction",
     "topic": "grammar",
     "example": "If it rains, I will stay home.",
@@ -590,7 +590,7 @@
   {
     "id": "word-050",
     "word": "more",
-    "meaning": "hÆ¡n, nhiá»u hÆ¡n",
+    "meaning": "hơn, nhiều hơn",
     "type": "adjective",
     "topic": "grammar",
     "example": "I need more time.",
@@ -602,7 +602,7 @@
   {
     "id": "word-051",
     "word": "when",
-    "meaning": "khi nÃ o, khi",
+    "meaning": "khi nào, khi",
     "type": "conjunction",
     "topic": "grammar",
     "example": "Call me when you arrive.",
@@ -614,7 +614,7 @@
   {
     "id": "word-052",
     "word": "who",
-    "meaning": "ai, ngÆ°á»i mÃ  (Äáº¡i tá»« quan há»)",
+    "meaning": "ai, người mà (đại từ quan hệ)",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Who is your teacher?",
@@ -626,7 +626,7 @@
   {
     "id": "word-053",
     "word": "what",
-    "meaning": "cÃ¡i gÃ¬, Äiá»u gÃ¬",
+    "meaning": "cái gì, điều gì",
     "type": "pronoun",
     "topic": "grammar",
     "example": "What is your name?",
@@ -638,7 +638,7 @@
   {
     "id": "word-054",
     "word": "so",
-    "meaning": "vÃ¬ váº­y, ráº¥t, nhÆ° váº­y",
+    "meaning": "vì vậy, rất, như vậy",
     "type": "conjunction",
     "topic": "grammar",
     "example": "She was tired, so she slept early.",
@@ -650,7 +650,7 @@
   {
     "id": "word-055",
     "word": "about",
-    "meaning": "vá», khoáº£ng, xung quanh",
+    "meaning": "về, khoảng, xung quanh",
     "type": "preposition",
     "topic": "grammar",
     "example": "Tell me about yourself.",
@@ -662,7 +662,7 @@
   {
     "id": "word-056",
     "word": "up",
-    "meaning": "lÃªn, phÃ­a trÃªn",
+    "meaning": "lên, phía trên",
     "type": "adverb",
     "topic": "grammar",
     "example": "Please stand up.",
@@ -674,7 +674,7 @@
   {
     "id": "word-057",
     "word": "its",
-    "meaning": "cá»§a nÃ³",
+    "meaning": "của nó",
     "type": "pronoun",
     "topic": "grammar",
     "example": "The dog wagged its tail.",
@@ -686,7 +686,7 @@
   {
     "id": "word-058",
     "word": "some",
-    "meaning": "má»t sá», má»t vÃ i",
+    "meaning": "một số, một vài",
     "type": "adjective",
     "topic": "grammar",
     "example": "Can I have some water?",
@@ -698,7 +698,7 @@
   {
     "id": "word-059",
     "word": "into",
-    "meaning": "vÃ o trong, thÃ nh",
+    "meaning": "vào trong, thành",
     "type": "preposition",
     "topic": "grammar",
     "example": "She walked into the room.",
@@ -710,7 +710,7 @@
   {
     "id": "word-060",
     "word": "them",
-    "meaning": "há» (tÃ¢n ngá»¯), chÃºng",
+    "meaning": "họ (tân ngữ), chúng",
     "type": "pronoun",
     "topic": "grammar",
     "example": "I saw them yesterday.",
@@ -722,7 +722,7 @@
   {
     "id": "word-061",
     "word": "could",
-    "meaning": "cÃ³ thá» (quÃ¡ khá»© cá»§a can)",
+    "meaning": "có thể (quá khứ của can)",
     "type": "verb",
     "topic": "grammar",
     "example": "Could you open the window?",
@@ -734,7 +734,7 @@
   {
     "id": "word-062",
     "word": "no",
-    "meaning": "khÃ´ng (phá»§ Äá»nh), khÃ´ng cÃ³",
+    "meaning": "không (phủ định), không có",
     "type": "adverb",
     "topic": "grammar",
     "example": "No, I don't want to go.",
@@ -746,7 +746,7 @@
   {
     "id": "word-063",
     "word": "him",
-    "meaning": "anh áº¥y (tÃ¢n ngá»¯)",
+    "meaning": "anh ấy (tân ngữ)",
     "type": "pronoun",
     "topic": "grammar",
     "example": "I called him last night.",
@@ -758,7 +758,7 @@
   {
     "id": "word-064",
     "word": "said",
-    "meaning": "ÄÃ£ nÃ³i (quÃ¡ khá»© cá»§a say)",
+    "meaning": "đã nói (quá khứ của say)",
     "type": "verb",
     "topic": "grammar",
     "example": "She said she was tired.",
@@ -770,7 +770,7 @@
   {
     "id": "word-065",
     "word": "time",
-    "meaning": "thá»i gian, láº§n, lÃºc",
+    "meaning": "thời gian, lần, lúc",
     "type": "noun",
     "topic": "general",
     "example": "Time flies so fast.",
@@ -782,7 +782,7 @@
   {
     "id": "word-066",
     "word": "only",
-    "meaning": "chá», duy nháº¥t",
+    "meaning": "chỉ, duy nhất",
     "type": "adverb",
     "topic": "grammar",
     "example": "I only have five minutes.",
@@ -794,7 +794,7 @@
   {
     "id": "word-067",
     "word": "two",
-    "meaning": "hai (sá» 2)",
+    "meaning": "hai (số 2)",
     "type": "number",
     "topic": "grammar",
     "example": "I have two cats.",
@@ -806,7 +806,7 @@
   {
     "id": "word-068",
     "word": "out",
-    "meaning": "ra ngoÃ i, bÃªn ngoÃ i",
+    "meaning": "ra ngoài, bên ngoài",
     "type": "adverb",
     "topic": "grammar",
     "example": "Please go out.",
@@ -818,7 +818,7 @@
   {
     "id": "word-069",
     "word": "other",
-    "meaning": "khÃ¡c, cÃ¡i khÃ¡c",
+    "meaning": "khác, cái khác",
     "type": "adjective",
     "topic": "grammar",
     "example": "The other students were quiet.",
@@ -830,7 +830,7 @@
   {
     "id": "word-070",
     "word": "then",
-    "meaning": "sau ÄÃ³, thÃ¬, lÃºc ÄÃ³",
+    "meaning": "sau đó, thì, lúc đó",
     "type": "adverb",
     "topic": "grammar",
     "example": "Finish your homework, then play.",
@@ -842,7 +842,7 @@
   {
     "id": "word-071",
     "word": "my",
-    "meaning": "cá»§a tÃ´i",
+    "meaning": "của tôi",
     "type": "pronoun",
     "topic": "grammar",
     "example": "This is my book.",
@@ -854,7 +854,7 @@
   {
     "id": "word-072",
     "word": "may",
-    "meaning": "cÃ³ thá», ÄÆ°á»£c phÃ©p (xin phÃ©p)",
+    "meaning": "có thể, được phép (xin phép)",
     "type": "verb",
     "topic": "grammar",
     "example": "May I use your phone?",
@@ -866,7 +866,7 @@
   {
     "id": "word-073",
     "word": "like",
-    "meaning": "thÃ­ch, nhÆ°, giá»ng nhÆ°",
+    "meaning": "thích, như, giống như",
     "type": "verb",
     "topic": "general",
     "example": "I like swimming.",
@@ -878,7 +878,7 @@
   {
     "id": "word-074",
     "word": "over",
-    "meaning": "trÃªn, hÆ¡n, káº¿t thÃºc",
+    "meaning": "trên, hơn, kết thúc",
     "type": "preposition",
     "topic": "grammar",
     "example": "The plane flew over the city.",
@@ -890,7 +890,7 @@
   {
     "id": "word-075",
     "word": "also",
-    "meaning": "cÅ©ng, ngoÃ i ra",
+    "meaning": "cũng, ngoài ra",
     "type": "adverb",
     "topic": "grammar",
     "example": "I also want to come.",
@@ -902,7 +902,7 @@
   {
     "id": "word-076",
     "word": "new",
-    "meaning": "má»i",
+    "meaning": "mới",
     "type": "adjective",
     "topic": "general",
     "example": "She bought a new dress.",
@@ -914,7 +914,7 @@
   {
     "id": "word-077",
     "word": "these",
-    "meaning": "nhá»¯ng cÃ¡i nÃ y, ÄÃ¢y",
+    "meaning": "những cái này, đây",
     "type": "pronoun",
     "topic": "grammar",
     "example": "These are my friends.",
@@ -926,7 +926,7 @@
   {
     "id": "word-078",
     "word": "your",
-    "meaning": "cá»§a báº¡n, cá»§a anh/chá»",
+    "meaning": "của bạn, của anh/chị",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Is this your bag?",
@@ -938,7 +938,7 @@
   {
     "id": "word-079",
     "word": "any",
-    "meaning": "báº¥t ká»³, nÃ o, chÃºt nÃ o",
+    "meaning": "bất kỳ, nào, chút nào",
     "type": "adjective",
     "topic": "grammar",
     "example": "Do you have any questions?",
@@ -950,7 +950,7 @@
   {
     "id": "word-080",
     "word": "me",
-    "meaning": "tÃ´i (tÃ¢n ngá»¯)",
+    "meaning": "tôi (tân ngữ)",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Can you help me?",
@@ -962,7 +962,7 @@
   {
     "id": "word-081",
     "word": "now",
-    "meaning": "bÃ¢y giá», hiá»n táº¡i",
+    "meaning": "bây giờ, hiện tại",
     "type": "adverb",
     "topic": "grammar",
     "example": "I need to leave now.",
@@ -974,7 +974,7 @@
   {
     "id": "word-082",
     "word": "did",
-    "meaning": "ÄÃ£ lÃ m (quÃ¡ khá»© cá»§a do)",
+    "meaning": "đã làm (quá khứ của do)",
     "type": "verb",
     "topic": "grammar",
     "example": "Did you finish your homework?",
@@ -986,7 +986,7 @@
   {
     "id": "word-083",
     "word": "people",
-    "meaning": "má»i ngÆ°á»i, con ngÆ°á»i",
+    "meaning": "mọi người, con người",
     "type": "noun",
     "topic": "general",
     "example": "People are generally kind.",
@@ -998,7 +998,7 @@
   {
     "id": "word-084",
     "word": "first",
-    "meaning": "Äáº§u tiÃªn, trÆ°á»c tiÃªn",
+    "meaning": "đầu tiên, trước tiên",
     "type": "adjective",
     "topic": "general",
     "example": "She was the first to arrive.",
@@ -1010,7 +1010,7 @@
   {
     "id": "word-085",
     "word": "very",
-    "meaning": "ráº¥t, láº¯m",
+    "meaning": "rất, lắm",
     "type": "adverb",
     "topic": "grammar",
     "example": "She is very smart.",
@@ -1034,7 +1034,7 @@
   {
     "id": "word-087",
     "word": "should",
-    "meaning": "nÃªn, pháº£i (lá»i khuyÃªn)",
+    "meaning": "nên, phải (lời khuyên)",
     "type": "verb",
     "topic": "grammar",
     "example": "You should drink more water.",
@@ -1046,7 +1046,7 @@
   {
     "id": "word-088",
     "word": "just",
-    "meaning": "vá»«a má»i, chá», ÄÃºng lÃ ",
+    "meaning": "vừa mới, chỉ, đúng là",
     "type": "adverb",
     "topic": "grammar",
     "example": "I just got home.",
@@ -1058,7 +1058,7 @@
   {
     "id": "word-089",
     "word": "than",
-    "meaning": "hÆ¡n (so sÃ¡nh)",
+    "meaning": "hơn (so sánh)",
     "type": "conjunction",
     "topic": "grammar",
     "example": "She is taller than me.",
@@ -1070,7 +1070,7 @@
   {
     "id": "word-090",
     "word": "most",
-    "meaning": "nháº¥t, háº§u háº¿t",
+    "meaning": "nhất, hầu hết",
     "type": "adjective",
     "topic": "grammar",
     "example": "She is the most talented.",
@@ -1082,7 +1082,7 @@
   {
     "id": "word-091",
     "word": "where",
-    "meaning": "á» ÄÃ¢u, nÆ¡i mÃ ",
+    "meaning": "ở đâu, nơi mà",
     "type": "adverb",
     "topic": "grammar",
     "example": "Where do you live?",
@@ -1094,7 +1094,7 @@
   {
     "id": "word-092",
     "word": "made",
-    "meaning": "ÄÃ£ lÃ m, ÄÆ°á»£c lÃ m (quÃ¡ khá»© cá»§a make)",
+    "meaning": "đã làm, được làm (quá khứ của make)",
     "type": "verb",
     "topic": "general",
     "example": "She made a cake for us.",
@@ -1106,7 +1106,7 @@
   {
     "id": "word-093",
     "word": "between",
-    "meaning": "giá»¯a (hai thá»©)",
+    "meaning": "giữa (hai thứ)",
     "type": "preposition",
     "topic": "grammar",
     "example": "The library is between the bank and the school.",
@@ -1118,7 +1118,7 @@
   {
     "id": "word-094",
     "word": "back",
-    "meaning": "láº¡i, quay láº¡i, phÃ­a sau",
+    "meaning": "lại, quay lại, phía sau",
     "type": "adverb",
     "topic": "general",
     "example": "Come back soon.",
@@ -1130,7 +1130,7 @@
   {
     "id": "word-095",
     "word": "way",
-    "meaning": "cÃ¡ch, ÄÆ°á»ng, hÆ°á»ng",
+    "meaning": "cách, đường, hướng",
     "type": "noun",
     "topic": "general",
     "example": "Which way is the station?",
@@ -1142,7 +1142,7 @@
   {
     "id": "word-096",
     "word": "our",
-    "meaning": "cá»§a chÃºng tÃ´i, cá»§a chÃºng ta",
+    "meaning": "của chúng tôi, của chúng ta",
     "type": "pronoun",
     "topic": "grammar",
     "example": "This is our school.",
@@ -1154,7 +1154,7 @@
   {
     "id": "word-097",
     "word": "many",
-    "meaning": "nhiá»u (Äáº¿m ÄÆ°á»£c)",
+    "meaning": "nhiều (đếm được)",
     "type": "adjective",
     "topic": "grammar",
     "example": "There are many students in class.",
@@ -1166,7 +1166,7 @@
   {
     "id": "word-098",
     "word": "years",
-    "meaning": "nhá»¯ng nÄm, nÄm (sá» nhiá»u)",
+    "meaning": "những năm, năm (số nhiều)",
     "type": "noun",
     "topic": "general",
     "example": "She has lived here for three years.",
@@ -1178,7 +1178,7 @@
   {
     "id": "word-099",
     "word": "work",
-    "meaning": "cÃ´ng viá»c, lÃ m viá»c",
+    "meaning": "công việc, làm việc",
     "type": "noun",
     "topic": "general",
     "example": "I love my work.",
@@ -1190,7 +1190,7 @@
   {
     "id": "word-100",
     "word": "much",
-    "meaning": "nhiá»u (khÃ´ng Äáº¿m ÄÆ°á»£c), láº¯m",
+    "meaning": "nhiều (không đếm được), lắm",
     "type": "adjective",
     "topic": "grammar",
     "example": "Thank you very much.",
@@ -1202,7 +1202,7 @@
   {
     "id": "word-101",
     "word": "know",
-    "meaning": "biáº¿t, hiá»u",
+    "meaning": "biết, hiểu",
     "type": "verb",
     "topic": "general",
     "example": "Do you know the answer?",
@@ -1214,7 +1214,7 @@
   {
     "id": "word-102",
     "word": "being",
-    "meaning": "Äang lÃ , sá»± tá»n táº¡i",
+    "meaning": "đang là, sự tồn tại",
     "type": "verb",
     "topic": "grammar",
     "example": "She enjoys being a teacher.",
@@ -1226,7 +1226,7 @@
   {
     "id": "word-103",
     "word": "those",
-    "meaning": "nhá»¯ng cÃ¡i ÄÃ³, ÄÃ³",
+    "meaning": "những cái đó, đó",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Those are my shoes.",
@@ -1238,7 +1238,7 @@
   {
     "id": "word-104",
     "word": "down",
-    "meaning": "xuá»ng, phÃ­a dÆ°á»i",
+    "meaning": "xuống, phía dưới",
     "type": "adverb",
     "topic": "grammar",
     "example": "Please sit down.",
@@ -1250,7 +1250,7 @@
   {
     "id": "word-105",
     "word": "how",
-    "meaning": "nhÆ° tháº¿ nÃ o, bao nhiÃªu",
+    "meaning": "như thế nào, bao nhiêu",
     "type": "adverb",
     "topic": "grammar",
     "example": "How are you today?",
@@ -1262,7 +1262,7 @@
   {
     "id": "word-106",
     "word": "before",
-    "meaning": "trÆ°á»c, trÆ°á»c khi",
+    "meaning": "trước, trước khi",
     "type": "preposition",
     "topic": "grammar",
     "example": "Wash your hands before eating.",
@@ -1274,7 +1274,7 @@
   {
     "id": "word-107",
     "word": "see",
-    "meaning": "tháº¥y, nhÃ¬n tháº¥y, gáº·p",
+    "meaning": "thấy, nhìn thấy, gặp",
     "type": "verb",
     "topic": "general",
     "example": "Can you see that bird?",
@@ -1286,7 +1286,7 @@
   {
     "id": "word-108",
     "word": "added",
-    "meaning": "ÄÃ£ thÃªm vÃ o (quÃ¡ khá»© cá»§a add)",
+    "meaning": "đã thêm vào (quá khứ của add)",
     "type": "verb",
     "topic": "general",
     "example": "She added sugar to the coffee.",
@@ -1298,7 +1298,7 @@
   {
     "id": "word-109",
     "word": "such",
-    "meaning": "nhÆ° váº­y, nhÆ° tháº¿, loáº¡i",
+    "meaning": "như vậy, như thế, loại",
     "type": "adjective",
     "topic": "grammar",
     "example": "I have never seen such beauty.",
@@ -1310,7 +1310,7 @@
   {
     "id": "word-110",
     "word": "make",
-    "meaning": "lÃ m, táº¡o ra",
+    "meaning": "làm, tạo ra",
     "type": "verb",
     "topic": "general",
     "example": "Let's make a plan.",
@@ -1322,7 +1322,7 @@
   {
     "id": "word-111",
     "word": "get",
-    "meaning": "láº¥y, nháº­n ÄÆ°á»£c, trá» nÃªn",
+    "meaning": "lấy, nhận được, trở nên",
     "type": "verb",
     "topic": "general",
     "example": "Can you get me a glass of water?",
@@ -1334,7 +1334,7 @@
   {
     "id": "word-112",
     "word": "because",
-    "meaning": "bá»i vÃ¬, vÃ¬",
+    "meaning": "bởi vì, vì",
     "type": "conjunction",
     "topic": "grammar",
     "example": "I stayed home because it was raining.",
@@ -1346,7 +1346,7 @@
   {
     "id": "word-113",
     "word": "us",
-    "meaning": "chÃºng tÃ´i (tÃ¢n ngá»¯)",
+    "meaning": "chúng tôi (tân ngữ)",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Can you help us?",
@@ -1358,7 +1358,7 @@
   {
     "id": "word-114",
     "word": "three",
-    "meaning": "ba (sá» 3)",
+    "meaning": "ba (số 3)",
     "type": "number",
     "topic": "grammar",
     "example": "I have three dogs.",
@@ -1370,7 +1370,7 @@
   {
     "id": "word-115",
     "word": "year",
-    "meaning": "nÄm (ÄÆ¡n vá» thá»i gian)",
+    "meaning": "năm (đơn vị thời gian)",
     "type": "noun",
     "topic": "general",
     "example": "This year has been great.",
@@ -1382,7 +1382,7 @@
   {
     "id": "word-116",
     "word": "April",
-    "meaning": "thÃ¡ng TÆ°",
+    "meaning": "tháng Tư",
     "type": "noun",
     "topic": "general",
     "example": "Her birthday is in April.",
@@ -1394,7 +1394,7 @@
   {
     "id": "word-117",
     "word": "good",
-    "meaning": "tá»t, ngon, giá»i",
+    "meaning": "tốt, ngon, giỏi",
     "type": "adjective",
     "topic": "general",
     "example": "You did a good job.",
@@ -1406,7 +1406,7 @@
   {
     "id": "word-118",
     "word": "think",
-    "meaning": "nghÄ©, suy nghÄ©",
+    "meaning": "nghĩ, suy nghĩ",
     "type": "verb",
     "topic": "general",
     "example": "I think you are right.",
@@ -1418,7 +1418,7 @@
   {
     "id": "word-119",
     "word": "still",
-    "meaning": "váº«n cÃ²n, váº«n, yÃªn láº·ng",
+    "meaning": "vẫn còn, vẫn, yên lặng",
     "type": "adverb",
     "topic": "grammar",
     "example": "She still lives in Hanoi.",
@@ -1430,7 +1430,7 @@
   {
     "id": "word-120",
     "word": "well",
-    "meaning": "tá»t, khá»e, giá»i",
+    "meaning": "tốt, khỏe, giỏi",
     "type": "adverb",
     "topic": "general",
     "example": "She speaks English very well.",
@@ -1442,7 +1442,7 @@
   {
     "id": "word-121",
     "word": "must",
-    "meaning": "pháº£i, báº¯t buá»c",
+    "meaning": "phải, bắt buộc",
     "type": "verb",
     "topic": "grammar",
     "example": "You must wear a seatbelt.",
@@ -1454,7 +1454,7 @@
   {
     "id": "word-122",
     "word": "right",
-    "meaning": "ÄÃºng, pháº£i, bÃªn pháº£i",
+    "meaning": "đúng, phải, bên phải",
     "type": "adjective",
     "topic": "general",
     "example": "You are absolutely right.",
@@ -1466,7 +1466,7 @@
   {
     "id": "word-123",
     "word": "basic",
-    "meaning": "cÆ¡ báº£n, cÄn báº£n",
+    "meaning": "cơ bản, căn bản",
     "type": "adjective",
     "topic": "general",
     "example": "This is a basic English course.",
@@ -1478,7 +1478,7 @@
   {
     "id": "word-124",
     "word": "go",
-    "meaning": "Äi, tiáº¿n hÃ nh",
+    "meaning": "đi, tiến hành",
     "type": "verb",
     "topic": "general",
     "example": "Let's go to the park.",
@@ -1490,7 +1490,7 @@
   {
     "id": "word-125",
     "word": "both",
-    "meaning": "cáº£ hai",
+    "meaning": "cả hai",
     "type": "adjective",
     "topic": "grammar",
     "example": "Both of them are correct.",
@@ -1502,7 +1502,7 @@
   {
     "id": "word-126",
     "word": "too",
-    "meaning": "cÅ©ng, quÃ¡",
+    "meaning": "cũng, quá",
     "type": "adverb",
     "topic": "grammar",
     "example": "It is too hot today.",
@@ -1514,7 +1514,7 @@
   {
     "id": "word-127",
     "word": "last",
-    "meaning": "cuá»i cÃ¹ng, vá»«a rá»i, kÃ©o dÃ i",
+    "meaning": "cuối cùng, vừa rồi, kéo dài",
     "type": "adjective",
     "topic": "general",
     "example": "I saw her last week.",
@@ -1526,7 +1526,7 @@
   {
     "id": "word-128",
     "word": "take",
-    "meaning": "láº¥y, ÄÆ°a, máº¥t (thá»i gian)",
+    "meaning": "lấy, đưa, mất (thời gian)",
     "type": "verb",
     "topic": "general",
     "example": "Please take a seat.",
@@ -1538,7 +1538,7 @@
   {
     "id": "word-129",
     "word": "used",
-    "meaning": "ÄÃ£ dÃ¹ng, quen vá»i",
+    "meaning": "đã dùng, quen với",
     "type": "verb",
     "topic": "general",
     "example": "I am used to waking up early.",
@@ -1550,7 +1550,7 @@
   {
     "id": "word-130",
     "word": "or",
-    "meaning": "hoáº·c, hay lÃ ",
+    "meaning": "hoặc, hay là",
     "type": "conjunction",
     "topic": "grammar",
     "example": "Would you like tea or coffee?",
@@ -1562,7 +1562,7 @@
   {
     "id": "word-131",
     "word": "age",
-    "meaning": "tuá»i, thá»i Äáº¡i",
+    "meaning": "tuổi, thời đại",
     "type": "noun",
     "topic": "general",
     "example": "What is your age?",
@@ -1574,7 +1574,7 @@
   {
     "id": "word-132",
     "word": "use",
-    "meaning": "sá»­ dá»¥ng, dÃ¹ng",
+    "meaning": "sử dụng, dùng",
     "type": "verb",
     "topic": "general",
     "example": "How do you use this app?",
@@ -1586,7 +1586,7 @@
   {
     "id": "word-133",
     "word": "however",
-    "meaning": "tuy nhiÃªn, dÃ¹ tháº¿ nÃ o",
+    "meaning": "tuy nhiên, dù thế nào",
     "type": "conjunction",
     "topic": "grammar",
     "example": "I was tired; however, I kept working.",
@@ -1598,7 +1598,7 @@
   {
     "id": "word-134",
     "word": "off",
-    "meaning": "táº¯t, ra khá»i, rá»i Äi",
+    "meaning": "tắt, ra khỏi, rời đi",
     "type": "adverb",
     "topic": "grammar",
     "example": "Please turn off the lights.",
@@ -1610,7 +1610,7 @@
   {
     "id": "word-135",
     "word": "under",
-    "meaning": "dÆ°á»i, bÃªn dÆ°á»i",
+    "meaning": "dưới, bên dưới",
     "type": "preposition",
     "topic": "grammar",
     "example": "The cat is under the table.",
@@ -1622,7 +1622,7 @@
   {
     "id": "word-136",
     "word": "same",
-    "meaning": "giá»ng nhau, cÃ¹ng",
+    "meaning": "giống nhau, cùng",
     "type": "adjective",
     "topic": "general",
     "example": "We go to the same school.",
@@ -1634,7 +1634,7 @@
   {
     "id": "word-137",
     "word": "Mr",
-    "meaning": "Ã´ng (danh hiá»u nam)",
+    "meaning": "ông (danh hiệu nam)",
     "type": "noun",
     "topic": "general",
     "example": "Mr Smith is my teacher.",
@@ -1646,7 +1646,7 @@
   {
     "id": "word-138",
     "word": "does",
-    "meaning": "lÃ m (ngÃ´i 3 sá» Ã­t cá»§a do)",
+    "meaning": "làm (ngôi 3 số ít của do)",
     "type": "verb",
     "topic": "grammar",
     "example": "She does yoga every morning.",
@@ -1658,7 +1658,7 @@
   {
     "id": "word-139",
     "word": "'re",
-    "meaning": "lÃ  (viáº¿t táº¯t cá»§a are)",
+    "meaning": "là (viết tắt của are)",
     "type": "verb",
     "topic": "grammar",
     "example": "They're very happy today.",
@@ -1670,7 +1670,7 @@
   {
     "id": "word-140",
     "word": "world",
-    "meaning": "tháº¿ giá»i",
+    "meaning": "thế giới",
     "type": "noun",
     "topic": "general",
     "example": "She wants to travel the world.",
@@ -1682,7 +1682,7 @@
   {
     "id": "word-141",
     "word": "here",
-    "meaning": "á» ÄÃ¢y, ÄÃ¢y",
+    "meaning": "ở đây, đây",
     "type": "adverb",
     "topic": "grammar",
     "example": "Come here, please.",
@@ -1694,7 +1694,7 @@
   {
     "id": "word-142",
     "word": "man",
-    "meaning": "ngÆ°á»i ÄÃ n Ã´ng, con ngÆ°á»i",
+    "meaning": "người đàn ông, con người",
     "type": "noun",
     "topic": "general",
     "example": "The man is waiting outside.",
@@ -1706,7 +1706,7 @@
   {
     "id": "word-143",
     "word": "day",
-    "meaning": "ngÃ y, ban ngÃ y",
+    "meaning": "ngày, ban ngày",
     "type": "noun",
     "topic": "general",
     "example": "Have a great day!",
@@ -1718,7 +1718,7 @@
   {
     "id": "word-144",
     "word": "might",
-    "meaning": "cÃ³ thá» (kháº£ nÄng tháº¥p hÆ¡n may)",
+    "meaning": "có thể (khả năng thấp hơn may)",
     "type": "verb",
     "topic": "grammar",
     "example": "She might come to the party.",
@@ -1730,7 +1730,7 @@
   {
     "id": "word-145",
     "word": "got",
-    "meaning": "ÄÃ£ nháº­n ÄÆ°á»£c, ÄÃ£ cÃ³ (quÃ¡ khá»© cá»§a get)",
+    "meaning": "đã nhận được, đã có (quá khứ của get)",
     "type": "verb",
     "topic": "general",
     "example": "I got your message.",
@@ -1742,7 +1742,7 @@
   {
     "id": "word-146",
     "word": "say",
-    "meaning": "nÃ³i, phÃ¡t biá»u",
+    "meaning": "nói, phát biểu",
     "type": "verb",
     "topic": "general",
     "example": "What did you say?",
@@ -1754,7 +1754,7 @@
   {
     "id": "word-147",
     "word": "going",
-    "meaning": "Äang Äi, sáº¯p (be going to)",
+    "meaning": "đang đi, sắp (be going to)",
     "type": "verb",
     "topic": "grammar",
     "example": "I am going to the market.",
@@ -1766,7 +1766,7 @@
   {
     "id": "word-148",
     "word": "life",
-    "meaning": "cuá»c sá»ng, sinh má»nh",
+    "meaning": "cuộc sống, sinh mệnh",
     "type": "noun",
     "topic": "general",
     "example": "Life is beautiful.",
@@ -1778,7 +1778,7 @@
   {
     "id": "word-149",
     "word": "come",
-    "meaning": "Äáº¿n, tá»i",
+    "meaning": "đến, tới",
     "type": "verb",
     "topic": "general",
     "example": "Please come in.",
@@ -1790,7 +1790,7 @@
   {
     "id": "word-150",
     "word": "air",
-    "meaning": "khÃ´ng khÃ­, báº§u khÃ´ng khÃ­",
+    "meaning": "không khí, bầu không khí",
     "type": "noun",
     "topic": "general",
     "example": "The air is fresh here.",
@@ -1802,7 +1802,7 @@
   {
     "id": "word-151",
     "word": "'d",
-    "meaning": "sáº½ / ÄÃ£ (viáº¿t táº¯t cá»§a would/had)",
+    "meaning": "sẽ / đã (viết tắt của would/had)",
     "type": "particle",
     "topic": "grammar",
     "example": "I'd like a cup of tea.",
@@ -1814,7 +1814,7 @@
   {
     "id": "word-152",
     "word": "another",
-    "meaning": "má»t cÃ¡i khÃ¡c, thÃªm má»t",
+    "meaning": "một cái khác, thêm một",
     "type": "adjective",
     "topic": "general",
     "example": "Can I have another glass of water?",
@@ -1826,7 +1826,7 @@
   {
     "id": "word-153",
     "word": "costs",
-    "meaning": "chi phÃ­, tá»n (ngÃ´i 3 sá» Ã­t cá»§a cost)",
+    "meaning": "chi phí, tốn (ngôi 3 số ít của cost)",
     "type": "verb",
     "topic": "business",
     "example": "How much does it cost?",
@@ -1838,7 +1838,7 @@
   {
     "id": "word-154",
     "word": "need",
-    "meaning": "cáº§n, cáº§n thiáº¿t",
+    "meaning": "cần, cần thiết",
     "type": "verb",
     "topic": "general",
     "example": "I need more time to finish.",
@@ -1850,7 +1850,7 @@
   {
     "id": "word-155",
     "word": "again",
-    "meaning": "láº¡i, má»t láº§n ná»¯a",
+    "meaning": "lại, một lần nữa",
     "type": "adverb",
     "topic": "grammar",
     "example": "Please say that again.",
@@ -1862,7 +1862,7 @@
   {
     "id": "word-156",
     "word": "each",
-    "meaning": "má»i, tá»«ng",
+    "meaning": "mỗi, từng",
     "type": "adjective",
     "topic": "grammar",
     "example": "Each student must submit the form.",
@@ -1874,7 +1874,7 @@
   {
     "id": "word-157",
     "word": "'ll",
-    "meaning": "sáº½ (viáº¿t táº¯t cá»§a will)",
+    "meaning": "sẽ (viết tắt của will)",
     "type": "particle",
     "topic": "grammar",
     "example": "I'll be there soon.",
@@ -1886,7 +1886,7 @@
   {
     "id": "word-158",
     "word": "old",
-    "meaning": "giÃ , cÅ©, lá»n tuá»i",
+    "meaning": "già, cũ, lớn tuổi",
     "type": "adjective",
     "topic": "general",
     "example": "That is an old building.",
@@ -1898,7 +1898,7 @@
   {
     "id": "word-159",
     "word": "never",
-    "meaning": "khÃ´ng bao giá», chÆ°a bao giá»",
+    "meaning": "không bao giờ, chưa bao giờ",
     "type": "adverb",
     "topic": "grammar",
     "example": "I have never been to Japan.",
@@ -1910,7 +1910,7 @@
   {
     "id": "word-160",
     "word": "giving",
-    "meaning": "Äang cho, viá»c cho",
+    "meaning": "đang cho, việc cho",
     "type": "verb",
     "topic": "general",
     "example": "She is giving a speech.",
@@ -1922,7 +1922,7 @@
   {
     "id": "word-161",
     "word": "long",
-    "meaning": "dÃ i, lÃ¢u",
+    "meaning": "dài, lâu",
     "type": "adjective",
     "topic": "general",
     "example": "It was a long journey.",
@@ -1934,7 +1934,7 @@
   {
     "id": "word-162",
     "word": "allow",
-    "meaning": "cho phÃ©p",
+    "meaning": "cho phép",
     "type": "verb",
     "topic": "general",
     "example": "Please allow me to explain.",
@@ -1946,7 +1946,7 @@
   {
     "id": "word-163",
     "word": "'m",
-    "meaning": "lÃ  (viáº¿t táº¯t cá»§a am)",
+    "meaning": "là (viết tắt của am)",
     "type": "particle",
     "topic": "grammar",
     "example": "I'm very excited.",
@@ -1958,7 +1958,7 @@
   {
     "id": "word-164",
     "word": "little",
-    "meaning": "nhá», Ã­t, má»t chÃºt",
+    "meaning": "nhỏ, ít, một chút",
     "type": "adjective",
     "topic": "general",
     "example": "I need a little help.",
@@ -1970,7 +1970,7 @@
   {
     "id": "word-165",
     "word": "hope",
-    "meaning": "hy vá»ng",
+    "meaning": "hy vọng",
     "type": "verb",
     "topic": "general",
     "example": "I hope you feel better soon.",
@@ -1982,7 +1982,7 @@
   {
     "id": "word-166",
     "word": "number",
-    "meaning": "con sá», sá» lÆ°á»£ng",
+    "meaning": "con số, số lượng",
     "type": "noun",
     "topic": "general",
     "example": "What is your phone number?",
@@ -1994,7 +1994,7 @@
   {
     "id": "word-167",
     "word": "put",
-    "meaning": "Äáº·t, Äá»",
+    "meaning": "đặt, để",
     "type": "verb",
     "topic": "general",
     "example": "Put the book on the shelf.",
@@ -2006,7 +2006,7 @@
   {
     "id": "word-168",
     "word": "house",
-    "meaning": "ngÃ´i nhÃ ",
+    "meaning": "ngôi nhà",
     "type": "noun",
     "topic": "general",
     "example": "They bought a new house.",
@@ -2018,7 +2018,7 @@
   {
     "id": "word-169",
     "word": "end",
-    "meaning": "káº¿t thÃºc, cuá»i",
+    "meaning": "kết thúc, cuối",
     "type": "noun",
     "topic": "general",
     "example": "The end of the movie was sad.",
@@ -2030,7 +2030,7 @@
   {
     "id": "word-170",
     "word": "America",
-    "meaning": "nÆ°á»c Má»¹, chÃ¢u Má»¹",
+    "meaning": "nước Mỹ, châu Mỹ",
     "type": "noun",
     "topic": "general",
     "example": "She moved to America last year.",
@@ -2042,7 +2042,7 @@
   {
     "id": "word-171",
     "word": "answer",
-    "meaning": "cÃ¢u tráº£ lá»i, tráº£ lá»i",
+    "meaning": "câu trả lời, trả lời",
     "type": "noun",
     "topic": "general",
     "example": "Please write the answer here.",
@@ -2054,7 +2054,7 @@
   {
     "id": "word-172",
     "word": "home",
-    "meaning": "nhÃ , vá» nhÃ ",
+    "meaning": "nhà, về nhà",
     "type": "noun",
     "topic": "general",
     "example": "I want to go home.",
@@ -2066,7 +2066,7 @@
   {
     "id": "word-173",
     "word": "place",
-    "meaning": "nÆ¡i chá»n, Äá»a Äiá»m, Äáº·t",
+    "meaning": "nơi chốn, địa điểm, đặt",
     "type": "noun",
     "topic": "general",
     "example": "This is a beautiful place.",
@@ -2078,7 +2078,7 @@
   {
     "id": "word-174",
     "word": "within",
-    "meaning": "trong vÃ²ng, bÃªn trong",
+    "meaning": "trong vòng, bên trong",
     "type": "preposition",
     "topic": "grammar",
     "example": "Please reply within 24 hours.",
@@ -2090,7 +2090,7 @@
   {
     "id": "word-175",
     "word": "anyone",
-    "meaning": "ai ÄÃ³, báº¥t ká»³ ai",
+    "meaning": "ai đó, bất kỳ ai",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Is anyone home?",
@@ -2102,7 +2102,7 @@
   {
     "id": "word-176",
     "word": "children",
-    "meaning": "tráº» em, cÃ¡c con",
+    "meaning": "trẻ em, các con",
     "type": "noun",
     "topic": "general",
     "example": "The children are playing outside.",
@@ -2114,7 +2114,7 @@
   {
     "id": "word-177",
     "word": "history",
-    "meaning": "lá»ch sá»­",
+    "meaning": "lịch sử",
     "type": "noun",
     "topic": "general",
     "example": "She loves studying history.",
@@ -2126,7 +2126,7 @@
   {
     "id": "word-178",
     "word": "want",
-    "meaning": "muá»n",
+    "meaning": "muốn",
     "type": "verb",
     "topic": "general",
     "example": "I want to learn English.",
@@ -2138,7 +2138,7 @@
   {
     "id": "word-179",
     "word": "great",
-    "meaning": "tuyá»t vá»i, vÄ© Äáº¡i",
+    "meaning": "tuyệt vời, vĩ đại",
     "type": "adjective",
     "topic": "general",
     "example": "You did a great job!",
@@ -2150,7 +2150,7 @@
   {
     "id": "word-180",
     "word": "without",
-    "meaning": "khÃ´ng cÃ³, thiáº¿u",
+    "meaning": "không có, thiếu",
     "type": "preposition",
     "topic": "grammar",
     "example": "I can't live without music.",
@@ -2162,7 +2162,7 @@
   {
     "id": "word-181",
     "word": "set",
-    "meaning": "Äáº·t, bá», cÃ i Äáº·t",
+    "meaning": "đặt, bộ, cài đặt",
     "type": "verb",
     "topic": "general",
     "example": "Set the alarm for 7 AM.",
@@ -2174,7 +2174,7 @@
   {
     "id": "word-182",
     "word": "art",
-    "meaning": "nghá» thuáº­t",
+    "meaning": "nghệ thuật",
     "type": "noun",
     "topic": "general",
     "example": "She is passionate about art.",
@@ -2186,7 +2186,7 @@
   {
     "id": "word-183",
     "word": "left",
-    "meaning": "trÃ¡i, ÄÃ£ rá»i (quÃ¡ khá»© cá»§a leave)",
+    "meaning": "trái, đã rời (quá khứ của leave)",
     "type": "adjective",
     "topic": "general",
     "example": "Turn left at the corner.",
@@ -2198,19 +2198,19 @@
   {
     "id": "word-184",
     "word": "small",
-    "meaning": "nhá», bÃ©",
+    "meaning": "nhỏ, bé",
     "type": "adjective",
     "topic": "general",
     "example": "She lives in a small apartment.",
-    "accuracy": 100,
+    "accuracy": 0,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": true
+    "review_count": 0,
+    "learned": false
   },
   {
     "id": "word-185",
     "word": "few",
-    "meaning": "vÃ i, má»t Ã­t",
+    "meaning": "vài, một ít",
     "type": "adjective",
     "topic": "grammar",
     "example": "I have a few questions.",
@@ -2222,7 +2222,7 @@
   {
     "id": "word-186",
     "word": "came",
-    "meaning": "ÄÃ£ Äáº¿n (quÃ¡ khá»© cá»§a come)",
+    "meaning": "đã đến (quá khứ của come)",
     "type": "verb",
     "topic": "general",
     "example": "She came home late.",
@@ -2234,7 +2234,7 @@
   {
     "id": "word-187",
     "word": "something",
-    "meaning": "Äiá»u gÃ¬ ÄÃ³, thá»© gÃ¬ ÄÃ³",
+    "meaning": "điều gì đó, thứ gì đó",
     "type": "pronoun",
     "topic": "grammar",
     "example": "I want to tell you something.",
@@ -2246,7 +2246,7 @@
   {
     "id": "word-188",
     "word": "twenty",
-    "meaning": "hai mÆ°Æ¡i (sá» 20)",
+    "meaning": "hai mươi (số 20)",
     "type": "number",
     "topic": "grammar",
     "example": "She is twenty years old.",
@@ -2258,7 +2258,7 @@
   {
     "id": "word-189",
     "word": "around",
-    "meaning": "xung quanh, khoáº£ng",
+    "meaning": "xung quanh, khoảng",
     "type": "preposition",
     "topic": "grammar",
     "example": "There are trees around the house.",
@@ -2270,7 +2270,7 @@
   {
     "id": "word-190",
     "word": "look",
-    "meaning": "nhÃ¬n, trÃ´ng cÃ³ váº»",
+    "meaning": "nhìn, trông có vẻ",
     "type": "verb",
     "topic": "general",
     "example": "Look at that beautiful sunset.",
@@ -2282,7 +2282,7 @@
   {
     "id": "word-191",
     "word": "always",
-    "meaning": "luÃ´n luÃ´n",
+    "meaning": "luôn luôn",
     "type": "adverb",
     "topic": "grammar",
     "example": "She always wakes up early.",
@@ -2294,7 +2294,7 @@
   {
     "id": "word-192",
     "word": "ask",
-    "meaning": "há»i, yÃªu cáº§u",
+    "meaning": "hỏi, yêu cầu",
     "type": "verb",
     "topic": "general",
     "example": "Don't be afraid to ask questions.",
@@ -2306,7 +2306,7 @@
   {
     "id": "word-193",
     "word": "bad",
-    "meaning": "xáº¥u, tá»i, tá»",
+    "meaning": "xấu, tồi, tệ",
     "type": "adjective",
     "topic": "general",
     "example": "That was a bad idea.",
@@ -2318,7 +2318,7 @@
   {
     "id": "word-194",
     "word": "group",
-    "meaning": "nhÃ³m, táº­p há»£p",
+    "meaning": "nhóm, tập hợp",
     "type": "noun",
     "topic": "general",
     "example": "We work as a group.",
@@ -2330,7 +2330,7 @@
   {
     "id": "word-195",
     "word": "went",
-    "meaning": "ÄÃ£ Äi (quÃ¡ khá»© cá»§a go)",
+    "meaning": "đã đi (quá khứ của go)",
     "type": "verb",
     "topic": "general",
     "example": "We went to the beach yesterday.",
@@ -2342,7 +2342,7 @@
   {
     "id": "word-196",
     "word": "percent",
-    "meaning": "pháº§n trÄm",
+    "meaning": "phần trăm",
     "type": "noun",
     "topic": "business",
     "example": "Prices increased by ten percent.",
@@ -2354,7 +2354,7 @@
   {
     "id": "word-197",
     "word": "party",
-    "meaning": "bá»¯a tiá»c, Äáº£ng phÃ¡i",
+    "meaning": "bữa tiệc, đảng phái",
     "type": "noun",
     "topic": "general",
     "example": "Are you coming to the party?",
@@ -2366,7 +2366,7 @@
   {
     "id": "word-198",
     "word": "company",
-    "meaning": "cÃ´ng ty, báº¡n Äá»ng hÃ nh",
+    "meaning": "công ty, bạn đồng hành",
     "type": "noun",
     "topic": "business",
     "example": "She works for a big company.",
@@ -2378,7 +2378,7 @@
   {
     "id": "word-199",
     "word": "second",
-    "meaning": "thá»© hai, giÃ¢y (thá»i gian)",
+    "meaning": "thứ hai, giây (thời gian)",
     "type": "adjective",
     "topic": "general",
     "example": "This is the second time I've visited.",
@@ -2390,7 +2390,7 @@
   {
     "id": "word-200",
     "word": "given",
-    "meaning": "ÄÃ£ cho, ÄÆ°á»£c trao (quÃ¡ khá»© phÃ¢n tá»« cá»§a give)",
+    "meaning": "đã cho, được trao (quá khứ phân từ của give)",
     "type": "verb",
     "topic": "general",
     "example": "She has given me good advice.",
@@ -2402,7 +2402,7 @@
   {
     "id": "word-201",
     "word": "give",
-    "meaning": "cho, táº·ng, ÄÆ°a",
+    "meaning": "cho, tặng, đưa",
     "type": "verb",
     "topic": "general",
     "example": "Give me a minute to think.",
@@ -2414,7 +2414,7 @@
   {
     "id": "word-202",
     "word": "find",
-    "meaning": "tÃ¬m tháº¥y, nháº­n ra",
+    "meaning": "tìm thấy, nhận ra",
     "type": "verb",
     "topic": "general",
     "example": "I can't find my keys.",
@@ -2426,7 +2426,7 @@
   {
     "id": "word-203",
     "word": "four",
-    "meaning": "bá»n (sá» 4)",
+    "meaning": "bốn (số 4)",
     "type": "number",
     "topic": "grammar",
     "example": "There are four seasons in a year.",
@@ -2438,7 +2438,7 @@
   {
     "id": "word-204",
     "word": "bank",
-    "meaning": "ngÃ¢n hÃ ng, bá» (sÃ´ng)",
+    "meaning": "ngân hàng, bờ (sông)",
     "type": "noun",
     "topic": "business",
     "example": "I need to go to the bank.",
@@ -2450,7 +2450,7 @@
   {
     "id": "word-205",
     "word": "turn",
-    "meaning": "ráº½, quay, lÆ°á»£t",
+    "meaning": "rẽ, quay, lượt",
     "type": "verb",
     "topic": "general",
     "example": "Turn right at the next street.",
@@ -2462,7 +2462,7 @@
   {
     "id": "word-206",
     "word": "next",
-    "meaning": "tiáº¿p theo, káº¿ bÃªn",
+    "meaning": "tiếp theo, kế bên",
     "type": "adjective",
     "topic": "general",
     "example": "See you next week.",
@@ -2474,7 +2474,7 @@
   {
     "id": "word-207",
     "word": "bed",
-    "meaning": "giÆ°á»ng",
+    "meaning": "giường",
     "type": "noun",
     "topic": "general",
     "example": "It's time to go to bed.",
@@ -2486,7 +2486,7 @@
   {
     "id": "word-208",
     "word": "until",
-    "meaning": "cho Äáº¿n khi, Äáº¿n táº­n",
+    "meaning": "cho đến khi, đến tận",
     "type": "preposition",
     "topic": "grammar",
     "example": "Wait here until I come back.",
@@ -2498,7 +2498,7 @@
   {
     "id": "word-209",
     "word": "everything",
-    "meaning": "táº¥t cáº£ má»i thá»©",
+    "meaning": "tất cả mọi thứ",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Everything will be okay.",
@@ -2510,7 +2510,7 @@
   {
     "id": "word-210",
     "word": "women",
-    "meaning": "phá»¥ ná»¯ (sá» nhiá»u cá»§a woman)",
+    "meaning": "phụ nữ (số nhiều của woman)",
     "type": "noun",
     "topic": "general",
     "example": "Women make up half of the team.",
@@ -2522,7 +2522,7 @@
   {
     "id": "word-211",
     "word": "high",
-    "meaning": "cao, má»©c cao",
+    "meaning": "cao, mức cao",
     "type": "adjective",
     "topic": "general",
     "example": "The mountain is very high.",
@@ -2534,7 +2534,7 @@
   {
     "id": "word-212",
     "word": "later",
-    "meaning": "sau nÃ y, sau ÄÃ³",
+    "meaning": "sau này, sau đó",
     "type": "adverb",
     "topic": "grammar",
     "example": "I'll call you later.",
@@ -2546,7 +2546,7 @@
   {
     "id": "word-213",
     "word": "fall",
-    "meaning": "ngÃ£, rÆ¡i, mÃ¹a thu",
+    "meaning": "ngã, rơi, mùa thu",
     "type": "verb",
     "topic": "general",
     "example": "Be careful, don't fall.",
@@ -2558,7 +2558,7 @@
   {
     "id": "word-214",
     "word": "often",
-    "meaning": "thÆ°á»ng xuyÃªn, hay",
+    "meaning": "thường xuyên, hay",
     "type": "adverb",
     "topic": "grammar",
     "example": "How often do you exercise?",
@@ -2570,7 +2570,7 @@
   {
     "id": "word-215",
     "word": "why",
-    "meaning": "táº¡i sao",
+    "meaning": "tại sao",
     "type": "adverb",
     "topic": "grammar",
     "example": "Why are you late?",
@@ -2582,7 +2582,7 @@
   {
     "id": "word-216",
     "word": "every",
-    "meaning": "má»i, má»i",
+    "meaning": "mỗi, mọi",
     "type": "adjective",
     "topic": "grammar",
     "example": "I read every day.",
@@ -2594,7 +2594,7 @@
   {
     "id": "word-217",
     "word": "big",
-    "meaning": "to, lá»n",
+    "meaning": "to, lớn",
     "type": "adjective",
     "topic": "general",
     "example": "They live in a big house.",
@@ -2606,7 +2606,7 @@
   {
     "id": "word-218",
     "word": "men",
-    "meaning": "ÄÃ n Ã´ng (sá» nhiá»u cá»§a man)",
+    "meaning": "đàn ông (số nhiều của man)",
     "type": "noun",
     "topic": "general",
     "example": "The men are working hard.",
@@ -2618,7 +2618,7 @@
   {
     "id": "word-219",
     "word": "things",
-    "meaning": "nhá»¯ng thá»©, sá»± váº­t",
+    "meaning": "những thứ, sự vật",
     "type": "noun",
     "topic": "general",
     "example": "Things are getting better.",
@@ -2630,7 +2630,7 @@
   {
     "id": "word-220",
     "word": "far",
-    "meaning": "xa, cÃ¡ch xa",
+    "meaning": "xa, cách xa",
     "type": "adverb",
     "topic": "general",
     "example": "How far is the station?",
@@ -2642,7 +2642,7 @@
   {
     "id": "word-221",
     "word": "fact",
-    "meaning": "sá»± tháº­t, thá»±c táº¿",
+    "meaning": "sự thật, thực tế",
     "type": "noun",
     "topic": "general",
     "example": "In fact, she was right.",
@@ -2654,7 +2654,7 @@
   {
     "id": "word-222",
     "word": "took",
-    "meaning": "ÄÃ£ láº¥y (quÃ¡ khá»© cá»§a take)",
+    "meaning": "đã lấy (quá khứ của take)",
     "type": "verb",
     "topic": "general",
     "example": "She took the train to work.",
@@ -2666,7 +2666,7 @@
   {
     "id": "word-223",
     "word": "really",
-    "meaning": "thá»±c sá»±, tháº­t sá»±",
+    "meaning": "thực sự, thật sự",
     "type": "adverb",
     "topic": "grammar",
     "example": "I really appreciate your help.",
@@ -2678,7 +2678,7 @@
   {
     "id": "word-224",
     "word": "bill",
-    "meaning": "hÃ³a ÄÆ¡n, tá» tiá»n",
+    "meaning": "hóa đơn, tờ tiền",
     "type": "noun",
     "topic": "business",
     "example": "Can I have the bill, please?",
@@ -2690,7 +2690,7 @@
   {
     "id": "word-225",
     "word": "help",
-    "meaning": "giÃºp Äá»¡, trá»£ giÃºp",
+    "meaning": "giúp đỡ, trợ giúp",
     "type": "verb",
     "topic": "general",
     "example": "Can you help me with this?",
@@ -2702,7 +2702,7 @@
   {
     "id": "word-226",
     "word": "head",
-    "meaning": "Äáº§u, ngÆ°á»i Äá»©ng Äáº§u",
+    "meaning": "đầu, người đứng đầu",
     "type": "noun",
     "topic": "general",
     "example": "She is the head of the department.",
@@ -2714,7 +2714,7 @@
   {
     "id": "word-227",
     "word": "seen",
-    "meaning": "ÄÃ£ tháº¥y (quÃ¡ khá»© phÃ¢n tá»« cá»§a see)",
+    "meaning": "đã thấy (quá khứ phân từ của see)",
     "type": "verb",
     "topic": "general",
     "example": "Have you seen this movie?",
@@ -2726,7 +2726,7 @@
   {
     "id": "word-228",
     "word": "books",
-    "meaning": "nhá»¯ng cuá»n sÃ¡ch",
+    "meaning": "những cuốn sách",
     "type": "noun",
     "topic": "general",
     "example": "She has a lot of books.",
@@ -2738,7 +2738,7 @@
   {
     "id": "word-229",
     "word": "try",
-    "meaning": "thá»­, cá» gáº¯ng",
+    "meaning": "thử, cố gắng",
     "type": "verb",
     "topic": "general",
     "example": "Try your best.",
@@ -2750,7 +2750,7 @@
   {
     "id": "word-230",
     "word": "boy",
-    "meaning": "cáº­u bÃ©, con trai",
+    "meaning": "cậu bé, con trai",
     "type": "noun",
     "topic": "general",
     "example": "The boy is playing football.",
@@ -2762,7 +2762,7 @@
   {
     "id": "word-231",
     "word": "business",
-    "meaning": "kinh doanh, cÃ´ng viá»c",
+    "meaning": "kinh doanh, công việc",
     "type": "noun",
     "topic": "business",
     "example": "She runs her own business.",
@@ -2774,7 +2774,7 @@
   {
     "id": "word-232",
     "word": "school",
-    "meaning": "trÆ°á»ng há»c",
+    "meaning": "trường học",
     "type": "noun",
     "topic": "general",
     "example": "The children go to school by bus.",
@@ -2786,7 +2786,7 @@
   {
     "id": "word-233",
     "word": "bring",
-    "meaning": "mang láº¡i, Äem Äáº¿n",
+    "meaning": "mang lại, đem đến",
     "type": "verb",
     "topic": "general",
     "example": "Please bring your ID card.",
@@ -2798,7 +2798,7 @@
   {
     "id": "word-234",
     "word": "feeling",
-    "meaning": "cáº£m giÃ¡c, cáº£m xÃºc",
+    "meaning": "cảm giác, cảm xúc",
     "type": "noun",
     "topic": "general",
     "example": "I have a good feeling about this.",
@@ -2810,7 +2810,7 @@
   {
     "id": "word-235",
     "word": "area",
-    "meaning": "khu vá»±c, diá»n tÃ­ch",
+    "meaning": "khu vực, diện tích",
     "type": "noun",
     "topic": "general",
     "example": "This area is very safe.",
@@ -2822,7 +2822,7 @@
   {
     "id": "word-236",
     "word": "less",
-    "meaning": "Ã­t hÆ¡n, kÃ©m hÆ¡n",
+    "meaning": "ít hơn, kém hơn",
     "type": "adjective",
     "topic": "grammar",
     "example": "Try to eat less sugar.",
@@ -2834,7 +2834,7 @@
   {
     "id": "word-237",
     "word": "London",
-    "meaning": "thÃ nh phá» London (thá»§ ÄÃ´ Anh)",
+    "meaning": "thành phố London (thủ đô Anh)",
     "type": "noun",
     "topic": "general",
     "example": "She is flying to London tomorrow.",
@@ -2846,7 +2846,7 @@
   {
     "id": "word-238",
     "word": "taken",
-    "meaning": "ÄÃ£ láº¥y, ÄÃ£ chiáº¿m (quÃ¡ khá»© phÃ¢n tá»« cá»§a take)",
+    "meaning": "đã lấy, đã chiếm (quá khứ phân từ của take)",
     "type": "verb",
     "topic": "general",
     "example": "This seat is already taken.",
@@ -2870,7 +2870,7 @@
   {
     "id": "word-240",
     "word": "water",
-    "meaning": "nÆ°á»c",
+    "meaning": "nước",
     "type": "noun",
     "topic": "general",
     "example": "Drink at least eight glasses of water a day.",
@@ -2882,7 +2882,7 @@
   {
     "id": "word-241",
     "word": "tried",
-    "meaning": "ÄÃ£ cá» gáº¯ng, ÄÃ£ thá»­ (quÃ¡ khá»© cá»§a try)",
+    "meaning": "đã cố gắng, đã thử (quá khứ của try)",
     "type": "verb",
     "topic": "general",
     "example": "She tried her best to pass the exam.",
@@ -2894,7 +2894,7 @@
   {
     "id": "word-242",
     "word": "family",
-    "meaning": "gia ÄÃ¬nh",
+    "meaning": "gia đình",
     "type": "noun",
     "topic": "general",
     "example": "My family is very close.",
@@ -2906,7 +2906,7 @@
   {
     "id": "word-243",
     "word": "five",
-    "meaning": "nÄm (sá» 5)",
+    "meaning": "năm (số 5)",
     "type": "number",
     "topic": "grammar",
     "example": "I have five siblings.",
@@ -2918,7 +2918,7 @@
   {
     "id": "word-244",
     "word": "early",
-    "meaning": "sá»m, buá»i sÃ¡ng sá»m",
+    "meaning": "sớm, buổi sáng sớm",
     "type": "adjective",
     "topic": "general",
     "example": "She wakes up early every day.",
@@ -2930,7 +2930,7 @@
   {
     "id": "word-245",
     "word": "call",
-    "meaning": "gá»i, gá»i Äiá»n",
+    "meaning": "gọi, gọi điện",
     "type": "verb",
     "topic": "general",
     "example": "I will call you tonight.",
@@ -2942,7 +2942,7 @@
   {
     "id": "word-246",
     "word": "hand",
-    "meaning": "bÃ n tay, ÄÆ°a",
+    "meaning": "bàn tay, đưa",
     "type": "noun",
     "topic": "general",
     "example": "Please raise your hand.",
@@ -2954,7 +2954,7 @@
   {
     "id": "word-247",
     "word": "told",
-    "meaning": "ÄÃ£ nÃ³i, ÄÃ£ ká» (quÃ¡ khá»© cá»§a tell)",
+    "meaning": "đã nói, đã kể (quá khứ của tell)",
     "type": "verb",
     "topic": "general",
     "example": "She told me the truth.",
@@ -2966,7 +2966,7 @@
   {
     "id": "word-248",
     "word": "best",
-    "meaning": "tá»t nháº¥t, giá»i nháº¥t",
+    "meaning": "tốt nhất, giỏi nhất",
     "type": "adjective",
     "topic": "general",
     "example": "She is the best student in class.",
@@ -2978,7 +2978,7 @@
   {
     "id": "word-249",
     "word": "money",
-    "meaning": "tiá»n báº¡c",
+    "meaning": "tiền bạc",
     "type": "noun",
     "topic": "business",
     "example": "Money is not everything.",
@@ -2990,7 +2990,7 @@
   {
     "id": "word-250",
     "word": "face",
-    "meaning": "khuÃ´n máº·t, Äá»i máº·t",
+    "meaning": "khuôn mặt, đối mặt",
     "type": "noun",
     "topic": "general",
     "example": "She had a smile on her face.",
@@ -3002,7 +3002,7 @@
   {
     "id": "word-251",
     "word": "TRUE",
-    "meaning": "ÄÃºng, tháº­t, chÃ¢n tháº­t",
+    "meaning": "đúng, thật, chân thật",
     "type": "adjective",
     "topic": "general",
     "example": "Is that story true?",
@@ -3014,7 +3014,7 @@
   {
     "id": "word-252",
     "word": "central",
-    "meaning": "trung tÃ¢m, chÃ­nh",
+    "meaning": "trung tâm, chính",
     "type": "adjective",
     "topic": "general",
     "example": "The hotel is in a central location.",
@@ -3026,7 +3026,7 @@
   {
     "id": "word-253",
     "word": "looked",
-    "meaning": "ÄÃ£ nhÃ¬n, trÃ´ng cÃ³ váº» (quÃ¡ khá»© cá»§a look)",
+    "meaning": "đã nhìn, trông có vẻ (quá khứ của look)",
     "type": "verb",
     "topic": "general",
     "example": "She looked tired yesterday.",
@@ -3038,7 +3038,7 @@
   {
     "id": "word-254",
     "word": "having",
-    "meaning": "Äang cÃ³, viá»c cÃ³",
+    "meaning": "đang có, việc có",
     "type": "verb",
     "topic": "grammar",
     "example": "Having a pet is a big responsibility.",
@@ -3050,7 +3050,7 @@
   {
     "id": "word-255",
     "word": "power",
-    "meaning": "sá»©c máº¡nh, quyá»n lá»±c, Äiá»n",
+    "meaning": "sức mạnh, quyền lực, điện",
     "type": "noun",
     "topic": "general",
     "example": "Knowledge is power.",
@@ -3062,7 +3062,7 @@
   {
     "id": "word-256",
     "word": "young",
-    "meaning": "tráº», tráº» tuá»i",
+    "meaning": "trẻ, trẻ tuổi",
     "type": "adjective",
     "topic": "general",
     "example": "She is very young for this job.",
@@ -3074,7 +3074,7 @@
   {
     "id": "word-257",
     "word": "better",
-    "meaning": "tá»t hÆ¡n, khÃ¡ hÆ¡n",
+    "meaning": "tốt hơn, khá hơn",
     "type": "adjective",
     "topic": "general",
     "example": "I feel better today.",
@@ -3086,7 +3086,7 @@
   {
     "id": "word-258",
     "word": "night",
-    "meaning": "ban ÄÃªm, ÄÃªm",
+    "meaning": "ban đêm, đêm",
     "type": "noun",
     "topic": "general",
     "example": "Good night, sleep well.",
@@ -3098,7 +3098,7 @@
   {
     "id": "word-259",
     "word": "days",
-    "meaning": "nhá»¯ng ngÃ y, ngÃ y thÃ¡ng",
+    "meaning": "những ngày, ngày tháng",
     "type": "noun",
     "topic": "general",
     "example": "These days everything is expensive.",
@@ -3110,7 +3110,7 @@
   {
     "id": "word-260",
     "word": "country",
-    "meaning": "Äáº¥t nÆ°á»c, vÃ¹ng nÃ´ng thÃ´n",
+    "meaning": "đất nước, vùng nông thôn",
     "type": "noun",
     "topic": "general",
     "example": "Which country are you from?",
@@ -3122,7 +3122,7 @@
   {
     "id": "word-261",
     "word": "plan",
-    "meaning": "káº¿ hoáº¡ch, lÃªn káº¿ hoáº¡ch",
+    "meaning": "kế hoạch, lên kế hoạch",
     "type": "noun",
     "topic": "business",
     "example": "Do you have a plan for the weekend?",
@@ -3134,7 +3134,7 @@
   {
     "id": "word-262",
     "word": "asked",
-    "meaning": "ÄÃ£ há»i, ÄÃ£ yÃªu cáº§u (quÃ¡ khá»© cá»§a ask)",
+    "meaning": "đã hỏi, đã yêu cầu (quá khứ của ask)",
     "type": "verb",
     "topic": "general",
     "example": "She asked me for help.",
@@ -3146,7 +3146,7 @@
   {
     "id": "word-263",
     "word": "side",
-    "meaning": "bÃªn, phÃ­a",
+    "meaning": "bên, phía",
     "type": "noun",
     "topic": "general",
     "example": "Stand on this side of the road.",
@@ -3158,7 +3158,7 @@
   {
     "id": "word-264",
     "word": "called",
-    "meaning": "ÄÃ£ gá»i, ÄÆ°á»£c gá»i lÃ ",
+    "meaning": "đã gọi, được gọi là",
     "type": "verb",
     "topic": "general",
     "example": "He is called Tom.",
@@ -3170,7 +3170,7 @@
   {
     "id": "word-265",
     "word": "yet",
-    "meaning": "váº«n chÆ°a, nhÆ°ng mÃ ",
+    "meaning": "vẫn chưa, nhưng mà",
     "type": "adverb",
     "topic": "grammar",
     "example": "Have you finished yet?",
@@ -3182,7 +3182,7 @@
   {
     "id": "word-266",
     "word": "says",
-    "meaning": "nÃ³i (ngÃ´i 3 sá» Ã­t cá»§a say)",
+    "meaning": "nói (ngôi 3 số ít của say)",
     "type": "verb",
     "topic": "general",
     "example": "She always says hello.",
@@ -3194,7 +3194,7 @@
   {
     "id": "word-267",
     "word": "become",
-    "meaning": "trá» thÃ nh, trá» nÃªn",
+    "meaning": "trở thành, trở nên",
     "type": "verb",
     "topic": "general",
     "example": "She wants to become a doctor.",
@@ -3206,7 +3206,7 @@
   {
     "id": "word-268",
     "word": "almost",
-    "meaning": "gáº§n nhÆ°, háº§u nhÆ°",
+    "meaning": "gần như, hầu như",
     "type": "adverb",
     "topic": "grammar",
     "example": "I almost missed the bus.",
@@ -3218,7 +3218,7 @@
   {
     "id": "word-269",
     "word": "changes",
-    "meaning": "thay Äá»i (sá» nhiá»u), thay Äá»i (ngÃ´i 3)",
+    "meaning": "thay đổi (số nhiều), thay đổi (ngôi 3)",
     "type": "noun",
     "topic": "general",
     "example": "Life is full of changes.",
@@ -3230,7 +3230,7 @@
   {
     "id": "word-270",
     "word": "times",
-    "meaning": "láº§n, thá»i gian, nhÃ¢n (Ã)",
+    "meaning": "lần, thời gian, nhân (×)",
     "type": "noun",
     "topic": "general",
     "example": "I have been there three times.",
@@ -3242,7 +3242,7 @@
   {
     "id": "word-271",
     "word": "enough",
-    "meaning": "Äá»§, Äá»§ rá»i",
+    "meaning": "đủ, đủ rồi",
     "type": "adjective",
     "topic": "grammar",
     "example": "I have enough money.",
@@ -3254,7 +3254,7 @@
   {
     "id": "word-272",
     "word": "class",
-    "meaning": "lá»p há»c, háº¡ng, Äáº³ng cáº¥p",
+    "meaning": "lớp học, hạng, đẳng cấp",
     "type": "noun",
     "topic": "general",
     "example": "The class starts at 8 AM.",
@@ -3266,7 +3266,7 @@
   {
     "id": "word-273",
     "word": "mean",
-    "meaning": "cÃ³ nghÄ©a lÃ , Äá»c Ã¡c",
+    "meaning": "có nghĩa là, độc ác",
     "type": "verb",
     "topic": "general",
     "example": "What does this word mean?",
@@ -3278,7 +3278,7 @@
   {
     "id": "word-274",
     "word": "yourself",
-    "meaning": "báº£n thÃ¢n báº¡n, tá»± mÃ¬nh",
+    "meaning": "bản thân bạn, tự mình",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Believe in yourself.",
@@ -3290,7 +3290,7 @@
   {
     "id": "word-275",
     "word": "done",
-    "meaning": "ÄÃ£ hoÃ n thÃ nh, xong",
+    "meaning": "đã hoàn thành, xong",
     "type": "verb",
     "topic": "general",
     "example": "Are you done with your homework?",
@@ -3302,7 +3302,7 @@
   {
     "id": "word-276",
     "word": "close",
-    "meaning": "ÄÃ³ng, gáº§n, thÃ¢n thiáº¿t",
+    "meaning": "đóng, gần, thân thiết",
     "type": "verb",
     "topic": "general",
     "example": "Please close the door.",
@@ -3314,7 +3314,7 @@
   {
     "id": "word-277",
     "word": "together",
-    "meaning": "cÃ¹ng nhau, cÃ¹ng vá»i nhau",
+    "meaning": "cùng nhau, cùng với nhau",
     "type": "adverb",
     "topic": "general",
     "example": "Let's work together.",
@@ -3326,7 +3326,7 @@
   {
     "id": "word-278",
     "word": "whole",
-    "meaning": "toÃ n bá», cáº£",
+    "meaning": "toàn bộ, cả",
     "type": "adjective",
     "topic": "grammar",
     "example": "She ate the whole cake.",
@@ -3338,7 +3338,7 @@
   {
     "id": "word-279",
     "word": "himself",
-    "meaning": "báº£n thÃ¢n anh áº¥y, tá»± mÃ¬nh",
+    "meaning": "bản thân anh ấy, tự mình",
     "type": "pronoun",
     "topic": "grammar",
     "example": "He did it himself.",
@@ -3350,7 +3350,7 @@
   {
     "id": "word-280",
     "word": "John",
-    "meaning": "tÃªn ngÆ°á»i (John)",
+    "meaning": "tên người (John)",
     "type": "noun",
     "topic": "general",
     "example": "John is my best friend.",
@@ -3362,7 +3362,7 @@
   {
     "id": "word-281",
     "word": "members",
-    "meaning": "cÃ¡c thÃ nh viÃªn",
+    "meaning": "các thành viên",
     "type": "noun",
     "topic": "general",
     "example": "All members must attend the meeting.",
@@ -3374,7 +3374,7 @@
   {
     "id": "word-282",
     "word": "nothing",
-    "meaning": "khÃ´ng cÃ³ gÃ¬, khÃ´ng Äiá»u gÃ¬",
+    "meaning": "không có gì, không điều gì",
     "type": "pronoun",
     "topic": "grammar",
     "example": "There is nothing to worry about.",
@@ -3386,7 +3386,7 @@
   {
     "id": "word-283",
     "word": "control",
-    "meaning": "kiá»m soÃ¡t, Äiá»u khiá»n",
+    "meaning": "kiểm soát, điều khiển",
     "type": "verb",
     "topic": "business",
     "example": "Try to control your emotions.",
@@ -3398,7 +3398,7 @@
   {
     "id": "word-284",
     "word": "market",
-    "meaning": "thá» trÆ°á»ng, chá»£",
+    "meaning": "thị trường, chợ",
     "type": "noun",
     "topic": "business",
     "example": "The stock market is volatile.",
@@ -3410,7 +3410,7 @@
   {
     "id": "word-285",
     "word": "club",
-    "meaning": "cÃ¢u láº¡c bá», gáº­y golf",
+    "meaning": "câu lạc bộ, gậy golf",
     "type": "noun",
     "topic": "general",
     "example": "She joined the English club.",
@@ -3422,7 +3422,7 @@
   {
     "id": "word-286",
     "word": "cold",
-    "meaning": "láº¡nh, cáº£m láº¡nh",
+    "meaning": "lạnh, cảm lạnh",
     "type": "adjective",
     "topic": "general",
     "example": "It is cold outside today.",
@@ -3434,7 +3434,7 @@
   {
     "id": "word-287",
     "word": "room",
-    "meaning": "phÃ²ng, khÃ´ng gian",
+    "meaning": "phòng, không gian",
     "type": "noun",
     "topic": "general",
     "example": "My room is very tidy.",
@@ -3446,7 +3446,7 @@
   {
     "id": "word-288",
     "word": "colour",
-    "meaning": "mÃ u sáº¯c (tiáº¿ng Anh Anh)",
+    "meaning": "màu sắc (tiếng Anh Anh)",
     "type": "noun",
     "topic": "general",
     "example": "What is your favourite colour?",
@@ -3458,7 +3458,7 @@
   {
     "id": "word-289",
     "word": "eyes",
-    "meaning": "ÄÃ´i máº¯t",
+    "meaning": "đôi mắt",
     "type": "noun",
     "topic": "general",
     "example": "She has beautiful blue eyes.",
@@ -3470,7 +3470,7 @@
   {
     "id": "word-290",
     "word": "comes",
-    "meaning": "Äáº¿n, tá»i (ngÃ´i 3 sá» Ã­t)",
+    "meaning": "đến, tới (ngôi 3 số ít)",
     "type": "verb",
     "topic": "general",
     "example": "She always comes on time.",
@@ -3482,7 +3482,7 @@
   {
     "id": "word-291",
     "word": "thing",
-    "meaning": "thá»©, váº­t, Äiá»u",
+    "meaning": "thứ, vật, điều",
     "type": "noun",
     "topic": "general",
     "example": "The best thing about summer is the beach.",
@@ -3494,7 +3494,7 @@
   {
     "id": "word-292",
     "word": "act",
-    "meaning": "hÃ nh Äá»ng, Äáº¡o luáº­t, diá»n xuáº¥t",
+    "meaning": "hành động, đạo luật, diễn xuất",
     "type": "verb",
     "topic": "general",
     "example": "You need to act quickly.",
@@ -3506,7 +3506,7 @@
   {
     "id": "word-293",
     "word": "open",
-    "meaning": "má», cÃ´ng khai",
+    "meaning": "mở, công khai",
     "type": "verb",
     "topic": "general",
     "example": "Open the window, please.",
@@ -3518,7 +3518,7 @@
   {
     "id": "word-294",
     "word": "computer",
-    "meaning": "mÃ¡y tÃ­nh",
+    "meaning": "máy tính",
     "type": "noun",
     "topic": "general",
     "example": "She uses her computer every day.",
@@ -3530,7 +3530,7 @@
   {
     "id": "word-295",
     "word": "problem",
-    "meaning": "váº¥n Äá», bÃ i toÃ¡n",
+    "meaning": "vấn đề, bài toán",
     "type": "noun",
     "topic": "general",
     "example": "No problem, I can help you.",
@@ -3542,7 +3542,7 @@
   {
     "id": "word-296",
     "word": "week",
-    "meaning": "tuáº§n",
+    "meaning": "tuần",
     "type": "noun",
     "topic": "general",
     "example": "I go to the gym three times a week.",
@@ -3554,7 +3554,7 @@
   {
     "id": "word-297",
     "word": "others",
-    "meaning": "nhá»¯ng ngÆ°á»i khÃ¡c, nhá»¯ng thá»© khÃ¡c",
+    "meaning": "những người khác, những thứ khác",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Help others when you can.",
@@ -3566,7 +3566,7 @@
   {
     "id": "word-298",
     "word": "yesterday",
-    "meaning": "hÃ´m qua",
+    "meaning": "hôm qua",
     "type": "adverb",
     "topic": "general",
     "example": "I saw her yesterday.",
@@ -3578,7 +3578,7 @@
   {
     "id": "word-299",
     "word": "cost",
-    "meaning": "chi phÃ­, tá»n",
+    "meaning": "chi phí, tốn",
     "type": "noun",
     "topic": "business",
     "example": "How much does it cost?",
@@ -3590,7 +3590,7 @@
   {
     "id": "word-300",
     "word": "working",
-    "meaning": "Äang lÃ m viá»c, hoáº¡t Äá»ng",
+    "meaning": "đang làm việc, hoạt động",
     "type": "verb",
     "topic": "general",
     "example": "She is working from home today.",
@@ -3602,7 +3602,7 @@
   {
     "id": "word-301",
     "word": "war",
-    "meaning": "chiáº¿n tranh",
+    "meaning": "chiến tranh",
     "type": "noun",
     "topic": "general",
     "example": "War brings nothing but suffering.",
@@ -3614,7 +3614,7 @@
   {
     "id": "word-302",
     "word": "county",
-    "meaning": "quáº­n, háº¡t (ÄÆ¡n vá» hÃ nh chÃ­nh)",
+    "meaning": "quận, hạt (đơn vị hành chính)",
     "type": "noun",
     "topic": "general",
     "example": "She lives in a rural county.",
@@ -3626,7 +3626,7 @@
   {
     "id": "word-303",
     "word": "law",
-    "meaning": "luáº­t phÃ¡p, quy luáº­t",
+    "meaning": "luật pháp, quy luật",
     "type": "noun",
     "topic": "general",
     "example": "Everyone must obey the law.",
@@ -3638,7 +3638,7 @@
   {
     "id": "word-304",
     "word": "interest",
-    "meaning": "sá» thÃ­ch, lÃ£i suáº¥t, quan tÃ¢m",
+    "meaning": "sở thích, lãi suất, quan tâm",
     "type": "noun",
     "topic": "business",
     "example": "What are your interests?",
@@ -3650,7 +3650,7 @@
   {
     "id": "word-305",
     "word": "held",
-    "meaning": "ÄÃ£ tá» chá»©c, ÄÃ£ giá»¯ (quÃ¡ khá»© cá»§a hold)",
+    "meaning": "đã tổ chức, đã giữ (quá khứ của hold)",
     "type": "verb",
     "topic": "general",
     "example": "The conference was held last week.",
@@ -3662,7 +3662,7 @@
   {
     "id": "word-306",
     "word": "couple",
-    "meaning": "cáº·p ÄÃ´i, vÃ i",
+    "meaning": "cặp đôi, vài",
     "type": "noun",
     "topic": "general",
     "example": "They are a lovely couple.",
@@ -3674,7 +3674,7 @@
   {
     "id": "word-307",
     "word": "sales",
-    "meaning": "doanh sá», bÃ¡n hÃ ng",
+    "meaning": "doanh số, bán hàng",
     "type": "noun",
     "topic": "business",
     "example": "Sales increased by 20% this year.",
@@ -3686,7 +3686,7 @@
   {
     "id": "word-308",
     "word": "cover",
-    "meaning": "bao phá»§, bÃ¬a, Äá» cáº­p",
+    "meaning": "bao phủ, bìa, đề cập",
     "type": "verb",
     "topic": "general",
     "example": "The report covers all main topics.",
@@ -3698,7 +3698,7 @@
   {
     "id": "word-309",
     "word": "making",
-    "meaning": "Äang lÃ m, viá»c lÃ m",
+    "meaning": "đang làm, việc làm",
     "type": "verb",
     "topic": "general",
     "example": "She is making dinner right now.",
@@ -3710,7 +3710,7 @@
   {
     "id": "word-310",
     "word": "round",
-    "meaning": "vÃ²ng, trÃ²n, xung quanh",
+    "meaning": "vòng, tròn, xung quanh",
     "type": "adjective",
     "topic": "general",
     "example": "The earth is round.",
@@ -3722,7 +3722,7 @@
   {
     "id": "word-311",
     "word": "full",
-    "meaning": "Äáº§y, no, trá»n váº¹n",
+    "meaning": "đầy, no, trọn vẹn",
     "type": "adjective",
     "topic": "general",
     "example": "I am full, I cannot eat more.",
@@ -3734,7 +3734,7 @@
   {
     "id": "word-312",
     "word": "schools",
-    "meaning": "cÃ¡c trÆ°á»ng há»c",
+    "meaning": "các trường học",
     "type": "noun",
     "topic": "general",
     "example": "There are many good schools in this area.",
@@ -3746,7 +3746,7 @@
   {
     "id": "word-313",
     "word": "cup",
-    "meaning": "cÃ¡i cÃºp, tÃ¡ch, ly",
+    "meaning": "cái cúp, tách, ly",
     "type": "noun",
     "topic": "general",
     "example": "Can I have a cup of tea?",
@@ -3758,7 +3758,7 @@
   {
     "id": "word-314",
     "word": "yes",
-    "meaning": "vÃ¢ng, cÃ³, Äá»ng Ã½",
+    "meaning": "vâng, có, đồng ý",
     "type": "adverb",
     "topic": "grammar",
     "example": "Yes, I agree with you.",
@@ -3770,7 +3770,7 @@
   {
     "id": "word-315",
     "word": "cut",
-    "meaning": "cáº¯t, giáº£m",
+    "meaning": "cắt, giảm",
     "type": "verb",
     "topic": "general",
     "example": "Please cut the paper in half.",
@@ -3782,7 +3782,7 @@
   {
     "id": "word-316",
     "word": "level",
-    "meaning": "má»©c Äá», trÃ¬nh Äá», báº±ng pháº³ng",
+    "meaning": "mức độ, trình độ, bằng phẳng",
     "type": "noun",
     "topic": "general",
     "example": "What level of English are you?",
@@ -3794,7 +3794,7 @@
   {
     "id": "word-317",
     "word": "question",
-    "meaning": "cÃ¢u há»i, Äáº·t cÃ¢u há»i",
+    "meaning": "câu hỏi, đặt câu hỏi",
     "type": "noun",
     "topic": "general",
     "example": "Do you have any questions?",
@@ -3806,7 +3806,7 @@
   {
     "id": "word-318",
     "word": "six",
-    "meaning": "sÃ¡u (sá» 6)",
+    "meaning": "sáu (số 6)",
     "type": "number",
     "topic": "grammar",
     "example": "There are six people in my family.",
@@ -3818,7 +3818,7 @@
   {
     "id": "word-319",
     "word": "seven",
-    "meaning": "báº£y (sá» 7)",
+    "meaning": "bảy (số 7)",
     "type": "number",
     "topic": "grammar",
     "example": "She wakes up at seven every morning.",
@@ -3830,7 +3830,7 @@
   {
     "id": "word-320",
     "word": "dark",
-    "meaning": "tá»i, tá»i tÄm",
+    "meaning": "tối, tối tăm",
     "type": "adjective",
     "topic": "general",
     "example": "It gets dark early in winter.",
@@ -3842,7 +3842,7 @@
   {
     "id": "word-321",
     "word": "half",
-    "meaning": "má»t ná»­a",
+    "meaning": "một nửa",
     "type": "noun",
     "topic": "general",
     "example": "Give me half of the sandwich.",
@@ -3854,7 +3854,7 @@
   {
     "id": "word-322",
     "word": "known",
-    "meaning": "ÄÆ°á»£c biáº¿t Äáº¿n, ná»i tiáº¿ng",
+    "meaning": "được biết đến, nổi tiếng",
     "type": "verb",
     "topic": "general",
     "example": "She is known for her kindness.",
@@ -3866,7 +3866,7 @@
   {
     "id": "word-323",
     "word": "show",
-    "meaning": "chÆ°Æ¡ng trÃ¬nh, chá» ra, trÃ¬nh diá»n",
+    "meaning": "chương trình, chỉ ra, trình diễn",
     "type": "verb",
     "topic": "general",
     "example": "Can you show me the way?",
@@ -3878,7 +3878,7 @@
   {
     "id": "word-324",
     "word": "data",
-    "meaning": "dá»¯ liá»u",
+    "meaning": "dữ liệu",
     "type": "noun",
     "topic": "business",
     "example": "We need more data to decide.",
@@ -3890,7 +3890,7 @@
   {
     "id": "word-325",
     "word": "once",
-    "meaning": "má»t láº§n, ngÃ y xÆ°a",
+    "meaning": "một lần, ngày xưa",
     "type": "adverb",
     "topic": "grammar",
     "example": "Once upon a time there was a princess.",
@@ -3902,7 +3902,7 @@
   {
     "id": "word-326",
     "word": "mind",
-    "meaning": "tÃ¢m trÃ­, Äá» Ã½, pháº£n Äá»i",
+    "meaning": "tâm trí, để ý, phản đối",
     "type": "noun",
     "topic": "general",
     "example": "Keep an open mind.",
@@ -3914,7 +3914,7 @@
   {
     "id": "word-327",
     "word": "body",
-    "meaning": "cÆ¡ thá», thÃ¢n thá»",
+    "meaning": "cơ thể, thân thể",
     "type": "noun",
     "topic": "general",
     "example": "Exercise is good for the body.",
@@ -3926,7 +3926,7 @@
   {
     "id": "word-328",
     "word": "main",
-    "meaning": "chÃ­nh, chá»§ yáº¿u",
+    "meaning": "chính, chủ yếu",
     "type": "adjective",
     "topic": "general",
     "example": "What is the main idea of this text?",
@@ -3938,7 +3938,7 @@
   {
     "id": "word-329",
     "word": "clear",
-    "meaning": "rÃµ rÃ ng, trong suá»t, dá»n sáº¡ch",
+    "meaning": "rõ ràng, trong suốt, dọn sạch",
     "type": "adjective",
     "topic": "general",
     "example": "Please make your answer clear.",
@@ -3950,7 +3950,7 @@
   {
     "id": "word-330",
     "word": "date",
-    "meaning": "ngÃ y thÃ¡ng, háº¹n hÃ²",
+    "meaning": "ngày tháng, hẹn hò",
     "type": "noun",
     "topic": "general",
     "example": "What is today's date?",
@@ -3962,7 +3962,7 @@
   {
     "id": "word-331",
     "word": "David",
-    "meaning": "tÃªn ngÆ°á»i (David)",
+    "meaning": "tên người (David)",
     "type": "noun",
     "topic": "general",
     "example": "David is the team leader.",
@@ -3974,7 +3974,7 @@
   {
     "id": "word-332",
     "word": "hotel",
-    "meaning": "khÃ¡ch sáº¡n",
+    "meaning": "khách sạn",
     "type": "noun",
     "topic": "general",
     "example": "We stayed at a five-star hotel.",
@@ -3986,7 +3986,7 @@
   {
     "id": "word-333",
     "word": "voice",
-    "meaning": "giá»ng nÃ³i, tiáº¿ng nÃ³i",
+    "meaning": "giọng nói, tiếng nói",
     "type": "noun",
     "topic": "general",
     "example": "She has a beautiful voice.",
@@ -3998,7 +3998,7 @@
   {
     "id": "word-334",
     "word": "person",
-    "meaning": "ngÆ°á»i, cÃ¡ nhÃ¢n",
+    "meaning": "người, cá nhân",
     "type": "noun",
     "topic": "general",
     "example": "She is a very kind person.",
@@ -4010,7 +4010,7 @@
   {
     "id": "word-335",
     "word": "above",
-    "meaning": "trÃªn, phÃ­a trÃªn, hÆ¡n",
+    "meaning": "trên, phía trên, hơn",
     "type": "preposition",
     "topic": "grammar",
     "example": "The temperature is above 30 degrees.",
@@ -4022,7 +4022,7 @@
   {
     "id": "word-336",
     "word": "tell",
-    "meaning": "ká», nÃ³i vá»i, báº£o",
+    "meaning": "kể, nói với, bảo",
     "type": "verb",
     "topic": "general",
     "example": "Please tell me the truth.",
@@ -4034,7 +4034,7 @@
   {
     "id": "word-337",
     "word": "saw",
-    "meaning": "ÄÃ£ nhÃ¬n tháº¥y (quÃ¡ khá»© cá»§a see)",
+    "meaning": "đã nhìn thấy (quá khứ của see)",
     "type": "verb",
     "topic": "general",
     "example": "I saw her at the supermarket.",
@@ -4046,7 +4046,7 @@
   {
     "id": "word-338",
     "word": "name",
-    "meaning": "tÃªn, Äáº·t tÃªn",
+    "meaning": "tên, đặt tên",
     "type": "noun",
     "topic": "general",
     "example": "My name is Linh.",
@@ -4058,7 +4058,7 @@
   {
     "id": "word-339",
     "word": "dead",
-    "meaning": "cháº¿t, ÄÃ£ máº¥t",
+    "meaning": "chết, đã mất",
     "type": "adjective",
     "topic": "general",
     "example": "The battery is dead.",
@@ -4070,7 +4070,7 @@
   {
     "id": "word-340",
     "word": "care",
-    "meaning": "quan tÃ¢m, chÄm sÃ³c",
+    "meaning": "quan tâm, chăm sóc",
     "type": "verb",
     "topic": "general",
     "example": "I care about you.",
@@ -4082,7 +4082,7 @@
   {
     "id": "word-341",
     "word": "keep",
-    "meaning": "giá»¯, tiáº¿p tá»¥c",
+    "meaning": "giữ, tiếp tục",
     "type": "verb",
     "topic": "general",
     "example": "Keep trying, don't give up.",
@@ -4094,7 +4094,7 @@
   {
     "id": "word-342",
     "word": "anything",
-    "meaning": "báº¥t cá»© Äiá»u gÃ¬, gÃ¬ cÅ©ng ÄÆ°á»£c",
+    "meaning": "bất cứ điều gì, gì cũng được",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Is there anything I can help you with?",
@@ -4106,7 +4106,7 @@
   {
     "id": "word-343",
     "word": "yeah",
-    "meaning": "á»«, vÃ¢ng (thÃ¢n máº­t)",
+    "meaning": "ừ, vâng (thân mật)",
     "type": "adverb",
     "topic": "general",
     "example": "Yeah, I think that's a great idea.",
@@ -4118,7 +4118,7 @@
   {
     "id": "word-344",
     "word": "using",
-    "meaning": "Äang sá»­ dá»¥ng",
+    "meaning": "đang sử dụng",
     "type": "verb",
     "topic": "general",
     "example": "She is using a new app.",
@@ -4130,7 +4130,7 @@
   {
     "id": "word-345",
     "word": "feel",
-    "meaning": "cáº£m tháº¥y, sá»",
+    "meaning": "cảm thấy, sờ",
     "type": "verb",
     "topic": "general",
     "example": "I feel happy today.",
@@ -4142,7 +4142,7 @@
   {
     "id": "word-346",
     "word": "past",
-    "meaning": "quÃ¡ khá»©, ÄÃ£ qua",
+    "meaning": "quá khứ, đã qua",
     "type": "noun",
     "topic": "general",
     "example": "Forget the past and move on.",
@@ -4154,7 +4154,7 @@
   {
     "id": "word-347",
     "word": "ever",
-    "meaning": "tá»«ng, bao giá»",
+    "meaning": "từng, bao giờ",
     "type": "adverb",
     "topic": "grammar",
     "example": "Have you ever been to Europe?",
@@ -4166,7 +4166,7 @@
   {
     "id": "word-348",
     "word": "road",
-    "meaning": "con ÄÆ°á»ng, ÄÆ°á»ng",
+    "meaning": "con đường, đường",
     "type": "noun",
     "topic": "general",
     "example": "The road to success is not easy.",
@@ -4178,7 +4178,7 @@
   {
     "id": "word-349",
     "word": "health",
-    "meaning": "sá»©c khá»e",
+    "meaning": "sức khỏe",
     "type": "noun",
     "topic": "general",
     "example": "Health is more important than wealth.",
@@ -4190,7 +4190,7 @@
   {
     "id": "word-350",
     "word": "knew",
-    "meaning": "ÄÃ£ biáº¿t (quÃ¡ khá»© cá»§a know)",
+    "meaning": "đã biết (quá khứ của know)",
     "type": "verb",
     "topic": "general",
     "example": "I knew the answer immediately.",
@@ -4202,7 +4202,7 @@
   {
     "id": "word-351",
     "word": "itself",
-    "meaning": "báº£n thÃ¢n nÃ³, chÃ­nh nÃ³",
+    "meaning": "bản thân nó, chính nó",
     "type": "pronoun",
     "topic": "grammar",
     "example": "The door opened by itself.",
@@ -4214,7 +4214,7 @@
   {
     "id": "word-352",
     "word": "child",
-    "meaning": "Äá»©a tráº», con",
+    "meaning": "đứa trẻ, con",
     "type": "noun",
     "topic": "general",
     "example": "Every child deserves a good education.",
@@ -4226,7 +4226,7 @@
   {
     "id": "word-353",
     "word": "mother",
-    "meaning": "máº¹, ngÆ°á»i máº¹",
+    "meaning": "mẹ, người mẹ",
     "type": "noun",
     "topic": "general",
     "example": "My mother is a great cook.",
@@ -4238,7 +4238,7 @@
   {
     "id": "word-354",
     "word": "months",
-    "meaning": "nhá»¯ng thÃ¡ng (sá» nhiá»u cá»§a month)",
+    "meaning": "những tháng (số nhiều của month)",
     "type": "noun",
     "topic": "general",
     "example": "She studied for three months.",
@@ -4250,7 +4250,7 @@
   {
     "id": "word-355",
     "word": "trust",
-    "meaning": "tin tÆ°á»ng, lÃ²ng tin",
+    "meaning": "tin tưởng, lòng tin",
     "type": "verb",
     "topic": "general",
     "example": "I trust you completely.",
@@ -4262,7 +4262,7 @@
   {
     "id": "word-356",
     "word": "died",
-    "meaning": "ÄÃ£ cháº¿t (quÃ¡ khá»© cá»§a die)",
+    "meaning": "đã chết (quá khứ của die)",
     "type": "verb",
     "topic": "general",
     "example": "The plant died because of no water.",
@@ -4274,7 +4274,7 @@
   {
     "id": "word-357",
     "word": "am",
-    "meaning": "lÃ  (tobe ngÃ´i 1 sá» Ã­t)",
+    "meaning": "là (tobe ngôi 1 số ít)",
     "type": "verb",
     "topic": "grammar",
     "example": "I am a student.",
@@ -4286,7 +4286,7 @@
   {
     "id": "word-358",
     "word": "hour",
-    "meaning": "giá» (60 phÃºt)",
+    "meaning": "giờ (60 phút)",
     "type": "noun",
     "topic": "general",
     "example": "The meeting lasts one hour.",
@@ -4298,7 +4298,7 @@
   {
     "id": "word-359",
     "word": "areas",
-    "meaning": "cÃ¡c khu vá»±c, cÃ¡c lÄ©nh vá»±c",
+    "meaning": "các khu vực, các lĩnh vực",
     "type": "noun",
     "topic": "general",
     "example": "There are many areas to improve.",
@@ -4310,7 +4310,7 @@
   {
     "id": "word-360",
     "word": "book",
-    "meaning": "cuá»n sÃ¡ch, Äáº·t chá»",
+    "meaning": "cuốn sách, đặt chỗ",
     "type": "noun",
     "topic": "general",
     "example": "I am reading a good book.",
@@ -4322,7 +4322,7 @@
   {
     "id": "word-361",
     "word": "doctor",
-    "meaning": "bÃ¡c sÄ©, tiáº¿n sÄ©",
+    "meaning": "bác sĩ, tiến sĩ",
     "type": "noun",
     "topic": "general",
     "example": "She went to see the doctor.",
@@ -4334,7 +4334,7 @@
   {
     "id": "word-362",
     "word": "words",
-    "meaning": "nhá»¯ng tá»«, lá»i nÃ³i",
+    "meaning": "những từ, lời nói",
     "type": "noun",
     "topic": "general",
     "example": "Words have power.",
@@ -4346,7 +4346,7 @@
   {
     "id": "word-363",
     "word": "wrong",
-    "meaning": "sai, khÃ´ng ÄÃºng",
+    "meaning": "sai, không đúng",
     "type": "adjective",
     "topic": "general",
     "example": "I think you are wrong.",
@@ -4358,7 +4358,7 @@
   {
     "id": "word-364",
     "word": "car",
-    "meaning": "xe Ã´ tÃ´",
+    "meaning": "xe ô tô",
     "type": "noun",
     "topic": "general",
     "example": "She drives a red car.",
@@ -4370,7 +4370,7 @@
   {
     "id": "word-365",
     "word": "themselves",
-    "meaning": "báº£n thÃ¢n há», chÃ­nh há»",
+    "meaning": "bản thân họ, chính họ",
     "type": "pronoun",
     "topic": "grammar",
     "example": "They built the house themselves.",
@@ -4382,7 +4382,7 @@
   {
     "id": "word-366",
     "word": "writing",
-    "meaning": "viáº¿t, bÃ i viáº¿t",
+    "meaning": "viết, bài viết",
     "type": "verb",
     "topic": "general",
     "example": "She is writing a novel.",
@@ -4394,7 +4394,7 @@
   {
     "id": "word-367",
     "word": "likely",
-    "meaning": "cÃ³ kháº£ nÄng, cÃ³ láº½",
+    "meaning": "có khả năng, có lẽ",
     "type": "adjective",
     "topic": "grammar",
     "example": "It is likely to rain tomorrow.",
@@ -4406,7 +4406,7 @@
   {
     "id": "word-368",
     "word": "looking",
-    "meaning": "Äang nhÃ¬n, trÃ´ng cÃ³ váº»",
+    "meaning": "đang nhìn, trông có vẻ",
     "type": "verb",
     "topic": "general",
     "example": "She is looking for a new job.",
@@ -4418,7 +4418,7 @@
   {
     "id": "word-369",
     "word": "Dr",
-    "meaning": "Tiáº¿n sÄ©, BÃ¡c sÄ© (viáº¿t táº¯t)",
+    "meaning": "Tiến sĩ, Bác sĩ (viết tắt)",
     "type": "noun",
     "topic": "general",
     "example": "Dr Lee is a famous surgeon.",
@@ -4430,7 +4430,7 @@
   {
     "id": "word-370",
     "word": "turned",
-    "meaning": "ÄÃ£ quay, ÄÃ£ trá» thÃ nh",
+    "meaning": "đã quay, đã trở thành",
     "type": "verb",
     "topic": "general",
     "example": "She turned and walked away.",
@@ -4442,7 +4442,7 @@
   {
     "id": "word-371",
     "word": "million",
-    "meaning": "triá»u",
+    "meaning": "triệu",
     "type": "number",
     "topic": "general",
     "example": "The company earns one million dollars a year.",
@@ -4454,7 +4454,7 @@
   {
     "id": "word-372",
     "word": "easily",
-    "meaning": "dá» dÃ ng",
+    "meaning": "dễ dàng",
     "type": "adverb",
     "topic": "grammar",
     "example": "She easily passed the test.",
@@ -4466,7 +4466,7 @@
   {
     "id": "word-373",
     "word": "began",
-    "meaning": "ÄÃ£ báº¯t Äáº§u (quÃ¡ khá»© cá»§a begin)",
+    "meaning": "đã bắt đầu (quá khứ của begin)",
     "type": "verb",
     "topic": "general",
     "example": "She began studying at midnight.",
@@ -4478,7 +4478,7 @@
   {
     "id": "word-374",
     "word": "easy",
-    "meaning": "dá», dá» dÃ ng",
+    "meaning": "dễ, dễ dàng",
     "type": "adjective",
     "topic": "general",
     "example": "This exercise is easy.",
@@ -4490,7 +4490,7 @@
   {
     "id": "word-375",
     "word": "black",
-    "meaning": "mÃ u Äen",
+    "meaning": "màu đen",
     "type": "adjective",
     "topic": "general",
     "example": "She wore a black dress.",
@@ -4502,7 +4502,7 @@
   {
     "id": "word-376",
     "word": "kind",
-    "meaning": "tá»t bá»¥ng, loáº¡i",
+    "meaning": "tốt bụng, loại",
     "type": "adjective",
     "topic": "general",
     "example": "She is very kind to everyone.",
@@ -4514,7 +4514,7 @@
   {
     "id": "word-377",
     "word": "view",
-    "meaning": "táº§m nhÃ¬n, quan Äiá»m, xem",
+    "meaning": "tầm nhìn, quan điểm, xem",
     "type": "noun",
     "topic": "general",
     "example": "The view from the top is amazing.",
@@ -4526,7 +4526,7 @@
   {
     "id": "word-378",
     "word": "eight",
-    "meaning": "tÃ¡m (sá» 8)",
+    "meaning": "tám (số 8)",
     "type": "number",
     "topic": "grammar",
     "example": "She works eight hours a day.",
@@ -4538,7 +4538,7 @@
   {
     "id": "word-379",
     "word": "white",
-    "meaning": "mÃ u tráº¯ng",
+    "meaning": "màu trắng",
     "type": "adjective",
     "topic": "general",
     "example": "She wore a white shirt.",
@@ -4550,7 +4550,7 @@
   {
     "id": "word-380",
     "word": "else",
-    "meaning": "khÃ¡c, ngoÃ i ra",
+    "meaning": "khác, ngoài ra",
     "type": "adverb",
     "topic": "grammar",
     "example": "Is there anything else I can help?",
@@ -4562,7 +4562,7 @@
   {
     "id": "word-381",
     "word": "seemed",
-    "meaning": "cÃ³ váº», dÆ°á»ng nhÆ° (quÃ¡ khá»© cá»§a seem)",
+    "meaning": "có vẻ, dường như (quá khứ của seem)",
     "type": "verb",
     "topic": "general",
     "example": "She seemed tired after work.",
@@ -4574,19 +4574,19 @@
   {
     "id": "word-382",
     "word": "England",
-    "meaning": "nÆ°á»c Anh",
+    "meaning": "nước Anh",
     "type": "noun",
     "topic": "general",
     "example": "She studied in England for two years.",
     "accuracy": 0,
-    "wrong_count": 1,
-    "review_count": 1,
-    "learned": true
+    "wrong_count": 0,
+    "review_count": 0,
+    "learned": false
   },
   {
     "id": "word-383",
     "word": "among",
-    "meaning": "trong sá», giá»¯a (nhiá»u ngÆ°á»i)",
+    "meaning": "trong số, giữa (nhiều người)",
     "type": "preposition",
     "topic": "grammar",
     "example": "She is the best among her classmates.",
@@ -4598,7 +4598,7 @@
   {
     "id": "word-384",
     "word": "doing",
-    "meaning": "Äang lÃ m, viá»c lÃ m",
+    "meaning": "đang làm, việc làm",
     "type": "verb",
     "topic": "general",
     "example": "What are you doing?",
@@ -4610,7 +4610,7 @@
   {
     "id": "word-385",
     "word": "ideas",
-    "meaning": "nhá»¯ng Ã½ tÆ°á»ng",
+    "meaning": "những ý tưởng",
     "type": "noun",
     "topic": "general",
     "example": "She always has creative ideas.",
@@ -4622,7 +4622,7 @@
   {
     "id": "word-386",
     "word": "evening",
-    "meaning": "buá»i tá»i",
+    "meaning": "buổi tối",
     "type": "noun",
     "topic": "general",
     "example": "Good evening, how are you?",
@@ -4634,7 +4634,7 @@
   {
     "id": "word-387",
     "word": "event",
-    "meaning": "sá»± kiá»n",
+    "meaning": "sự kiện",
     "type": "noun",
     "topic": "general",
     "example": "The event was a great success.",
@@ -4646,7 +4646,7 @@
   {
     "id": "word-388",
     "word": "father",
-    "meaning": "cha, bá»",
+    "meaning": "cha, bố",
     "type": "noun",
     "topic": "general",
     "example": "My father taught me to ride a bike.",
@@ -4658,7 +4658,7 @@
   {
     "id": "word-389",
     "word": "today",
-    "meaning": "hÃ´m nay",
+    "meaning": "hôm nay",
     "type": "adverb",
     "topic": "general",
     "example": "Today is a beautiful day.",
@@ -4670,7 +4670,7 @@
   {
     "id": "word-390",
     "word": "centre",
-    "meaning": "trung tÃ¢m (tiáº¿ng Anh Anh)",
+    "meaning": "trung tâm (tiếng Anh Anh)",
     "type": "noun",
     "topic": "general",
     "example": "The shopping centre is nearby.",
@@ -4682,7 +4682,7 @@
   {
     "id": "word-391",
     "word": "events",
-    "meaning": "cÃ¡c sá»± kiá»n",
+    "meaning": "các sự kiện",
     "type": "noun",
     "topic": "general",
     "example": "Many events were cancelled.",
@@ -4694,7 +4694,7 @@
   {
     "id": "word-392",
     "word": "south",
-    "meaning": "phÃ­a nam, miá»n nam",
+    "meaning": "phía nam, miền nam",
     "type": "noun",
     "topic": "general",
     "example": "She moved to the south of the country.",
@@ -4706,19 +4706,19 @@
   {
     "id": "word-393",
     "word": "city",
-    "meaning": "thÃ nh phá»",
+    "meaning": "thành phố",
     "type": "noun",
     "topic": "general",
     "example": "Ho Chi Minh City is very busy.",
     "accuracy": 0,
-    "wrong_count": 1,
-    "review_count": 1,
-    "learned": true
+    "wrong_count": 0,
+    "review_count": 0,
+    "learned": false
   },
   {
     "id": "word-394",
     "word": "English",
-    "meaning": "tiáº¿ng Anh, ngÆ°á»i Anh",
+    "meaning": "tiếng Anh, người Anh",
     "type": "noun",
     "topic": "general",
     "example": "She speaks English fluently.",
@@ -4730,7 +4730,7 @@
   {
     "id": "word-395",
     "word": "study",
-    "meaning": "há»c, nghiÃªn cá»©u",
+    "meaning": "học, nghiên cứu",
     "type": "verb",
     "topic": "general",
     "example": "I study English every evening.",
@@ -4742,7 +4742,7 @@
   {
     "id": "word-396",
     "word": "future",
-    "meaning": "tÆ°Æ¡ng lai",
+    "meaning": "tương lai",
     "type": "noun",
     "topic": "general",
     "example": "Nobody can predict the future.",
@@ -4754,7 +4754,7 @@
   {
     "id": "word-397",
     "word": "door",
-    "meaning": "cÃ¡nh cá»­a",
+    "meaning": "cánh cửa",
     "type": "noun",
     "topic": "general",
     "example": "Please close the door behind you.",
@@ -4766,7 +4766,7 @@
   {
     "id": "word-398",
     "word": "present",
-    "meaning": "hiá»n táº¡i, quÃ  táº·ng, trÃ¬nh bÃ y",
+    "meaning": "hiện tại, quà tặng, trình bày",
     "type": "noun",
     "topic": "general",
     "example": "She gave me a wonderful present.",
@@ -4778,7 +4778,7 @@
   {
     "id": "word-399",
     "word": "became",
-    "meaning": "ÄÃ£ trá» thÃ nh (quÃ¡ khá»© cá»§a become)",
+    "meaning": "đã trở thành (quá khứ của become)",
     "type": "verb",
     "topic": "general",
     "example": "She became a teacher after college.",
@@ -4790,19 +4790,19 @@
   {
     "id": "word-400",
     "word": "behind",
-    "meaning": "phÃ­a sau, Äáº±ng sau",
+    "meaning": "phía sau, đằng sau",
     "type": "preposition",
     "topic": "grammar",
     "example": "The car parked behind the house.",
     "accuracy": 0,
-    "wrong_count": 1,
-    "review_count": 1,
-    "learned": true
+    "wrong_count": 0,
+    "review_count": 0,
+    "learned": false
   },
   {
     "id": "word-401",
     "word": "everyone",
-    "meaning": "má»i ngÆ°á»i",
+    "meaning": "mọi người",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Everyone is welcome here.",
@@ -4814,7 +4814,7 @@
   {
     "id": "word-402",
     "word": "means",
-    "meaning": "cÃ³ nghÄ©a lÃ , phÆ°Æ¡ng tiá»n",
+    "meaning": "có nghĩa là, phương tiện",
     "type": "verb",
     "topic": "general",
     "example": "What does this sign mean?",
@@ -4826,7 +4826,7 @@
   {
     "id": "word-403",
     "word": "importance",
-    "meaning": "táº§m quan trá»ng",
+    "meaning": "tầm quan trọng",
     "type": "noun",
     "topic": "general",
     "example": "She understands the importance of education.",
@@ -4838,7 +4838,7 @@
   {
     "id": "word-404",
     "word": "job",
-    "meaning": "cÃ´ng viá»c",
+    "meaning": "công việc",
     "type": "noun",
     "topic": "business",
     "example": "She got a new job last month.",
@@ -4850,7 +4850,7 @@
   {
     "id": "word-405",
     "word": "action",
-    "meaning": "hÃ nh Äá»ng",
+    "meaning": "hành động",
     "type": "noun",
     "topic": "general",
     "example": "Actions speak louder than words.",
@@ -4862,7 +4862,7 @@
   {
     "id": "word-406",
     "word": "line",
-    "meaning": "ÄÆ°á»ng káº», hÃ ng, dÃ²ng",
+    "meaning": "đường kẻ, hàng, dòng",
     "type": "noun",
     "topic": "general",
     "example": "Please stand in line.",
@@ -4874,7 +4874,7 @@
   {
     "id": "word-407",
     "word": "July",
-    "meaning": "thÃ¡ng Báº£y",
+    "meaning": "tháng Bảy",
     "type": "noun",
     "topic": "general",
     "example": "We will travel in July.",
@@ -4886,7 +4886,7 @@
   {
     "id": "word-408",
     "word": "feet",
-    "meaning": "bÃ n chÃ¢n, feet (ÄÆ¡n vá» Äo)",
+    "meaning": "bàn chân, feet (đơn vị đo)",
     "type": "noun",
     "topic": "general",
     "example": "My feet are tired from walking.",
@@ -4898,7 +4898,7 @@
   {
     "id": "word-409",
     "word": "final",
-    "meaning": "cuá»i cÃ¹ng, chung káº¿t",
+    "meaning": "cuối cùng, chung kết",
     "type": "adjective",
     "topic": "general",
     "example": "This is my final answer.",
@@ -4910,7 +4910,7 @@
   {
     "id": "word-410",
     "word": "fine",
-    "meaning": "tá»t, pháº¡t tiá»n, á»n",
+    "meaning": "tốt, phạt tiền, ổn",
     "type": "adjective",
     "topic": "general",
     "example": "I am fine, thank you.",
@@ -4922,7 +4922,7 @@
   {
     "id": "word-411",
     "word": "write",
-    "meaning": "viáº¿t",
+    "meaning": "viết",
     "type": "verb",
     "topic": "general",
     "example": "Please write your name here.",
@@ -4934,7 +4934,7 @@
   {
     "id": "word-412",
     "word": "including",
-    "meaning": "bao gá»m",
+    "meaning": "bao gồm",
     "type": "preposition",
     "topic": "grammar",
     "example": "Everyone, including the manager, attended.",
@@ -4946,7 +4946,7 @@
   {
     "id": "word-413",
     "word": "fire",
-    "meaning": "lá»­a, sa tháº£i",
+    "meaning": "lửa, sa thải",
     "type": "noun",
     "topic": "general",
     "example": "The fire was quickly put out.",
@@ -4958,7 +4958,7 @@
   {
     "id": "word-414",
     "word": "fish",
-    "meaning": "cÃ¡, cÃ¢u cÃ¡",
+    "meaning": "cá, câu cá",
     "type": "noun",
     "topic": "general",
     "example": "She likes to eat fish.",
@@ -4970,7 +4970,7 @@
   {
     "id": "word-415",
     "word": "hard",
-    "meaning": "khÃ³, cá»©ng, chÄm chá»",
+    "meaning": "khó, cứng, chăm chỉ",
     "type": "adjective",
     "topic": "general",
     "example": "She works very hard.",
@@ -4982,7 +4982,7 @@
   {
     "id": "word-416",
     "word": "works",
-    "meaning": "lÃ m viá»c (ngÃ´i 3), tÃ¡c pháº©m",
+    "meaning": "làm việc (ngôi 3), tác phẩm",
     "type": "verb",
     "topic": "general",
     "example": "She works at a hospital.",
@@ -4994,7 +4994,7 @@
   {
     "id": "word-417",
     "word": "kept",
-    "meaning": "ÄÃ£ giá»¯ (quÃ¡ khá»© cá»§a keep)",
+    "meaning": "đã giữ (quá khứ của keep)",
     "type": "verb",
     "topic": "general",
     "example": "She kept the secret for years.",
@@ -5006,7 +5006,7 @@
   {
     "id": "word-418",
     "word": "key",
-    "meaning": "chÃ¬a khÃ³a, quan trá»ng",
+    "meaning": "chìa khóa, quan trọng",
     "type": "noun",
     "topic": "general",
     "example": "Teamwork is the key to success.",
@@ -5030,7 +5030,7 @@
   {
     "id": "word-420",
     "word": "food",
-    "meaning": "thá»©c Än, Äá» Än",
+    "meaning": "thức ăn, đồ ăn",
     "type": "noun",
     "topic": "general",
     "example": "Vietnamese food is delicious.",
@@ -5042,7 +5042,7 @@
   {
     "id": "word-421",
     "word": "free",
-    "meaning": "miá»n phÃ­, tá»± do",
+    "meaning": "miễn phí, tự do",
     "type": "adjective",
     "topic": "general",
     "example": "Admission is free on Sundays.",
@@ -5054,7 +5054,7 @@
   {
     "id": "word-422",
     "word": "special",
-    "meaning": "Äáº·c biá»t",
+    "meaning": "đặc biệt",
     "type": "adjective",
     "topic": "general",
     "example": "Today is a very special day.",
@@ -5066,7 +5066,7 @@
   {
     "id": "word-423",
     "word": "friend",
-    "meaning": "báº¡n bÃ¨, ngÆ°á»i báº¡n",
+    "meaning": "bạn bè, người bạn",
     "type": "noun",
     "topic": "general",
     "example": "She is my best friend.",
@@ -5078,7 +5078,7 @@
   {
     "id": "word-424",
     "word": "friends",
-    "meaning": "nhá»¯ng ngÆ°á»i báº¡n",
+    "meaning": "những người bạn",
     "type": "noun",
     "topic": "general",
     "example": "We have been friends for years.",
@@ -5090,7 +5090,7 @@
   {
     "id": "word-425",
     "word": "game",
-    "meaning": "trÃ² chÆ¡i, tráº­n Äáº¥u",
+    "meaning": "trò chơi, trận đấu",
     "type": "noun",
     "topic": "general",
     "example": "Let's play a game.",
@@ -5102,7 +5102,7 @@
   {
     "id": "word-426",
     "word": "land",
-    "meaning": "Äáº¥t Äai, háº¡ cÃ¡nh",
+    "meaning": "đất đai, hạ cánh",
     "type": "noun",
     "topic": "general",
     "example": "The plane will land soon.",
@@ -5114,7 +5114,7 @@
   {
     "id": "word-427",
     "word": "sure",
-    "meaning": "cháº¯c cháº¯n",
+    "meaning": "chắc chắn",
     "type": "adjective",
     "topic": "general",
     "example": "Are you sure about this?",
@@ -5126,7 +5126,7 @@
   {
     "id": "word-428",
     "word": "wanted",
-    "meaning": "muá»n, bá» truy nÃ£",
+    "meaning": "muốn, bị truy nã",
     "type": "verb",
     "topic": "general",
     "example": "She wanted to become a singer.",
@@ -5138,7 +5138,7 @@
   {
     "id": "word-429",
     "word": "idea",
-    "meaning": "Ã½ tÆ°á»ng, quan niá»m",
+    "meaning": "ý tưởng, quan niệm",
     "type": "noun",
     "topic": "general",
     "example": "That is a great idea!",
@@ -5150,7 +5150,7 @@
   {
     "id": "word-430",
     "word": "west",
-    "meaning": "phÃ­a tÃ¢y, miá»n tÃ¢y",
+    "meaning": "phía tây, miền tây",
     "type": "noun",
     "topic": "general",
     "example": "The sun sets in the west.",
@@ -5162,7 +5162,7 @@
   {
     "id": "word-431",
     "word": "garden",
-    "meaning": "khu vÆ°á»n",
+    "meaning": "khu vườn",
     "type": "noun",
     "topic": "general",
     "example": "She grows vegetables in her garden.",
@@ -5174,7 +5174,7 @@
   {
     "id": "word-432",
     "word": "worked",
-    "meaning": "ÄÃ£ lÃ m viá»c (quÃ¡ khá»© cá»§a work)",
+    "meaning": "đã làm việc (quá khứ của work)",
     "type": "verb",
     "topic": "general",
     "example": "She worked hard all week.",
@@ -5186,7 +5186,7 @@
   {
     "id": "word-433",
     "word": "gave",
-    "meaning": "ÄÃ£ cho, ÄÃ£ táº·ng (quÃ¡ khá»© cá»§a give)",
+    "meaning": "đã cho, đã tặng (quá khứ của give)",
     "type": "verb",
     "topic": "general",
     "example": "He gave me a birthday gift.",
@@ -5198,7 +5198,7 @@
   {
     "id": "word-434",
     "word": "girl",
-    "meaning": "cÃ´ gÃ¡i",
+    "meaning": "cô gái",
     "type": "noun",
     "topic": "general",
     "example": "The girl is singing beautifully.",
@@ -5210,7 +5210,7 @@
   {
     "id": "word-435",
     "word": "gives",
-    "meaning": "cho, táº·ng (ngÃ´i 3 sá» Ã­t)",
+    "meaning": "cho, tặng (ngôi 3 số ít)",
     "type": "verb",
     "topic": "general",
     "example": "She always gives helpful advice.",
@@ -5222,7 +5222,7 @@
   {
     "id": "word-436",
     "word": "god",
-    "meaning": "tháº§n, ChÃºa",
+    "meaning": "thần, Chúa",
     "type": "noun",
     "topic": "general",
     "example": "She believes in God.",
@@ -5234,7 +5234,7 @@
   {
     "id": "word-437",
     "word": "goes",
-    "meaning": "Äi (ngÃ´i 3 sá» Ã­t cá»§a go)",
+    "meaning": "đi (ngôi 3 số ít của go)",
     "type": "verb",
     "topic": "general",
     "example": "She goes to work by bike.",
@@ -5246,7 +5246,7 @@
   {
     "id": "word-438",
     "word": "late",
-    "meaning": "muá»n, trá», ÄÃ£ máº¥t",
+    "meaning": "muộn, trễ, đã mất",
     "type": "adjective",
     "topic": "general",
     "example": "Sorry I am late.",
@@ -5258,7 +5258,7 @@
   {
     "id": "word-439",
     "word": "seems",
-    "meaning": "cÃ³ váº», dÆ°á»ng nhÆ°",
+    "meaning": "có vẻ, dường như",
     "type": "verb",
     "topic": "general",
     "example": "She seems very confident.",
@@ -5270,7 +5270,7 @@
   {
     "id": "word-440",
     "word": "word",
-    "meaning": "tá»«, lá»i nÃ³i, tá»« ngá»¯",
+    "meaning": "từ, lời nói, từ ngữ",
     "type": "noun",
     "topic": "general",
     "example": "What does this word mean?",
@@ -5282,7 +5282,7 @@
   {
     "id": "word-441",
     "word": "actually",
-    "meaning": "thá»±c ra, tháº­t ra",
+    "meaning": "thực ra, thật ra",
     "type": "adverb",
     "topic": "grammar",
     "example": "Actually, I changed my mind.",
@@ -5294,7 +5294,7 @@
   {
     "id": "word-442",
     "word": "gone",
-    "meaning": "ÄÃ£ Äi, ÄÃ£ máº¥t (quÃ¡ khá»© phÃ¢n tá»« cá»§a go)",
+    "meaning": "đã đi, đã mất (quá khứ phân từ của go)",
     "type": "verb",
     "topic": "general",
     "example": "She is gone for the weekend.",
@@ -5306,7 +5306,7 @@
   {
     "id": "word-443",
     "word": "moment",
-    "meaning": "khoáº£nh kháº¯c, lÃºc",
+    "meaning": "khoảnh khắc, lúc",
     "type": "noun",
     "topic": "general",
     "example": "Just a moment, please.",
@@ -5318,7 +5318,7 @@
   {
     "id": "word-444",
     "word": "won",
-    "meaning": "ÄÃ£ tháº¯ng (quÃ¡ khá»© cá»§a win)",
+    "meaning": "đã thắng (quá khứ của win)",
     "type": "verb",
     "topic": "general",
     "example": "Our team won the match.",
@@ -5330,7 +5330,7 @@
   {
     "id": "word-445",
     "word": "third",
-    "meaning": "thá»© ba",
+    "meaning": "thứ ba",
     "type": "adjective",
     "topic": "general",
     "example": "She finished in third place.",
@@ -5342,7 +5342,7 @@
   {
     "id": "word-446",
     "word": "European",
-    "meaning": "thuá»c chÃ¢u Ãu, ngÆ°á»i chÃ¢u Ãu",
+    "meaning": "thuộc châu Âu, người châu Âu",
     "type": "adjective",
     "topic": "general",
     "example": "She loves European architecture.",
@@ -5354,7 +5354,7 @@
   {
     "id": "word-447",
     "word": "training",
-    "meaning": "ÄÃ o táº¡o, táº­p luyá»n",
+    "meaning": "đào tạo, tập luyện",
     "type": "noun",
     "topic": "business",
     "example": "She attended a training course.",
@@ -5366,7 +5366,7 @@
   {
     "id": "word-448",
     "word": "green",
-    "meaning": "mÃ u xanh lÃ¡, xanh lÃ¡ cÃ¢y",
+    "meaning": "màu xanh lá, xanh lá cây",
     "type": "adjective",
     "topic": "general",
     "example": "She planted green vegetables.",
@@ -5378,7 +5378,7 @@
   {
     "id": "word-449",
     "word": "hair",
-    "meaning": "mÃ¡i tÃ³c, tÃ³c",
+    "meaning": "mái tóc, tóc",
     "type": "noun",
     "topic": "general",
     "example": "She has long black hair.",
@@ -5390,7 +5390,7 @@
   {
     "id": "word-450",
     "word": "church",
-    "meaning": "nhÃ  thá»",
+    "meaning": "nhà thờ",
     "type": "noun",
     "topic": "general",
     "example": "They got married at the church.",
@@ -5402,7 +5402,7 @@
   {
     "id": "word-451",
     "word": "meeting",
-    "meaning": "cuá»c há»p, gáº·p gá»¡",
+    "meaning": "cuộc họp, gặp gỡ",
     "type": "noun",
     "topic": "business",
     "example": "I have a meeting at 10 AM.",
@@ -5414,7 +5414,7 @@
   {
     "id": "word-452",
     "word": "lead",
-    "meaning": "dáº«n Äáº§u, chá» Äáº¡o, chÃ¬",
+    "meaning": "dẫn đầu, chỉ đạo, chì",
     "type": "verb",
     "topic": "general",
     "example": "She will lead the project.",
@@ -5426,7 +5426,7 @@
   {
     "id": "word-453",
     "word": "believe",
-    "meaning": "tin tÆ°á»ng, tin vÃ o",
+    "meaning": "tin tưởng, tin vào",
     "type": "verb",
     "topic": "general",
     "example": "I believe in you.",
@@ -5438,7 +5438,7 @@
   {
     "id": "word-454",
     "word": "outside",
-    "meaning": "bÃªn ngoÃ i",
+    "meaning": "bên ngoài",
     "type": "adverb",
     "topic": "grammar",
     "example": "Let's go outside for fresh air.",
@@ -5450,7 +5450,7 @@
   {
     "id": "word-455",
     "word": "UK",
-    "meaning": "VÆ°Æ¡ng quá»c Anh",
+    "meaning": "Vương quốc Anh",
     "type": "noun",
     "topic": "general",
     "example": "She studied in the UK.",
@@ -5462,7 +5462,7 @@
   {
     "id": "word-456",
     "word": "unit",
-    "meaning": "ÄÆ¡n vá», bá» pháº­n",
+    "meaning": "đơn vị, bộ phận",
     "type": "noun",
     "topic": "general",
     "example": "The first unit covers basic grammar.",
@@ -5474,7 +5474,7 @@
   {
     "id": "word-457",
     "word": "needs",
-    "meaning": "cáº§n (ngÃ´i 3), nhu cáº§u",
+    "meaning": "cần (ngôi 3), nhu cầu",
     "type": "verb",
     "topic": "general",
     "example": "She needs more practice.",
@@ -5486,7 +5486,7 @@
   {
     "id": "word-458",
     "word": "woman",
-    "meaning": "ngÆ°á»i phá»¥ ná»¯",
+    "meaning": "người phụ nữ",
     "type": "noun",
     "topic": "general",
     "example": "She is a strong woman.",
@@ -5498,7 +5498,7 @@
   {
     "id": "word-459",
     "word": "wish",
-    "meaning": "Æ°á»c muá»n, chÃºc",
+    "meaning": "ước muốn, chúc",
     "type": "verb",
     "topic": "general",
     "example": "I wish you all the best.",
@@ -5510,7 +5510,7 @@
   {
     "id": "word-460",
     "word": "groups",
-    "meaning": "cÃ¡c nhÃ³m",
+    "meaning": "các nhóm",
     "type": "noun",
     "topic": "general",
     "example": "Students were divided into groups.",
@@ -5522,7 +5522,7 @@
   {
     "id": "word-461",
     "word": "leave",
-    "meaning": "rá»i Äi, Äá» láº¡i",
+    "meaning": "rời đi, để lại",
     "type": "verb",
     "topic": "general",
     "example": "What time does the train leave?",
@@ -5534,7 +5534,7 @@
   {
     "id": "word-462",
     "word": "human",
-    "meaning": "con ngÆ°á»i, nhÃ¢n loáº¡i",
+    "meaning": "con người, nhân loại",
     "type": "noun",
     "topic": "general",
     "example": "Human beings need social connection.",
@@ -5546,7 +5546,7 @@
   {
     "id": "word-463",
     "word": "wife",
-    "meaning": "vá»£",
+    "meaning": "vợ",
     "type": "noun",
     "topic": "general",
     "example": "He met his wife at university.",
@@ -5558,7 +5558,7 @@
   {
     "id": "word-464",
     "word": "hands",
-    "meaning": "ÄÃ´i tay",
+    "meaning": "đôi tay",
     "type": "noun",
     "topic": "general",
     "example": "Wash your hands before eating.",
@@ -5570,7 +5570,7 @@
   {
     "id": "word-465",
     "word": "happy",
-    "meaning": "vui váº», háº¡nh phÃºc",
+    "meaning": "vui vẻ, hạnh phúc",
     "type": "adjective",
     "topic": "general",
     "example": "She looks very happy today.",
@@ -5582,7 +5582,7 @@
   {
     "id": "word-466",
     "word": "hear",
-    "meaning": "nghe tháº¥y",
+    "meaning": "nghe thấy",
     "type": "verb",
     "topic": "general",
     "example": "I can hear music from next door.",
@@ -5594,7 +5594,7 @@
   {
     "id": "word-467",
     "word": "let",
-    "meaning": "cho phÃ©p, Äá»",
+    "meaning": "cho phép, để",
     "type": "verb",
     "topic": "general",
     "example": "Let me know if you need help.",
@@ -5606,7 +5606,7 @@
   {
     "id": "word-468",
     "word": "type",
-    "meaning": "loáº¡i, kiá»u, ÄÃ¡nh mÃ¡y",
+    "meaning": "loại, kiểu, đánh máy",
     "type": "noun",
     "topic": "general",
     "example": "What type of music do you like?",
@@ -5618,7 +5618,7 @@
   {
     "id": "word-469",
     "word": "letter",
-    "meaning": "bá»©c thÆ°, chá»¯ cÃ¡i",
+    "meaning": "bức thư, chữ cái",
     "type": "noun",
     "topic": "general",
     "example": "She wrote a letter to her friend.",
@@ -5630,7 +5630,7 @@
   {
     "id": "word-470",
     "word": "light",
-    "meaning": "Ã¡nh sÃ¡ng, nháº¹, báº­t ÄÃ¨n",
+    "meaning": "ánh sáng, nhẹ, bật đèn",
     "type": "noun",
     "topic": "general",
     "example": "Turn on the light, please.",
@@ -5642,7 +5642,7 @@
   {
     "id": "word-471",
     "word": "lines",
-    "meaning": "cÃ¡c dÃ²ng, cÃ¡c ÄÆ°á»ng",
+    "meaning": "các dòng, các đường",
     "type": "noun",
     "topic": "general",
     "example": "Read the first two lines carefully.",
@@ -5654,7 +5654,7 @@
   {
     "id": "word-472",
     "word": "list",
-    "meaning": "danh sÃ¡ch",
+    "meaning": "danh sách",
     "type": "noun",
     "topic": "general",
     "example": "Make a list of things to buy.",
@@ -5666,7 +5666,7 @@
   {
     "id": "word-473",
     "word": "live",
-    "meaning": "sá»ng, trá»±c tiáº¿p",
+    "meaning": "sống, trực tiếp",
     "type": "verb",
     "topic": "general",
     "example": "I live in Nha Trang.",
@@ -5678,7 +5678,7 @@
   {
     "id": "word-474",
     "word": "lives",
-    "meaning": "cuá»c sá»ng (sá» nhiá»u), sá»ng (ngÃ´i 3)",
+    "meaning": "cuộc sống (số nhiều), sống (ngôi 3)",
     "type": "noun",
     "topic": "general",
     "example": "She lives for her family.",
@@ -5690,7 +5690,7 @@
   {
     "id": "word-475",
     "word": "whom",
-    "meaning": "ai (tÃ¢n ngá»¯, Äáº¡i tá»« quan há»)",
+    "meaning": "ai (tân ngữ, đại từ quan hệ)",
     "type": "pronoun",
     "topic": "grammar",
     "example": "To whom should I address this letter?",
@@ -5702,7 +5702,7 @@
   {
     "id": "word-476",
     "word": "language",
-    "meaning": "ngÃ´n ngá»¯, tiáº¿ng",
+    "meaning": "ngôn ngữ, tiếng",
     "type": "noun",
     "topic": "general",
     "example": "English is a global language.",
@@ -5714,7 +5714,7 @@
   {
     "id": "word-477",
     "word": "love",
-    "meaning": "tÃ¬nh yÃªu, yÃªu thÃ­ch",
+    "meaning": "tình yêu, yêu thích",
     "type": "noun",
     "topic": "general",
     "example": "I love learning new languages.",
@@ -5726,7 +5726,7 @@
   {
     "id": "word-478",
     "word": "lost",
-    "meaning": "bá» máº¥t, láº¡c ÄÆ°á»ng",
+    "meaning": "bị mất, lạc đường",
     "type": "verb",
     "topic": "general",
     "example": "I lost my keys this morning.",
@@ -5738,7 +5738,7 @@
   {
     "id": "word-479",
     "word": "sometimes",
-    "meaning": "ÄÃ´i khi",
+    "meaning": "đôi khi",
     "type": "adverb",
     "topic": "grammar",
     "example": "I sometimes work late.",
@@ -5750,7 +5750,7 @@
   {
     "id": "word-480",
     "word": "lot",
-    "meaning": "nhiá»u, lÃ´ Äáº¥t",
+    "meaning": "nhiều, lô đất",
     "type": "noun",
     "topic": "grammar",
     "example": "There is a lot to learn.",
@@ -5762,7 +5762,7 @@
   {
     "id": "word-481",
     "word": "low",
-    "meaning": "tháº¥p, Ã­t",
+    "meaning": "thấp, ít",
     "type": "adjective",
     "topic": "general",
     "example": "The price is very low.",
@@ -5774,7 +5774,7 @@
   {
     "id": "word-482",
     "word": "wall",
-    "meaning": "bá»©c tÆ°á»ng",
+    "meaning": "bức tường",
     "type": "noun",
     "topic": "general",
     "example": "There is a painting on the wall.",
@@ -5786,7 +5786,7 @@
   {
     "id": "word-483",
     "word": "ways",
-    "meaning": "cÃ¡c cÃ¡ch, cÃ¡c con ÄÆ°á»ng",
+    "meaning": "các cách, các con đường",
     "type": "noun",
     "topic": "general",
     "example": "There are many ways to learn English.",
@@ -5798,7 +5798,7 @@
   {
     "id": "word-484",
     "word": "weeks",
-    "meaning": "cÃ¡c tuáº§n",
+    "meaning": "các tuần",
     "type": "noun",
     "topic": "general",
     "example": "I will be back in two weeks.",
@@ -5810,7 +5810,7 @@
   {
     "id": "word-485",
     "word": "makes",
-    "meaning": "lÃ m, táº¡o ra (ngÃ´i 3 sá» Ã­t)",
+    "meaning": "làm, tạo ra (ngôi 3 số ít)",
     "type": "verb",
     "topic": "general",
     "example": "She makes me smile.",
@@ -5822,7 +5822,7 @@
   {
     "id": "word-486",
     "word": "visit",
-    "meaning": "thÄm, Äáº¿n thÄm",
+    "meaning": "thăm, đến thăm",
     "type": "verb",
     "topic": "general",
     "example": "We will visit my grandparents this weekend.",
@@ -5834,7 +5834,7 @@
   {
     "id": "word-487",
     "word": "male",
-    "meaning": "nam, Äá»±c",
+    "meaning": "nam, đực",
     "type": "adjective",
     "topic": "general",
     "example": "The form asks for male or female.",
@@ -5846,7 +5846,7 @@
   {
     "id": "word-488",
     "word": "building",
-    "meaning": "tÃ²a nhÃ , xÃ¢y dá»±ng",
+    "meaning": "tòa nhà, xây dựng",
     "type": "noun",
     "topic": "general",
     "example": "This is a very tall building.",
@@ -5858,7 +5858,7 @@
   {
     "id": "word-489",
     "word": "meet",
-    "meaning": "gáº·p, gáº·p gá»¡",
+    "meaning": "gặp, gặp gỡ",
     "type": "verb",
     "topic": "general",
     "example": "Nice to meet you.",
@@ -5870,7 +5870,7 @@
   {
     "id": "word-490",
     "word": "myself",
-    "meaning": "báº£n thÃ¢n tÃ´i, tá»± tÃ´i",
+    "meaning": "bản thân tôi, tự tôi",
     "type": "pronoun",
     "topic": "grammar",
     "example": "I did it myself.",
@@ -5882,7 +5882,7 @@
   {
     "id": "word-491",
     "word": "near",
-    "meaning": "gáº§n, gáº§n ÄÃ¢y",
+    "meaning": "gần, gần đây",
     "type": "preposition",
     "topic": "grammar",
     "example": "The school is near my house.",
@@ -5894,7 +5894,7 @@
   {
     "id": "word-492",
     "word": "met",
-    "meaning": "ÄÃ£ gáº·p (quÃ¡ khá»© cá»§a meet)",
+    "meaning": "đã gặp (quá khứ của meet)",
     "type": "verb",
     "topic": "general",
     "example": "I met her at a conference.",
@@ -5906,7 +5906,7 @@
   {
     "id": "word-493",
     "word": "news",
-    "meaning": "tin tá»©c, báº£n tin",
+    "meaning": "tin tức, bản tin",
     "type": "noun",
     "topic": "general",
     "example": "Have you heard the latest news?",
@@ -5918,7 +5918,7 @@
   {
     "id": "word-494",
     "word": "during",
-    "meaning": "trong suá»t, trong khi",
+    "meaning": "trong suốt, trong khi",
     "type": "preposition",
     "topic": "grammar",
     "example": "Please be quiet during the exam.",
@@ -5930,7 +5930,7 @@
   {
     "id": "word-495",
     "word": "middle",
-    "meaning": "giá»¯a, trung tÃ¢m",
+    "meaning": "giữa, trung tâm",
     "type": "noun",
     "topic": "general",
     "example": "She stood in the middle of the room.",
@@ -5942,7 +5942,7 @@
   {
     "id": "word-496",
     "word": "shall",
-    "meaning": "sáº½ (Äá» nghá», quyáº¿t tÃ¢m)",
+    "meaning": "sẽ (đề nghị, quyết tâm)",
     "type": "verb",
     "topic": "grammar",
     "example": "Shall we begin the lesson?",
@@ -5954,7 +5954,7 @@
   {
     "id": "word-497",
     "word": "already",
-    "meaning": "ÄÃ£ rá»i, rá»i",
+    "meaning": "đã rồi, rồi",
     "type": "adverb",
     "topic": "grammar",
     "example": "I have already eaten.",
@@ -5966,7 +5966,7 @@
   {
     "id": "word-498",
     "word": "although",
-    "meaning": "máº·c dÃ¹, dÃ¹ ráº±ng",
+    "meaning": "mặc dù, dù rằng",
     "type": "conjunction",
     "topic": "grammar",
     "example": "Although it was cold, she went outside.",
@@ -5978,7 +5978,7 @@
   {
     "id": "word-499",
     "word": "Europe",
-    "meaning": "chÃ¢u Ãu",
+    "meaning": "châu Âu",
     "type": "noun",
     "topic": "general",
     "example": "She has travelled all over Europe.",
@@ -5990,7 +5990,7 @@
   {
     "id": "word-500",
     "word": "usually",
-    "meaning": "thÆ°á»ng thÆ°á»ng, thÆ°á»ng xuyÃªn",
+    "meaning": "thường thường, thường xuyên",
     "type": "adverb",
     "topic": "grammar",
     "example": "I usually wake up at 6 AM.",
@@ -6002,7 +6002,7 @@
   {
     "id": "word-501",
     "word": "single",
-    "meaning": "ÄÆ¡n, Äá»c thÃ¢n, má»t mÃ¬nh",
+    "meaning": "đơn, độc thân, một mình",
     "type": "adjective",
     "topic": "general",
     "example": "She is single and happy.",
@@ -6014,7 +6014,7 @@
   {
     "id": "word-502",
     "word": "miss",
-    "meaning": "nhá», bá» lá»¡, cÃ´ (danh hiá»u)",
+    "meaning": "nhớ, bỏ lỡ, cô (danh hiệu)",
     "type": "verb",
     "topic": "general",
     "example": "I miss my hometown.",
@@ -6026,7 +6026,7 @@
   {
     "id": "word-503",
     "word": "move",
-    "meaning": "di chuyá»n, chuyá»n nhÃ ",
+    "meaning": "di chuyển, chuyển nhà",
     "type": "verb",
     "topic": "general",
     "example": "They plan to move next month.",
@@ -6038,7 +6038,7 @@
   {
     "id": "word-504",
     "word": "month",
-    "meaning": "thÃ¡ng",
+    "meaning": "tháng",
     "type": "noun",
     "topic": "general",
     "example": "She visits her parents once a month.",
@@ -6050,7 +6050,7 @@
   {
     "id": "word-505",
     "word": "nine",
-    "meaning": "chÃ­n (sá» 9)",
+    "meaning": "chín (số 9)",
     "type": "number",
     "topic": "grammar",
     "example": "The shop opens at nine.",
@@ -6062,7 +6062,7 @@
   {
     "id": "word-506",
     "word": "moved",
-    "meaning": "ÄÃ£ di chuyá»n, cáº£m Äá»ng",
+    "meaning": "đã di chuyển, cảm động",
     "type": "verb",
     "topic": "general",
     "example": "She was moved to tears.",
@@ -6074,7 +6074,7 @@
   {
     "id": "word-507",
     "word": "states",
-    "meaning": "cÃ¡c tiá»u bang, tuyÃªn bá»",
+    "meaning": "các tiểu bang, tuyên bố",
     "type": "noun",
     "topic": "general",
     "example": "The United States has 50 states.",
@@ -6086,7 +6086,7 @@
   {
     "id": "word-508",
     "word": "ago",
-    "meaning": "trÆ°á»c ÄÃ¢y, trÆ°á»c ÄÃ³",
+    "meaning": "trước đây, trước đó",
     "type": "adverb",
     "topic": "grammar",
     "example": "She left five minutes ago.",
@@ -6098,7 +6098,7 @@
   {
     "id": "word-509",
     "word": "able",
-    "meaning": "cÃ³ thá», cÃ³ kháº£ nÄng",
+    "meaning": "có thể, có khả năng",
     "type": "adjective",
     "topic": "grammar",
     "example": "She is able to speak three languages.",
@@ -6110,7 +6110,7 @@
   {
     "id": "word-510",
     "word": "Mrs",
-    "meaning": "bÃ  (danh hiá»u phá»¥ ná»¯ ÄÃ£ káº¿t hÃ´n)",
+    "meaning": "bà (danh hiệu phụ nữ đã kết hôn)",
     "type": "noun",
     "topic": "general",
     "example": "Mrs Brown is my English teacher.",
@@ -6122,7 +6122,7 @@
   {
     "id": "word-511",
     "word": "music",
-    "meaning": "Ã¢m nháº¡c",
+    "meaning": "âm nhạc",
     "type": "noun",
     "topic": "general",
     "example": "Music makes life more beautiful.",
@@ -6134,7 +6134,7 @@
   {
     "id": "word-512",
     "word": "normal",
-    "meaning": "bÃ¬nh thÆ°á»ng",
+    "meaning": "bình thường",
     "type": "adjective",
     "topic": "general",
     "example": "It is normal to feel nervous.",
@@ -6146,7 +6146,7 @@
   {
     "id": "word-513",
     "word": "note",
-    "meaning": "ghi chÃº, ná»t nháº¡c, giáº¥y báº¡c",
+    "meaning": "ghi chú, nốt nhạc, giấy bạc",
     "type": "noun",
     "topic": "general",
     "example": "Please take note of this.",
@@ -6158,7 +6158,7 @@
   {
     "id": "word-514",
     "word": "October",
-    "meaning": "thÃ¡ng MÆ°á»i",
+    "meaning": "tháng Mười",
     "type": "noun",
     "topic": "general",
     "example": "Her birthday is in October.",
@@ -6170,7 +6170,7 @@
   {
     "id": "word-515",
     "word": "town",
-    "meaning": "thá» tráº¥n",
+    "meaning": "thị trấn",
     "type": "noun",
     "topic": "general",
     "example": "She grew up in a small town.",
@@ -6182,7 +6182,7 @@
   {
     "id": "word-516",
     "word": "oh",
-    "meaning": "á», Ã´i (thÃ¡n tá»«)",
+    "meaning": "ồ, ôi (thán từ)",
     "type": "particle",
     "topic": "grammar",
     "example": "Oh, I forgot my keys!",
@@ -6194,7 +6194,7 @@
   {
     "id": "word-517",
     "word": "companies",
-    "meaning": "cÃ¡c cÃ´ng ty",
+    "meaning": "các công ty",
     "type": "noun",
     "topic": "business",
     "example": "Many companies are hiring now.",
@@ -6206,7 +6206,7 @@
   {
     "id": "word-518",
     "word": "price",
-    "meaning": "giÃ¡ cáº£",
+    "meaning": "giá cả",
     "type": "noun",
     "topic": "business",
     "example": "The price of petrol has gone up.",
@@ -6218,7 +6218,7 @@
   {
     "id": "word-519",
     "word": "hours",
-    "meaning": "cÃ¡c giá», sá» giá»",
+    "meaning": "các giờ, số giờ",
     "type": "noun",
     "topic": "general",
     "example": "She works eight hours a day.",
@@ -6230,7 +6230,7 @@
   {
     "id": "word-520",
     "word": "member",
-    "meaning": "thÃ nh viÃªn",
+    "meaning": "thành viên",
     "type": "noun",
     "topic": "general",
     "example": "She is a member of the club.",
@@ -6242,7 +6242,7 @@
   {
     "id": "word-521",
     "word": "oil",
-    "meaning": "dáº§u, dáº§u má»",
+    "meaning": "dầu, dầu mỏ",
     "type": "noun",
     "topic": "general",
     "example": "The price of oil dropped sharply.",
@@ -6254,7 +6254,7 @@
   {
     "id": "word-522",
     "word": "opened",
-    "meaning": "ÄÃ£ má» (quÃ¡ khá»© cá»§a open)",
+    "meaning": "đã mở (quá khứ của open)",
     "type": "verb",
     "topic": "general",
     "example": "She opened the window.",
@@ -6266,7 +6266,7 @@
   {
     "id": "word-523",
     "word": "page",
-    "meaning": "trang (sÃ¡ch), trang web",
+    "meaning": "trang (sách), trang web",
     "type": "noun",
     "topic": "general",
     "example": "Turn to page 15.",
@@ -6278,7 +6278,7 @@
   {
     "id": "word-524",
     "word": "park",
-    "meaning": "cÃ´ng viÃªn, Äá» xe",
+    "meaning": "công viên, đỗ xe",
     "type": "noun",
     "topic": "general",
     "example": "Let's take a walk in the park.",
@@ -6290,7 +6290,7 @@
   {
     "id": "word-525",
     "word": "passed",
-    "meaning": "ÄÃ£ qua, ÄÃ£ Äáº­u (quÃ¡ khá»© cá»§a pass)",
+    "meaning": "đã qua, đã đậu (quá khứ của pass)",
     "type": "verb",
     "topic": "general",
     "example": "She passed the driving test.",
@@ -6302,7 +6302,7 @@
   {
     "id": "word-526",
     "word": "Paul",
-    "meaning": "tÃªn ngÆ°á»i (Paul)",
+    "meaning": "tên người (Paul)",
     "type": "noun",
     "topic": "general",
     "example": "Paul is very good at maths.",
@@ -6314,7 +6314,7 @@
   {
     "id": "word-527",
     "word": "pay",
-    "meaning": "tráº£ tiá»n, lÆ°Æ¡ng",
+    "meaning": "trả tiền, lương",
     "type": "verb",
     "topic": "business",
     "example": "Did you pay the bill?",
@@ -6326,7 +6326,7 @@
   {
     "id": "word-528",
     "word": "per",
-    "meaning": "má»i, theo",
+    "meaning": "mỗi, theo",
     "type": "preposition",
     "topic": "grammar",
     "example": "The speed limit is 60 km per hour.",
@@ -6338,7 +6338,7 @@
   {
     "id": "word-529",
     "word": "Peter",
-    "meaning": "tÃªn ngÆ°á»i (Peter)",
+    "meaning": "tên người (Peter)",
     "type": "noun",
     "topic": "general",
     "example": "Peter is coming to the party.",
@@ -6350,7 +6350,7 @@
   {
     "id": "word-530",
     "word": "picture",
-    "meaning": "bá»©c tranh, hÃ¬nh áº£nh",
+    "meaning": "bức tranh, hình ảnh",
     "type": "noun",
     "topic": "general",
     "example": "She took a picture at the beach.",
@@ -6362,7 +6362,7 @@
   {
     "id": "word-531",
     "word": "morning",
-    "meaning": "buá»i sÃ¡ng",
+    "meaning": "buổi sáng",
     "type": "noun",
     "topic": "general",
     "example": "Good morning! How are you?",
@@ -6374,7 +6374,7 @@
   {
     "id": "word-532",
     "word": "plans",
-    "meaning": "káº¿ hoáº¡ch (sá» nhiá»u)",
+    "meaning": "kế hoạch (số nhiều)",
     "type": "noun",
     "topic": "general",
     "example": "What are your plans for the weekend?",
@@ -6386,7 +6386,7 @@
   {
     "id": "word-533",
     "word": "top",
-    "meaning": "Äá»nh, trÃªn cÃ¹ng, hÃ ng Äáº§u",
+    "meaning": "đỉnh, trên cùng, hàng đầu",
     "type": "noun",
     "topic": "general",
     "example": "She graduated at the top of her class.",
@@ -6398,7 +6398,7 @@
   {
     "id": "word-534",
     "word": "total",
-    "meaning": "tá»ng cá»ng, toÃ n bá»",
+    "meaning": "tổng cộng, toàn bộ",
     "type": "noun",
     "topic": "business",
     "example": "The total cost is 500 dollars.",
@@ -6410,7 +6410,7 @@
   {
     "id": "word-535",
     "word": "play",
-    "meaning": "chÆ¡i, diá»n ká»ch, vá» ká»ch",
+    "meaning": "chơi, diễn kịch, vở kịch",
     "type": "verb",
     "topic": "general",
     "example": "Children love to play outside.",
@@ -6422,7 +6422,7 @@
   {
     "id": "word-536",
     "word": "please",
-    "meaning": "lÃ m Æ¡n, vui lÃ²ng",
+    "meaning": "làm ơn, vui lòng",
     "type": "adverb",
     "topic": "grammar",
     "example": "Please sit down.",
@@ -6434,7 +6434,7 @@
   {
     "id": "word-537",
     "word": "test",
-    "meaning": "bÃ i kiá»m tra, thá»­ nghiá»m",
+    "meaning": "bài kiểm tra, thử nghiệm",
     "type": "noun",
     "topic": "general",
     "example": "She got a perfect score on the test.",
@@ -6446,7 +6446,7 @@
   {
     "id": "word-538",
     "word": "points",
-    "meaning": "Äiá»m, Ã½, chá» ra",
+    "meaning": "điểm, ý, chỉ ra",
     "type": "noun",
     "topic": "general",
     "example": "She scored 90 points.",
@@ -6458,7 +6458,7 @@
   {
     "id": "word-539",
     "word": "poor",
-    "meaning": "nghÃ¨o, tá»i nghiá»p, kÃ©m",
+    "meaning": "nghèo, tội nghiệp, kém",
     "type": "adjective",
     "topic": "general",
     "example": "She grew up in a poor family.",
@@ -6470,7 +6470,7 @@
   {
     "id": "word-540",
     "word": "team",
-    "meaning": "Äá»i nhÃ³m",
+    "meaning": "đội nhóm",
     "type": "noun",
     "topic": "general",
     "example": "Our team works very well together.",
@@ -6482,7 +6482,7 @@
   {
     "id": "word-541",
     "word": "prices",
-    "meaning": "giÃ¡ cáº£ (sá» nhiá»u)",
+    "meaning": "giá cả (số nhiều)",
     "type": "noun",
     "topic": "business",
     "example": "Prices are rising every year.",
@@ -6494,7 +6494,7 @@
   {
     "id": "word-542",
     "word": "questions",
-    "meaning": "nhá»¯ng cÃ¢u há»i",
+    "meaning": "những câu hỏi",
     "type": "noun",
     "topic": "general",
     "example": "She answered all the questions correctly.",
@@ -6506,7 +6506,7 @@
   {
     "id": "word-543",
     "word": "ten",
-    "meaning": "mÆ°á»i (sá» 10)",
+    "meaning": "mười (số 10)",
     "type": "number",
     "topic": "grammar",
     "example": "There are ten students in the group.",
@@ -6518,7 +6518,7 @@
   {
     "id": "word-544",
     "word": "read",
-    "meaning": "Äá»c, ÄÃ£ Äá»c",
+    "meaning": "đọc, đã đọc",
     "type": "verb",
     "topic": "general",
     "example": "I read a book every week.",
@@ -6530,7 +6530,7 @@
   {
     "id": "word-545",
     "word": "countries",
-    "meaning": "cÃ¡c quá»c gia",
+    "meaning": "các quốc gia",
     "type": "noun",
     "topic": "general",
     "example": "She has visited over 20 countries.",
@@ -6542,7 +6542,7 @@
   {
     "id": "word-546",
     "word": "reading",
-    "meaning": "viá»c Äá»c, Äang Äá»c",
+    "meaning": "việc đọc, đang đọc",
     "type": "verb",
     "topic": "general",
     "example": "Reading is a great habit.",
@@ -6554,7 +6554,7 @@
   {
     "id": "word-547",
     "word": "talking",
-    "meaning": "Äang nÃ³i chuyá»n",
+    "meaning": "đang nói chuyện",
     "type": "verb",
     "topic": "general",
     "example": "Stop talking and listen.",
@@ -6566,7 +6566,7 @@
   {
     "id": "word-548",
     "word": "teachers",
-    "meaning": "cÃ¡c giÃ¡o viÃªn",
+    "meaning": "các giáo viên",
     "type": "noun",
     "topic": "general",
     "example": "The teachers are very supportive.",
@@ -6578,7 +6578,7 @@
   {
     "id": "word-549",
     "word": "French",
-    "meaning": "tiáº¿ng PhÃ¡p, ngÆ°á»i PhÃ¡p",
+    "meaning": "tiếng Pháp, người Pháp",
     "type": "adjective",
     "topic": "general",
     "example": "She can speak French very well.",
@@ -6590,7 +6590,7 @@
   {
     "id": "word-550",
     "word": "real",
-    "meaning": "thá»±c, thá»±c sá»±",
+    "meaning": "thực, thực sự",
     "type": "adjective",
     "topic": "general",
     "example": "Is this a real diamond?",
@@ -6602,7 +6602,7 @@
   {
     "id": "word-551",
     "word": "red",
-    "meaning": "mÃ u Äá»",
+    "meaning": "màu đỏ",
     "type": "adjective",
     "topic": "general",
     "example": "She wore a red dress to the party.",
@@ -6614,7 +6614,7 @@
   {
     "id": "word-552",
     "word": "talk",
-    "meaning": "nÃ³i chuyá»n, cuá»c nÃ³i chuyá»n",
+    "meaning": "nói chuyện, cuộc nói chuyện",
     "type": "verb",
     "topic": "general",
     "example": "We need to talk.",
@@ -6626,7 +6626,7 @@
   {
     "id": "word-553",
     "word": "getting",
-    "meaning": "Äang nháº­n, Äang trá» nÃªn",
+    "meaning": "đang nhận, đang trở nên",
     "type": "verb",
     "topic": "grammar",
     "example": "It is getting dark outside.",
@@ -6638,7 +6638,7 @@
   {
     "id": "word-554",
     "word": "herself",
-    "meaning": "báº£n thÃ¢n cÃ´ áº¥y, tá»± mÃ¬nh",
+    "meaning": "bản thân cô ấy, tự mình",
     "type": "pronoun",
     "topic": "grammar",
     "example": "She did the work herself.",
@@ -6650,7 +6650,7 @@
   {
     "id": "word-555",
     "word": "coming",
-    "meaning": "Äang Äáº¿n, sáº¯p tá»i",
+    "meaning": "đang đến, sắp tới",
     "type": "verb",
     "topic": "general",
     "example": "Spring is coming soon.",
@@ -6662,7 +6662,7 @@
   {
     "id": "word-556",
     "word": "rights",
-    "meaning": "quyá»n lá»£i, quyá»n",
+    "meaning": "quyền lợi, quyền",
     "type": "noun",
     "topic": "general",
     "example": "Everyone has basic human rights.",
@@ -6674,7 +6674,7 @@
   {
     "id": "word-557",
     "word": "run",
-    "meaning": "cháº¡y, Äiá»u hÃ nh",
+    "meaning": "chạy, điều hành",
     "type": "verb",
     "topic": "general",
     "example": "She runs 5 km every morning.",
@@ -6686,7 +6686,7 @@
   {
     "id": "word-558",
     "word": "running",
-    "meaning": "Äang cháº¡y, viá»c cháº¡y",
+    "meaning": "đang chạy, việc chạy",
     "type": "verb",
     "topic": "general",
     "example": "Running keeps me fit.",
@@ -6698,7 +6698,7 @@
   {
     "id": "word-559",
     "word": "sat",
-    "meaning": "ÄÃ£ ngá»i (quÃ¡ khá»© cá»§a sit)",
+    "meaning": "đã ngồi (quá khứ của sit)",
     "type": "verb",
     "topic": "general",
     "example": "She sat by the window.",
@@ -6710,7 +6710,7 @@
   {
     "id": "word-560",
     "word": "saying",
-    "meaning": "Äang nÃ³i, cÃ¢u ngáº¡n ngá»¯",
+    "meaning": "đang nói, câu ngạn ngữ",
     "type": "verb",
     "topic": "general",
     "example": "What are you saying?",
@@ -6722,7 +6722,7 @@
   {
     "id": "word-561",
     "word": "sea",
-    "meaning": "biá»n",
+    "meaning": "biển",
     "type": "noun",
     "topic": "general",
     "example": "I love swimming in the sea.",
@@ -6734,7 +6734,7 @@
   {
     "id": "word-562",
     "word": "trying",
-    "meaning": "Äang cá» gáº¯ng, khÃ³ chá»u",
+    "meaning": "đang cố gắng, khó chịu",
     "type": "verb",
     "topic": "general",
     "example": "She is trying to improve her English.",
@@ -6746,7 +6746,7 @@
   {
     "id": "word-563",
     "word": "seem",
-    "meaning": "cÃ³ váº», dÆ°á»ng nhÆ°",
+    "meaning": "có vẻ, dường như",
     "type": "verb",
     "topic": "general",
     "example": "You seem very tired today.",
@@ -6758,7 +6758,7 @@
   {
     "id": "word-564",
     "word": "sent",
-    "meaning": "ÄÃ£ gá»­i (quÃ¡ khá»© cá»§a send)",
+    "meaning": "đã gửi (quá khứ của send)",
     "type": "verb",
     "topic": "general",
     "example": "She sent me an email.",
@@ -6770,7 +6770,7 @@
   {
     "id": "word-565",
     "word": "share",
-    "meaning": "chia sáº», cá» pháº§n",
+    "meaning": "chia sẻ, cổ phần",
     "type": "verb",
     "topic": "general",
     "example": "Please share your ideas with us.",
@@ -6782,7 +6782,7 @@
   {
     "id": "word-566",
     "word": "earlier",
-    "meaning": "trÆ°á»c ÄÃ³, sá»m hÆ¡n",
+    "meaning": "trước đó, sớm hơn",
     "type": "adverb",
     "topic": "grammar",
     "example": "She arrived earlier than expected.",
@@ -6794,19 +6794,19 @@
   {
     "id": "word-567",
     "word": "minutes",
-    "meaning": "phÃºt (sá» nhiá»u)",
+    "meaning": "phút (số nhiều)",
     "type": "noun",
     "topic": "general",
     "example": "The meeting lasted thirty minutes.",
     "accuracy": 0,
-    "wrong_count": 1,
-    "review_count": 1,
-    "learned": true
+    "wrong_count": 0,
+    "review_count": 0,
+    "learned": false
   },
   {
     "id": "word-568",
     "word": "American",
-    "meaning": "ngÆ°á»i Má»¹, thuá»c Má»¹",
+    "meaning": "người Mỹ, thuộc Mỹ",
     "type": "adjective",
     "topic": "general",
     "example": "She has an American accent.",
@@ -6818,7 +6818,7 @@
   {
     "id": "word-569",
     "word": "short",
-    "meaning": "ngáº¯n, tháº¥p, thiáº¿u",
+    "meaning": "ngắn, thấp, thiếu",
     "type": "adjective",
     "topic": "general",
     "example": "She has short hair.",
@@ -6830,7 +6830,7 @@
   {
     "id": "word-570",
     "word": "taking",
-    "meaning": "Äang láº¥y, Äang thá»±c hiá»n",
+    "meaning": "đang lấy, đang thực hiện",
     "type": "verb",
     "topic": "general",
     "example": "She is taking an English course.",
@@ -6842,7 +6842,7 @@
   {
     "id": "word-571",
     "word": "showed",
-    "meaning": "ÄÃ£ chá», ÄÃ£ trÃ¬nh bÃ y",
+    "meaning": "đã chỉ, đã trình bày",
     "type": "verb",
     "topic": "general",
     "example": "She showed me how to cook.",
@@ -6854,7 +6854,7 @@
   {
     "id": "word-572",
     "word": "paper",
-    "meaning": "giáº¥y, tá» bÃ¡o, bÃ i luáº­n",
+    "meaning": "giấy, tờ báo, bài luận",
     "type": "noun",
     "topic": "general",
     "example": "Please write on a piece of paper.",
@@ -6866,7 +6866,7 @@
   {
     "id": "word-573",
     "word": "higher",
-    "meaning": "cao hÆ¡n",
+    "meaning": "cao hơn",
     "type": "adjective",
     "topic": "general",
     "example": "The temperature is higher today.",
@@ -6878,7 +6878,7 @@
   {
     "id": "word-574",
     "word": "shows",
-    "meaning": "chÆ°Æ¡ng trÃ¬nh, chá» ra (ngÃ´i 3)",
+    "meaning": "chương trình, chỉ ra (ngôi 3)",
     "type": "verb",
     "topic": "general",
     "example": "The data shows a clear trend.",
@@ -6890,7 +6890,7 @@
   {
     "id": "word-575",
     "word": "sir",
-    "meaning": "thÆ°a Ã´ng, ngÃ i",
+    "meaning": "thưa ông, ngài",
     "type": "noun",
     "topic": "general",
     "example": "Yes, sir. I will do it right away.",
@@ -6902,7 +6902,7 @@
   {
     "id": "word-576",
     "word": "size",
-    "meaning": "kÃ­ch thÆ°á»c, cá»¡",
+    "meaning": "kích thước, cỡ",
     "type": "noun",
     "topic": "general",
     "example": "What size shoes do you wear?",
@@ -6914,7 +6914,7 @@
   {
     "id": "word-577",
     "word": "someone",
-    "meaning": "ai ÄÃ³, ngÆ°á»i nÃ o ÄÃ³",
+    "meaning": "ai đó, người nào đó",
     "type": "pronoun",
     "topic": "grammar",
     "example": "Someone left their bag here.",
@@ -6938,7 +6938,7 @@
   {
     "id": "word-579",
     "word": "needed",
-    "meaning": "ÄÃ£ cáº§n, ÄÆ°á»£c cáº§n",
+    "meaning": "đã cần, được cần",
     "type": "verb",
     "topic": "general",
     "example": "Your help is really needed.",
@@ -6950,7 +6950,7 @@
   {
     "id": "word-580",
     "word": "soon",
-    "meaning": "sá»m, cháº³ng bao lÃ¢u",
+    "meaning": "sớm, chẳng bao lâu",
     "type": "adverb",
     "topic": "grammar",
     "example": "I will be back soon.",
@@ -6962,7 +6962,7 @@
   {
     "id": "word-581",
     "word": "spent",
-    "meaning": "ÄÃ£ tiÃªu, ÄÃ£ dÃ¹ng háº¿t (quÃ¡ khá»© cá»§a spend)",
+    "meaning": "đã tiêu, đã dùng hết (quá khứ của spend)",
     "type": "verb",
     "topic": "general",
     "example": "She spent all day studying.",
@@ -6974,7 +6974,7 @@
   {
     "id": "word-582",
     "word": "start",
-    "meaning": "báº¯t Äáº§u, khá»i Äáº§u",
+    "meaning": "bắt đầu, khởi đầu",
     "type": "verb",
     "topic": "general",
     "example": "Let's start from the beginning.",
@@ -6986,7 +6986,7 @@
   {
     "id": "word-583",
     "word": "started",
-    "meaning": "ÄÃ£ báº¯t Äáº§u (quÃ¡ khá»© cá»§a start)",
+    "meaning": "đã bắt đầu (quá khứ của start)",
     "type": "verb",
     "topic": "general",
     "example": "She started learning English at age 5.",
@@ -6998,7 +6998,7 @@
   {
     "id": "word-584",
     "word": "stay",
-    "meaning": "á» láº¡i, lÆ°u trÃº",
+    "meaning": "ở lại, lưu trú",
     "type": "verb",
     "topic": "general",
     "example": "Can you stay for dinner?",
@@ -7010,7 +7010,7 @@
   {
     "id": "word-585",
     "word": "&",
-    "meaning": "vÃ  (kÃ½ hiá»u ampersand)",
+    "meaning": "và (ký hiệu ampersand)",
     "type": "conjunction",
     "topic": "grammar",
     "example": "Fish & chips is a British dish.",
@@ -7022,7 +7022,7 @@
   {
     "id": "word-586",
     "word": "stop",
-    "meaning": "dá»«ng láº¡i, ngá»«ng",
+    "meaning": "dừng lại, ngừng",
     "type": "verb",
     "topic": "general",
     "example": "Please stop talking.",
@@ -7034,7 +7034,7 @@
   {
     "id": "word-587",
     "word": "story",
-    "meaning": "cÃ¢u chuyá»n",
+    "meaning": "câu chuyện",
     "type": "noun",
     "topic": "general",
     "example": "She told us a funny story.",
@@ -7046,7 +7046,7 @@
   {
     "id": "word-588",
     "word": "street",
-    "meaning": "ÄÆ°á»ng phá»",
+    "meaning": "đường phố",
     "type": "noun",
     "topic": "general",
     "example": "She lives on a quiet street.",
@@ -7058,7 +7058,7 @@
   {
     "id": "word-589",
     "word": "students",
-    "meaning": "há»c sinh, sinh viÃªn",
+    "meaning": "học sinh, sinh viên",
     "type": "noun",
     "topic": "general",
     "example": "The students worked hard.",
@@ -7070,7 +7070,7 @@
   {
     "id": "word-590",
     "word": "studies",
-    "meaning": "há»c (ngÃ´i 3), cÃ¡c nghiÃªn cá»©u",
+    "meaning": "học (ngôi 3), các nghiên cứu",
     "type": "verb",
     "topic": "general",
     "example": "She studies medicine.",
@@ -7082,7 +7082,7 @@
   {
     "id": "word-591",
     "word": "remember",
-    "meaning": "nhá», ghi nhá»",
+    "meaning": "nhớ, ghi nhớ",
     "type": "verb",
     "topic": "general",
     "example": "Do you remember her name?",
@@ -7094,7 +7094,7 @@
   {
     "id": "word-592",
     "word": "success",
-    "meaning": "thÃ nh cÃ´ng",
+    "meaning": "thành công",
     "type": "noun",
     "topic": "general",
     "example": "Hard work leads to success.",
@@ -7106,7 +7106,7 @@
   {
     "id": "word-593",
     "word": "sun",
-    "meaning": "máº·t trá»i",
+    "meaning": "mặt trời",
     "type": "noun",
     "topic": "general",
     "example": "The sun rises in the east.",
@@ -7118,7 +7118,7 @@
   {
     "id": "word-594",
     "word": "table",
-    "meaning": "cÃ¡i bÃ n, báº£ng",
+    "meaning": "cái bàn, bảng",
     "type": "noun",
     "topic": "general",
     "example": "Please set the table for dinner.",
@@ -7130,7 +7130,7 @@
   {
     "id": "word-595",
     "word": "parents",
-    "meaning": "bá» máº¹, cha máº¹",
+    "meaning": "bố mẹ, cha mẹ",
     "type": "noun",
     "topic": "general",
     "example": "My parents are very supportive.",
@@ -7142,7 +7142,7 @@
   {
     "id": "word-596",
     "word": "tax",
-    "meaning": "thuáº¿",
+    "meaning": "thuế",
     "type": "noun",
     "topic": "business",
     "example": "The government raised income tax.",
@@ -7154,7 +7154,7 @@
   {
     "id": "word-597",
     "word": "ground",
-    "meaning": "máº·t Äáº¥t, ná»n",
+    "meaning": "mặt đất, nền",
     "type": "noun",
     "topic": "general",
     "example": "She sat on the ground.",
@@ -7166,7 +7166,7 @@
   {
     "id": "word-598",
     "word": "strong",
-    "meaning": "máº¡nh, vá»¯ng cháº¯c",
+    "meaning": "mạnh, vững chắc",
     "type": "adjective",
     "topic": "general",
     "example": "You have to be strong.",
@@ -7178,7 +7178,7 @@
   {
     "id": "word-599",
     "word": "takes",
-    "meaning": "láº¥y, cáº§n (ngÃ´i 3 sá» Ã­t)",
+    "meaning": "lấy, cần (ngôi 3 số ít)",
     "type": "verb",
     "topic": "general",
     "example": "It takes time to learn a language.",
@@ -7190,7 +7190,7 @@
   {
     "id": "word-600",
     "word": "greater",
-    "meaning": "lá»n hÆ¡n, vÄ© Äáº¡i hÆ¡n",
+    "meaning": "lớn hơn, vĩ đại hơn",
     "type": "adjective",
     "topic": "general",
     "example": "She achieved greater success this year.",
