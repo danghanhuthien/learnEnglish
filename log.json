@@ -439,5 +439,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:30:54.508Z",
+    "wordId": "word-322",
+    "word": "known",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
