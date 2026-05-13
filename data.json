@@ -859,9 +859,9 @@
     "topic": "grammar",
     "example": "May I use your phone?",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-073",
@@ -1818,10 +1818,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "Can I have another glass of water?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-153",
@@ -1962,10 +1962,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "I need a little help.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-165",
@@ -3462,10 +3462,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She has beautiful blue eyes.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-290",
@@ -6570,10 +6570,10 @@
     "type": "noun",
     "topic": "general",
     "example": "The teachers are very supportive.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-549",
