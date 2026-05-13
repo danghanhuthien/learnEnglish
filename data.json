@@ -186,10 +186,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "I am a student.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-017",
@@ -618,10 +618,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "Who is your teacher?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-053",
@@ -1014,10 +1014,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "She is very smart.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-086",
@@ -1410,10 +1410,10 @@
     "type": "verb",
     "topic": "general",
     "example": "I think you are right.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-119",
@@ -2586,10 +2586,10 @@
     "type": "adjective",
     "topic": "grammar",
     "example": "I read every day.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-217",
@@ -3522,10 +3522,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She uses her computer every day.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-295",
@@ -4158,10 +4158,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "Have you ever been to Europe?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-348",
@@ -4926,10 +4926,10 @@
     "type": "verb",
     "topic": "general",
     "example": "Please write your name here.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-412",
@@ -5226,10 +5226,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She believes in God.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-437",
@@ -7050,10 +7050,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She lives on a quiet street.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-589",
