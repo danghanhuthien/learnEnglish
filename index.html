@@ -164,7 +164,7 @@ tr:hover td { background: rgba(255,255,255,0.02); }
 .empty-state .icon { font-size: 44px; margin-bottom: 14px; }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 
-/* FILE STATUS BANNER */
+/* GITHUB STATUS BANNER */
 .file-banner { display: flex; align-items: center; gap: 10px; padding: 10px 14px; border-radius: var(--r2); font-size: 12px; margin-bottom: 14px; flex-wrap: wrap; }
 .file-banner.ok { background: rgba(52,211,153,0.08); border: 1px solid rgba(52,211,153,0.25); color: var(--green); }
 .file-banner.warn { background: rgba(251,191,36,0.08); border: 1px solid rgba(251,191,36,0.25); color: var(--amber); }
@@ -174,12 +174,21 @@ tr:hover td { background: rgba(255,255,255,0.02); }
 .file-dot.amber { background: var(--amber); }
 .file-dot.blue { background: var(--blue); }
 
+/* Syncing spinner */
+.spin { display: inline-block; animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Token input */
+.token-input-wrap { position: relative; }
+.token-input-wrap input { padding-right: 80px; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.5px; }
+.token-toggle { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--text3); cursor: pointer; font-size: 12px; padding: 2px 6px; }
+
 /* Settings page */
-.settings-section { margin-bottom: 20px; }
+.settings-section { margin-bottom: 24px; }
 .settings-section h3 { font-size: 11px; font-weight: 600; color: var(--text3); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 10px; }
-.file-handle-row { display: flex; align-items: center; gap: 10px; padding: 12px 14px; background: var(--bg3); border-radius: var(--r2); border: 1px solid var(--border); margin-bottom: 8px; }
-.file-handle-row .fh-name { flex: 1; font-size: 13px; font-family: 'JetBrains Mono', monospace; color: var(--accent2); }
-.file-handle-row .fh-status { font-size: 11px; color: var(--text3); }
+.gh-status-row { display: flex; align-items: center; gap: 10px; padding: 12px 14px; background: var(--bg3); border-radius: var(--r2); border: 1px solid var(--border); margin-bottom: 8px; }
+.gh-status-row .gh-name { flex: 1; font-size: 13px; font-family: 'JetBrains Mono', monospace; color: var(--accent2); }
+.gh-status-row .gh-status { font-size: 11px; color: var(--text3); }
 
 @media (max-width: 640px) {
   .sidebar { display: none; }
@@ -221,94 +230,65 @@ const { useState, useEffect, useRef, useCallback } = React;
 const { createRoot } = ReactDOM;
 
 // ═══════════════════════════════════════════════════════
-//  FILE SYSTEM MANAGER
-//  - Đọc: fetch('./data.json') và fetch('./log.json')
-//  - Ghi: File System Access API (Chrome/Edge)
-//  - Fallback: localStorage nếu không hỗ trợ
+//  GITHUB API MANAGER
+//  Đọc/ghi thẳng vào data.json và log.json trên GitHub repo
 // ═══════════════════════════════════════════════════════
-const FS = {
-  dataHandle: null,   // FileSystemFileHandle cho data.json
-  logHandle: null,    // FileSystemFileHandle cho log.json
-  supported: 'showOpenFilePicker' in window,
+const GH = {
+  // Config — thay đổi nếu cần
+  owner: 'danghanhuthien',
+  repo:  'learnEnglish',
+  branch: 'main',
 
-  // Đọc file JSON từ handle
-  async readHandle(handle) {
-    const file = await handle.getFile();
-    const text = await file.text();
-    return JSON.parse(text);
+  // Lấy token từ localStorage
+  get token(){ return localStorage.getItem('gh_token') || ''; },
+  set token(v){ localStorage.setItem('gh_token', v); },
+
+  headers() {
+    return {
+      'Authorization': `token ${this.token}`,
+      'Content-Type': 'application/json',
+      'Accept': 'application/vnd.github.v3+json',
+    };
   },
 
-  // Ghi JSON vào handle
-  async writeHandle(handle, data) {
-    const writable = await handle.createWritable();
-    await writable.write(JSON.stringify(data, null, 2));
-    await writable.close();
+  // Đọc file từ GitHub → trả về { content, sha }
+  async getFile(path) {
+    const url = `https://api.github.com/repos/${this.owner}/${this.repo}/contents/${path}?ref=${this.branch}&t=${Date.now()}`;
+    const res = await fetch(url, { headers: this.headers() });
+    if (res.status === 404) return { content: null, sha: null };
+    if (!res.ok) throw new Error(`GitHub API error ${res.status}`);
+    const data = await res.json();
+    const content = JSON.parse(atob(data.content.replace(/\n/g, '')));
+    return { content, sha: data.sha };
   },
 
-  // Thử fetch từ cùng thư mục (chạy qua local server hoặc file://)
-  async fetchLocal(filename) {
-    try {
-      const res = await fetch('./' + filename, { cache: 'no-store' });
-      if (!res.ok) return null;
-      return await res.json();
-    } catch { return null; }
-  },
-
-  // Chọn file data.json
-  async pickDataFile() {
-    if (!this.supported) return null;
-    try {
-      const [handle] = await window.showOpenFilePicker({
-        types: [{ description: 'JSON', accept: { 'application/json': ['.json'] } }],
-        multiple: false
-      });
-      this.dataHandle = handle;
-      return await this.readHandle(handle);
-    } catch { return null; }
-  },
-
-  // Chọn file log.json
-  async pickLogFile() {
-    if (!this.supported) return null;
-    try {
-      const [handle] = await window.showOpenFilePicker({
-        types: [{ description: 'JSON', accept: { 'application/json': ['.json'] } }],
-        multiple: false
-      });
-      this.logHandle = handle;
-      return await this.readHandle(handle);
-    } catch { return null; }
-  },
-
-  // Lưu data — ưu tiên handle, fallback localStorage
-  async saveData(data) {
-    if (this.dataHandle) {
-      await this.writeHandle(this.dataHandle, data);
-      return 'file';
+  // Ghi file lên GitHub (tạo mới hoặc cập nhật)
+  async putFile(path, content, sha, message) {
+    const url = `https://api.github.com/repos/${this.owner}/${this.repo}/contents/${path}`;
+    const body = {
+      message: message || `Update ${path}`,
+      content: btoa(unescape(encodeURIComponent(JSON.stringify(content, null, 2)))),
+      branch: this.branch,
+    };
+    if (sha) body.sha = sha;
+    const res = await fetch(url, { method: 'PUT', headers: this.headers(), body: JSON.stringify(body) });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.message || `GitHub write error ${res.status}`);
     }
-    localStorage.setItem('vocab_words', JSON.stringify(data));
-    return 'local';
+    const data = await res.json();
+    return data.content.sha; // SHA mới sau khi ghi
   },
 
-  // Lưu log — ưu tiên handle, fallback localStorage
-  async saveLog(log) {
-    if (this.logHandle) {
-      await this.writeHandle(this.logHandle, log);
-      return 'file';
-    }
-    localStorage.setItem('vocab_history', JSON.stringify(log));
-    return 'local';
-  },
-
-  // Download helper
-  downloadJSON(data, filename) {
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url; a.download = filename; a.click();
-    URL.revokeObjectURL(url);
+  // Kiểm tra token hợp lệ
+  async testToken() {
+    const res = await fetch(`https://api.github.com/repos/${this.owner}/${this.repo}`, { headers: this.headers() });
+    return res.ok;
   }
 };
+
+// SHA cache — tránh phải fetch lại SHA trước mỗi lần ghi
+const shaCache = { data: null, log: null };
 
 // ═══════════════════════════════════════════════════════
 //  SAMPLE DATA
@@ -338,36 +318,32 @@ function useLocalStorage(key, init){
 }
 
 function Toast({msg,onDone}){
-  useEffect(()=>{const t=setTimeout(onDone,2500);return()=>clearTimeout(t);},[]);
+  useEffect(()=>{const t=setTimeout(onDone,2800);return()=>clearTimeout(t);},[]);
   return React.createElement('div',{className:'toast'},msg);
 }
 
 // ═══════════════════════════════════════════════════════
-//  FILE STATUS BANNER
+//  GITHUB STATUS BANNER
 // ═══════════════════════════════════════════════════════
-function FileBanner({dataLinked, logLinked}){
-  if(dataLinked && logLinked){
-    return React.createElement('div',{className:'file-banner ok'},
-      React.createElement('div',{className:'file-dot green'}),
-      React.createElement('span',null,'🗂️ data.json + log.json đã liên kết — tự động lưu vào file thật')
-    );
-  }
-  if(dataLinked || logLinked){
-    return React.createElement('div',{className:'file-banner warn'},
-      React.createElement('div',{className:'file-dot amber'}),
-      React.createElement('span',null,`⚠️ Liên kết một phần (${dataLinked?'data':'log'} ✓) — vào Cài đặt để liên kết file còn lại`)
-    );
-  }
+function GhBanner({ghOk, syncing}){
+  if(syncing) return React.createElement('div',{className:'file-banner warn'},
+    React.createElement('span',{className:'spin'},'⏳'),
+    React.createElement('span',null,'Đang đồng bộ GitHub...')
+  );
+  if(ghOk) return React.createElement('div',{className:'file-banner ok'},
+    React.createElement('div',{className:'file-dot green'}),
+    React.createElement('span',null,'✅ Kết nối GitHub — dữ liệu lưu thẳng vào repo')
+  );
   return React.createElement('div',{className:'file-banner info'},
     React.createElement('div',{className:'file-dot blue'}),
-    React.createElement('span',null,'💾 Đang lưu localStorage — vào ⚙️ Cài đặt để liên kết file thật')
+    React.createElement('span',null,'⚙️ Chưa kết nối GitHub — vào Cài đặt để nhập token')
   );
 }
 
 // ═══════════════════════════════════════════════════════
 //  HOME
 // ═══════════════════════════════════════════════════════
-function Home({words, streak, history, dataLinked, logLinked}){
+function Home({words, streak, history, ghOk, syncing}){
   const today=getToday();
   const todayH=history.filter(h=>h.date===today);
   const pctToday=todayH.length>0?Math.round(todayH.filter(h=>h.correct).length/todayH.length*100):0;
@@ -380,7 +356,7 @@ function Home({words, streak, history, dataLinked, logLinked}){
       React.createElement('p',null,new Date().toLocaleDateString('vi-VN',{weekday:'long',day:'numeric',month:'long'}))
     ),
     React.createElement('div',{className:'page-body'},
-      React.createElement(FileBanner,{dataLinked,logLinked}),
+      React.createElement(GhBanner,{ghOk,syncing}),
       React.createElement('div',{className:'stats-grid'},
         React.createElement('div',{className:'stat-card'},
           React.createElement('div',{className:'value',style:{color:'var(--amber)'}},`🔥${streak}`),
@@ -478,10 +454,6 @@ function WordList({words,setWords,toast,onSaveData}){
     };
     reader.readAsArrayBuffer(file);e.target.value='';
   }
-  function exportJSON(){
-    FS.downloadJSON(words,`data_${getToday()}.json`);
-    toast('💾 Downloaded data.json!');
-  }
   async function importJSON(e){
     const file=e.target.files[0];if(!file) return;
     const reader=new FileReader();
@@ -516,7 +488,6 @@ function WordList({words,setWords,toast,onSaveData}){
       React.createElement('div',{className:'toolbar',style:{marginTop:-4}},
         React.createElement('button',{className:'btn btn-ghost',style:{fontSize:11,padding:'7px 10px'},onClick:()=>fileRef.current.click()},'📊 Excel'),
         React.createElement('button',{className:'btn btn-ghost',style:{fontSize:11,padding:'7px 10px'},onClick:()=>jsonRef.current.click()},'📂 JSON'),
-        React.createElement('button',{className:'btn btn-ghost',style:{fontSize:11,padding:'7px 10px'},onClick:exportJSON},'💾 Export'),
         React.createElement('button',{className:'btn btn-primary',style:{marginLeft:'auto'},onClick:openAdd},'+ Thêm'),
       ),
       React.createElement('input',{ref:fileRef,type:'file',accept:'.xlsx,.xls',style:{display:'none'},onChange:importExcel}),
@@ -671,7 +642,6 @@ function Quiz({words,setWords,addHistory,toast,onSaveData,onSaveLog}){
     const newAns=[...answers,{word:w,correct,userAns:userInput}];
     setAnswers(newAns);
 
-    // Cập nhật từ
     let updatedWords;
     setWords(ws=>{
       updatedWords=ws.map(wd=>{
@@ -684,7 +654,6 @@ function Quiz({words,setWords,addHistory,toast,onSaveData,onSaveLog}){
       return updatedWords;
     });
 
-    // Ghi log entry
     const logEntry={
       date:getToday(),
       ts:new Date().toISOString(),
@@ -700,7 +669,6 @@ function Quiz({words,setWords,addHistory,toast,onSaveData,onSaveLog}){
     if(next>=queue.length){
       clearInterval(timerRef.current);
       setPhase('result');
-      // Lưu data sau khi quiz xong
       if(updatedWords) await onSaveData(updatedWords);
       return;
     }
@@ -879,8 +847,6 @@ function Progress({words,history,streak}){
   const reviewed=words.filter(w=>w.review_count>0);
   const overallAcc=reviewed.length>0?Math.round(reviewed.reduce((s,w)=>s+w.accuracy,0)/reviewed.length):0;
   const weakWords=words.filter(w=>w.review_count>0&&w.accuracy<60).sort((a,b)=>a.accuracy-b.accuracy).slice(0,10);
-
-  // Phân tích log
   const byMode={type:0,choice:0,listen:0};
   const byModeCorrect={type:0,choice:0,listen:0};
   history.forEach(h=>{ if(h.mode){ byMode[h.mode]=(byMode[h.mode]||0)+1; if(h.correct) byModeCorrect[h.mode]=(byModeCorrect[h.mode]||0)+1; } });
@@ -926,14 +892,11 @@ function Progress({words,history,streak}){
           )
         )
       ),
-      // Mode accuracy breakdown
       history.some(h=>h.mode)&&React.createElement('div',{className:'card',style:{marginTop:14}},
         React.createElement('h3',{style:{fontSize:13,fontWeight:600,marginBottom:12,color:'var(--text2)'}},'🎮 HIỆU QUẢ THEO CHẾ ĐỘ'),
         React.createElement('div',{style:{display:'flex',gap:16,flexWrap:'wrap'}},
           [['type','⌨️ Gõ từ'],['choice','🎯 Trắc nghiệm'],['listen','🎧 Nghe - Gõ']].map(([k,label])=>{
-            const total=byMode[k]||0;
-            const correct=byModeCorrect[k]||0;
-            const pct=total>0?Math.round(correct/total*100):0;
+            const total=byMode[k]||0;const correct=byModeCorrect[k]||0;const pct=total>0?Math.round(correct/total*100):0;
             return React.createElement('div',{key:k,style:{flex:1,minWidth:100,background:'var(--bg3)',padding:'12px 14px',borderRadius:'var(--r2)'}},
               React.createElement('div',{style:{fontSize:12,color:'var(--text2)',marginBottom:4}},label),
               React.createElement('div',{style:{fontSize:20,fontWeight:700,color:accColor(pct)}},total>0?`${pct}%`:'—'),
@@ -957,62 +920,107 @@ function Progress({words,history,streak}){
 }
 
 // ═══════════════════════════════════════════════════════
-//  SETTINGS PAGE
+//  SETTINGS — GitHub Token
 // ═══════════════════════════════════════════════════════
-function Settings({words,history,streak,dataLinked,logLinked,onLinkData,onLinkLog,onDownloadData,onDownloadLog,toast}){
-  const fsSupported=FS.supported;
+function Settings({words,history,ghOk,onSaveToken,toast}){
+  const [tokenInput,setTokenInput]=useState(GH.token||'');
+  const [showToken,setShowToken]=useState(false);
+  const [testing,setTesting]=useState(false);
+
+  async function handleSave(){
+    if(!tokenInput.trim()){toast('❌ Nhập token trước!');return;}
+    setTesting(true);
+    GH.token=tokenInput.trim();
+    const ok=await GH.testToken().catch(()=>false);
+    setTesting(false);
+    if(ok){
+      onSaveToken(tokenInput.trim());
+      toast('✅ Kết nối GitHub thành công!');
+    } else {
+      toast('❌ Token không hợp lệ hoặc không có quyền repo');
+      GH.token='';
+    }
+  }
+
+  function handleClear(){
+    GH.token='';
+    setTokenInput('');
+    onSaveToken('');
+    toast('🗑️ Đã xóa token');
+  }
+
   return React.createElement('div',null,
     React.createElement('div',{className:'page-header'},
-      React.createElement('h2',null,'⚙️ Cài đặt & File'),
-      React.createElement('p',null,'Liên kết file thật · data.json + log.json')
+      React.createElement('h2',null,'⚙️ Cài đặt'),
+      React.createElement('p',null,'Kết nối GitHub để lưu dữ liệu thật')
     ),
     React.createElement('div',{className:'page-body',style:{maxWidth:560}},
+
       // Hướng dẫn
-      React.createElement('div',{className:'card',style:{marginBottom:16,borderColor:'rgba(96,165,250,0.3)'}},
-        React.createElement('h3',{style:{fontSize:13,fontWeight:700,marginBottom:10,color:'var(--blue)'}},'📖 Cách hoạt động'),
-        React.createElement('div',{style:{fontSize:13,color:'var(--text2)',lineHeight:1.7}},
-          React.createElement('div',null,'1. Đặt '),React.createElement('code',{style:{fontFamily:'JetBrains Mono',background:'var(--bg3)',padding:'1px 6px',borderRadius:4,color:'var(--accent2)'}},'index.html'),React.createElement('span',null,' cùng thư mục với '),React.createElement('code',{style:{fontFamily:'JetBrains Mono',background:'var(--bg3)',padding:'1px 6px',borderRadius:4,color:'var(--green)'}},'data.json'),React.createElement('span',null,' và '),React.createElement('code',{style:{fontFamily:'JetBrains Mono',background:'var(--bg3)',padding:'1px 6px',borderRadius:4,color:'var(--green)'}},'log.json'),
-          React.createElement('br',null),
-          React.createElement('div',null,'2. Nhấn nút bên dưới để chọn từng file → app sẽ đọc & ghi thẳng vào file đó'),
-          React.createElement('div',null,'3. Nếu chưa có file, nhấn '),React.createElement('b',null,'Download mẫu'),React.createElement('span',null,' để tải về trước'),
-          !fsSupported&&React.createElement('div',{style:{marginTop:8,color:'var(--amber)'}},'⚠️ Trình duyệt này không hỗ trợ File System API — dùng Chrome/Edge để ghi file thật. Hiện đang dùng localStorage.')
+      React.createElement('div',{className:'card',style:{marginBottom:20,borderColor:'rgba(96,165,250,0.3)'}},
+        React.createElement('h3',{style:{fontSize:13,fontWeight:700,marginBottom:10,color:'var(--blue)'}},'📖 Cách lấy GitHub Token'),
+        React.createElement('ol',{style:{fontSize:13,color:'var(--text2)',lineHeight:2,paddingLeft:18}},
+          React.createElement('li',null,'Vào GitHub → click avatar → ',React.createElement('b',null,'Settings')),
+          React.createElement('li',null,'Kéo xuống → ',React.createElement('b',null,'Developer settings')),
+          React.createElement('li',null,React.createElement('b',null,'Personal access tokens'),' → ',React.createElement('b',null,'Tokens (classic)')),
+          React.createElement('li',null,'Generate new token → tick ✅ ',React.createElement('code',{style:{background:'var(--bg3)',padding:'1px 6px',borderRadius:4,color:'var(--green)'}},'repo'),' → Generate'),
+          React.createElement('li',null,'Copy token dạng ',React.createElement('code',{style:{background:'var(--bg3)',padding:'1px 6px',borderRadius:4,color:'var(--accent2)'}},'ghp_...'),' rồi dán vào ô bên dưới')
         )
       ),
-      // data.json
+
+      // Token input
       React.createElement('div',{className:'settings-section'},
-        React.createElement('h3',null,'📦 data.json — Từ vựng'),
-        React.createElement('div',{className:'file-handle-row'},
-          React.createElement('div',{className:'fh-name'},dataLinked?'✅ data.json đã liên kết':'data.json'),
-          React.createElement('div',{className:'fh-status'},dataLinked?`${words.length} từ`:'Chưa liên kết'),
+        React.createElement('h3',null,'🔑 GITHUB PERSONAL ACCESS TOKEN'),
+        React.createElement('div',{className:'gh-status-row'},
+          React.createElement('div',{className:'gh-name'},`${GH.owner}/${GH.repo}`),
+          React.createElement('div',{className:'gh-status',style:{color:ghOk?'var(--green)':'var(--text3)'}},ghOk?'✅ Đã kết nối':'Chưa kết nối')
+        ),
+        React.createElement('div',{className:'form-group',style:{marginTop:10}},
+          React.createElement('label',null,'Token (lưu ở localStorage, không ai thấy ngoài bạn)'),
+          React.createElement('div',{className:'token-input-wrap'},
+            React.createElement('input',{
+              className:'input',
+              type:showToken?'text':'password',
+              placeholder:'ghp_xxxxxxxxxxxxxxxx',
+              value:tokenInput,
+              onChange:e=>setTokenInput(e.target.value),
+              onKeyDown:e=>e.key==='Enter'&&handleSave()
+            }),
+            React.createElement('button',{className:'token-toggle',onClick:()=>setShowToken(v=>!v)},showToken?'🙈 Ẩn':'👁 Hiện')
+          )
         ),
         React.createElement('div',{style:{display:'flex',gap:8,marginTop:8}},
-          React.createElement('button',{className:`btn ${dataLinked?'btn-green':'btn-primary'}`,onClick:onLinkData,disabled:!fsSupported},
-            dataLinked?'🔁 Đổi file':'📂 Chọn data.json'
-          ),
-          React.createElement('button',{className:'btn btn-ghost',onClick:onDownloadData},'💾 Download mẫu'),
+          React.createElement('button',{
+            className:'btn btn-primary',style:{flex:1},
+            onClick:handleSave,disabled:testing
+          },testing?'⏳ Đang kiểm tra...':'🔗 Kết nối & Lưu'),
+          ghOk&&React.createElement('button',{className:'btn btn-danger',onClick:handleClear},'🗑️ Xóa token')
         )
       ),
-      // log.json
-      React.createElement('div',{className:'settings-section'},
-        React.createElement('h3',null,'📋 log.json — Lịch sử học tập'),
-        React.createElement('div',{className:'file-handle-row'},
-          React.createElement('div',{className:'fh-name'},logLinked?'✅ log.json đã liên kết':'log.json'),
-          React.createElement('div',{className:'fh-status'},logLinked?`${history.length} entries`:'Chưa liên kết'),
-        ),
-        React.createElement('div',{style:{display:'flex',gap:8,marginTop:8}},
-          React.createElement('button',{className:`btn ${logLinked?'btn-green':'btn-primary'}`,onClick:onLinkLog,disabled:!fsSupported},
-            logLinked?'🔁 Đổi file':'📂 Chọn log.json'
-          ),
-          React.createElement('button',{className:'btn btn-ghost',onClick:onDownloadLog},'💾 Download mẫu'),
-        )
-      ),
+
       // Status
-      React.createElement('div',{className:`file-banner ${dataLinked&&logLinked?'ok':dataLinked||logLinked?'warn':'info'}`,style:{marginTop:8}},
-        React.createElement('div',{className:`file-dot ${dataLinked&&logLinked?'green':dataLinked||logLinked?'amber':'blue'}`}),
+      React.createElement('div',{className:`file-banner ${ghOk?'ok':'info'}`,style:{marginTop:8}},
+        React.createElement('div',{className:`file-dot ${ghOk?'green':'blue'}`}),
         React.createElement('span',null,
-          dataLinked&&logLinked?'Tất cả file đã liên kết. Mọi thay đổi tự lưu vào file thật 🎉':
-          dataLinked||logLinked?'Liên kết một phần — hãy chọn file còn lại':
-          'Chưa liên kết file — đang dùng localStorage'
+          ghOk
+            ?`✅ Kết nối GitHub OK — mọi thay đổi tự động lưu vào ${GH.owner}/${GH.repo}`
+            :'Chưa kết nối — dữ liệu đang lưu tạm ở localStorage'
+        )
+      ),
+
+      // Thống kê
+      React.createElement('div',{className:'card',style:{marginTop:16}},
+        React.createElement('h3',{style:{fontSize:13,fontWeight:600,marginBottom:12,color:'var(--text2)'}},'📊 THỐNG KÊ HIỆN TẠI'),
+        React.createElement('div',{style:{display:'grid',gridTemplateColumns:'1fr 1fr',gap:10}},
+          [
+            ['Tổng từ vựng', words.length + ' từ'],
+            ['Đã học', words.filter(w=>w.learned).length + ' từ'],
+            ['Lượt ôn tập', history.length + ' lần'],
+            ['Repo', `${GH.owner}/${GH.repo}`],
+          ].map(([k,v])=>React.createElement('div',{key:k,style:{background:'var(--bg3)',padding:'10px 12px',borderRadius:'var(--r2)'}},
+            React.createElement('div',{style:{fontSize:11,color:'var(--text3)',marginBottom:3}},k),
+            React.createElement('div',{style:{fontSize:14,fontWeight:600,fontFamily:'JetBrains Mono'}},v)
+          ))
         )
       )
     )
@@ -1029,34 +1037,57 @@ function App(){
   const [lastStudy,setLastStudy]=useLocalStorage('vocab_lastStudy','');
   const [page,setPage]=useState('home');
   const [toastMsg,setToastMsg]=useState(null);
-  const [dataLinked,setDataLinked]=useState(false);
-  const [logLinked,setLogLinked]=useState(false);
+  const [ghOk,setGhOk]=useState(false);
+  const [syncing,setSyncing]=useState(false);
   const [loaded,setLoaded]=useState(false);
 
-  // ── Khởi động: thử fetch file, fallback localStorage ──
+  // ── Khởi động ──
   useEffect(()=>{
     async function init(){
-      // Thử fetch data.json từ cùng thư mục
-      const fetched=await FS.fetchLocal('data.json');
-      if(fetched&&Array.isArray(fetched)){
-        setWords(fetched);
+      setSyncing(true);
+      // Thử đọc từ GitHub nếu có token
+      if(GH.token){
+        try{
+          const [dataRes, logRes] = await Promise.all([
+            GH.getFile('data.json'),
+            GH.getFile('log.json'),
+          ]);
+          if(dataRes.content && Array.isArray(dataRes.content)){
+            setWords(dataRes.content);
+            shaCache.data = dataRes.sha;
+          } else {
+            loadLocalWords();
+          }
+          if(logRes.content && Array.isArray(logRes.content)){
+            setHistory(logRes.content);
+            shaCache.log = logRes.sha;
+          } else {
+            loadLocalLog();
+          }
+          setGhOk(true);
+        } catch(e){
+          console.warn('GitHub load failed:', e);
+          setGhOk(false);
+          loadLocalWords();
+          loadLocalLog();
+        }
       } else {
-        // Fallback localStorage
-        try{const s=localStorage.getItem('vocab_words');setWords(s?JSON.parse(s):SAMPLE_WORDS);}
-        catch{setWords(SAMPLE_WORDS);}
+        loadLocalWords();
+        loadLocalLog();
       }
-
-      // Thử fetch log.json
-      const fetchedLog=await FS.fetchLocal('log.json');
-      if(fetchedLog&&Array.isArray(fetchedLog)){
-        setHistory(fetchedLog);
-      } else {
-        try{const s=localStorage.getItem('vocab_history');setHistory(s?JSON.parse(s):[]);}
-        catch{setHistory([]);}
-      }
-
+      setSyncing(false);
       setLoaded(true);
     }
+
+    function loadLocalWords(){
+      try{const s=localStorage.getItem('vocab_words');setWords(s?JSON.parse(s):SAMPLE_WORDS);}
+      catch{setWords(SAMPLE_WORDS);}
+    }
+    function loadLocalLog(){
+      try{const s=localStorage.getItem('vocab_history');setHistory(s?JSON.parse(s):[]);}
+      catch{setHistory([]);}
+    }
+
     init();
   },[]);
 
@@ -1073,66 +1104,68 @@ function App(){
     }
   },[loaded]);
 
-  // Lưu data vào file/localStorage
+  // ── Lưu data.json ──
   const saveData=useCallback(async(newWords)=>{
-    const dest=await FS.saveData(newWords||words);
-    if(dest==='file') toast(`💾 Đã lưu data.json`);
-  },[words]);
+    // Luôn lưu localStorage làm backup
+    localStorage.setItem('vocab_words',JSON.stringify(newWords));
 
-  // Lưu log
-  const logBuffer=useRef([]);
+    if(!GH.token){ return; }
+    setSyncing(true);
+    try{
+      const newSha=await GH.putFile('data.json', newWords, shaCache.data, `Update vocab ${getToday()}`);
+      shaCache.data=newSha;
+      toast('☁️ Đã lưu GitHub');
+    } catch(e){
+      toast('⚠️ Lưu GitHub thất bại — đã lưu localStorage');
+      console.error(e);
+    }
+    setSyncing(false);
+  },[]);
+
+  // ── Lưu log.json ──
   const saveLog=useCallback(async(newHistory)=>{
-    await FS.saveLog(newHistory||history);
-  },[history]);
+    localStorage.setItem('vocab_history',JSON.stringify(newHistory));
+    if(!GH.token){ return; }
+    try{
+      const newSha=await GH.putFile('log.json', newHistory, shaCache.log, `Log ${getToday()}`);
+      shaCache.log=newSha;
+    } catch(e){
+      console.error('Log save failed:', e);
+    }
+  },[]);
 
-  // addHistory — gom log và lưu
+  // addHistory
   const addHistory=useCallback(async(entry)=>{
     setHistory(prev=>{
       const updated=[...prev,entry];
-      // Lưu async
-      FS.saveLog(updated).catch(()=>{});
+      saveLog(updated);
       return updated;
     });
-  },[]);
+  },[saveLog]);
 
-  // Link data.json
-  async function linkDataFile(){
-    const data=await FS.pickDataFile();
-    if(data&&Array.isArray(data)){
-      setWords(data);
-      setDataLinked(true);
-      toast(`✅ Liên kết data.json — ${data.length} từ`);
-    } else if(data===null&&FS.dataHandle){
-      // picked but empty/invalid
-      toast('❌ File không hợp lệ');
-    } else {
-      toast('↩ Đã huỷ');
+  // Khi user lưu token mới
+  async function handleSaveToken(token){
+    if(!token){ setGhOk(false); return; }
+    setSyncing(true);
+    try{
+      // Đọc lại từ GitHub với token mới
+      const [dataRes, logRes] = await Promise.all([
+        GH.getFile('data.json'),
+        GH.getFile('log.json'),
+      ]);
+      if(dataRes.content && Array.isArray(dataRes.content)){
+        setWords(dataRes.content);
+        shaCache.data=dataRes.sha;
+      }
+      if(logRes.content && Array.isArray(logRes.content)){
+        setHistory(logRes.content);
+        shaCache.log=logRes.sha;
+      }
+      setGhOk(true);
+    } catch(e){
+      console.error(e);
     }
-    if(FS.dataHandle) setDataLinked(true);
-  }
-
-  // Link log.json
-  async function linkLogFile(){
-    const data=await FS.pickLogFile();
-    if(data&&Array.isArray(data)){
-      setHistory(data);
-      setLogLinked(true);
-      toast(`✅ Liên kết log.json — ${data.length} entries`);
-    } else if(FS.logHandle){
-      setLogLinked(true);
-    } else {
-      toast('↩ Đã huỷ');
-    }
-    if(FS.logHandle) setLogLinked(true);
-  }
-
-  function downloadSampleData(){
-    FS.downloadJSON(words.length?words:SAMPLE_WORDS,'data.json');
-    toast('💾 Downloaded data.json');
-  }
-  function downloadSampleLog(){
-    FS.downloadJSON(history,'log.json');
-    toast('💾 Downloaded log.json');
+    setSyncing(false);
   }
 
   function toast(msg){ setToastMsg(msg); }
@@ -1145,7 +1178,7 @@ function App(){
     {id:'settings',icon:'⚙️',label:'Cài đặt'},
   ];
 
-  if(!loaded) return React.createElement('div',{style:{display:'flex',alignItems:'center',justifyContent:'center',height:'100vh',color:'var(--text3)',fontSize:14}},'Đang tải...');
+  if(!loaded) return React.createElement('div',{style:{display:'flex',alignItems:'center',justifyContent:'center',height:'100vh',color:'var(--text3)',fontSize:14}},'⏳ Đang tải dữ liệu...');
 
   return React.createElement('div',{className:'app'},
     React.createElement('div',{className:'sidebar'},
@@ -1161,17 +1194,17 @@ function App(){
           React.createElement('div',{className:'num'},streak),
           React.createElement('div',{className:'label'},
             React.createElement('div',null,'ngày streak'),
-            React.createElement('div',{style:{color:'var(--text3)',fontSize:10,marginTop:2}},`${words.length} từ`)
+            React.createElement('div',{style:{color:'var(--text3)',fontSize:10,marginTop:2}},`${words.length} từ · ${ghOk?'☁️ GitHub':'💾 Local'}`)
           )
         )
       )
     ),
     React.createElement('div',{className:'main'},
-      page==='home'&&React.createElement(Home,{words,streak,history,dataLinked,logLinked}),
+      page==='home'&&React.createElement(Home,{words,streak,history,ghOk,syncing}),
       page==='words'&&React.createElement(WordList,{words,setWords,toast,onSaveData:saveData}),
       page==='quiz'&&React.createElement(Quiz,{words,setWords,addHistory,toast,onSaveData:saveData,onSaveLog:saveLog}),
       page==='progress'&&React.createElement(Progress,{words,history,streak}),
-      page==='settings'&&React.createElement(Settings,{words,history,streak,dataLinked,logLinked,onLinkData:linkDataFile,onLinkLog:linkLogFile,onDownloadData:downloadSampleData,onDownloadLog:downloadSampleLog,toast}),
+      page==='settings'&&React.createElement(Settings,{words,history,ghOk,onSaveToken:handleSaveToken,toast}),
     ),
     React.createElement('div',{className:'bottom-nav'},
       React.createElement('div',{className:'bottom-nav-inner'},
