@@ -610,5 +610,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:32:56.697Z",
+    "wordId": "word-367",
+    "word": "likely",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
