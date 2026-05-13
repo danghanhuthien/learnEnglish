@@ -250,5 +250,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:29:33.113Z",
+    "wordId": "word-308",
+    "word": "cover",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
