@@ -295,5 +295,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:29:53.722Z",
+    "wordId": "word-371",
+    "word": "million",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
