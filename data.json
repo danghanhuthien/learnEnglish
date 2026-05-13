@@ -306,10 +306,10 @@
     "type": "verb",
     "topic": "grammar",
     "example": "She had a great time.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-027",
@@ -546,10 +546,10 @@
     "type": "adjective",
     "topic": "grammar",
     "example": "All students passed the exam.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-047",
@@ -642,10 +642,10 @@
     "type": "conjunction",
     "topic": "grammar",
     "example": "She was tired, so she slept early.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-055",
@@ -1470,10 +1470,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "This is a basic English course.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-124",
@@ -1590,10 +1590,10 @@
     "type": "conjunction",
     "topic": "grammar",
     "example": "I was tired; however, I kept working.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-134",
@@ -1974,10 +1974,10 @@
     "type": "verb",
     "topic": "general",
     "example": "I hope you feel better soon.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-166",
@@ -3198,10 +3198,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She wants to become a doctor.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-268",
@@ -3342,10 +3342,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "He did it himself.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-280",
@@ -6090,10 +6090,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "She left five minutes ago.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-509",
@@ -6150,10 +6150,10 @@
     "type": "noun",
     "topic": "general",
     "example": "Please take note of this.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-514",
