@@ -268,5 +268,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:29:42.870Z",
+    "wordId": "word-134",
+    "word": "off",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
