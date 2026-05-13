@@ -556,5 +556,14 @@
     "mode": "choice",
     "correct": false,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:31:58.313Z",
+    "wordId": "word-299",
+    "word": "cost",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
