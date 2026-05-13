@@ -790,5 +790,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:47:53.517Z",
+    "wordId": "word-403",
+    "word": "importance",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
