@@ -6,10 +6,10 @@
     "type": "article",
     "topic": "grammar",
     "example": "The sun rises in the east.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-002",
@@ -2046,10 +2046,10 @@
     "type": "noun",
     "topic": "general",
     "example": "Please write the answer here.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-172",
@@ -2646,10 +2646,10 @@
     "type": "noun",
     "topic": "general",
     "example": "In fact, she was right.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-222",
@@ -3366,10 +3366,10 @@
     "type": "noun",
     "topic": "general",
     "example": "All members must attend the meeting.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-282",
@@ -5286,10 +5286,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "Actually, I changed my mind.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-442",
