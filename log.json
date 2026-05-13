@@ -574,5 +574,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:32:05.402Z",
+    "wordId": "word-286",
+    "word": "cold",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
