@@ -115,5 +115,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:26:20.805Z",
+    "wordId": "word-108",
+    "word": "added",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
