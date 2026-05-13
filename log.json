@@ -124,5 +124,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:26:24.702Z",
+    "wordId": "word-018",
+    "word": "as",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
