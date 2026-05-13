@@ -682,5 +682,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-13",
+    "ts": "2026-05-13T08:47:00.796Z",
+    "wordId": "word-504",
+    "word": "month",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
