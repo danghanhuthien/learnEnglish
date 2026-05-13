@@ -1350,10 +1350,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "Can you help us?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-114",
@@ -1938,10 +1938,10 @@
     "type": "verb",
     "topic": "general",
     "example": "Please allow me to explain.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-163",
@@ -2010,10 +2010,10 @@
     "type": "noun",
     "topic": "general",
     "example": "They bought a new house.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-169",
@@ -2478,10 +2478,10 @@
     "type": "noun",
     "topic": "general",
     "example": "It's time to go to bed.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-208",
@@ -2754,10 +2754,10 @@
     "type": "noun",
     "topic": "general",
     "example": "The boy is playing football.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-231",
@@ -4386,10 +4386,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She is writing a novel.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-367",
@@ -4398,10 +4398,10 @@
     "type": "adjective",
     "topic": "grammar",
     "example": "It is likely to rain tomorrow.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-368",
@@ -4578,10 +4578,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She studied in England for two years.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-383",
@@ -4963,9 +4963,9 @@
     "topic": "general",
     "example": "She likes to eat fish.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-415",
@@ -6426,10 +6426,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "Please sit down.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-537",
