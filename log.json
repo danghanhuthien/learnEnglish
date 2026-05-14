@@ -691,5 +691,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:35:40.087Z",
+    "wordId": "word-221",
+    "word": "fact",
+    "mode": "choice",
+    "correct": false,
+    "userAns": null
   }
 ]
