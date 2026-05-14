@@ -859,9 +859,9 @@
     "topic": "grammar",
     "example": "May I use your phone?",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-073",
@@ -954,10 +954,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "Can you help me?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-081",
@@ -990,10 +990,10 @@
     "type": "noun",
     "topic": "general",
     "example": "People are generally kind.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-084",
@@ -1038,10 +1038,10 @@
     "type": "verb",
     "topic": "grammar",
     "example": "You should drink more water.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-088",
@@ -1362,10 +1362,10 @@
     "type": "number",
     "topic": "grammar",
     "example": "I have three dogs.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-115",
@@ -1554,10 +1554,10 @@
     "type": "conjunction",
     "topic": "grammar",
     "example": "Would you like tea or coffee?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-131",
@@ -2046,10 +2046,10 @@
     "type": "noun",
     "topic": "general",
     "example": "Please write the answer here.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-172",
@@ -2562,10 +2562,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "How often do you exercise?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-215",
@@ -6438,10 +6438,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She got a perfect score on the test.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-538",
@@ -10518,10 +10518,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She became the president of the club.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-878",
