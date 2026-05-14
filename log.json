@@ -664,5 +664,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:35:28.400Z",
+    "wordId": "word-050",
+    "word": "more",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
