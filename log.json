@@ -1186,5 +1186,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:17:37.306Z",
+    "wordId": "word-193",
+    "word": "bad",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
