@@ -349,5 +349,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:33:07.988Z",
+    "wordId": "word-634",
+    "word": "followed",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
