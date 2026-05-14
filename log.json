@@ -754,5 +754,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:36:17.775Z",
+    "wordId": "word-292",
+    "word": "act",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
