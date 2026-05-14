@@ -1105,5 +1105,14 @@
     "mode": "type",
     "correct": true,
     "userAns": "office "
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:15:10.406Z",
+    "wordId": "word-740",
+    "word": "towards",
+    "mode": "type",
+    "correct": true,
+    "userAns": "towards"
   }
 ]
