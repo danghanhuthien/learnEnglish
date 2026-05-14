@@ -1069,5 +1069,14 @@
     "mode": "type",
     "correct": true,
     "userAns": "many "
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:12:44.295Z",
+    "wordId": "word-789",
+    "word": "thinking",
+    "mode": "type",
+    "correct": true,
+    "userAns": "thinking"
   }
 ]
