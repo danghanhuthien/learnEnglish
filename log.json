@@ -1195,5 +1195,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:17:42.060Z",
+    "wordId": "port-006",
+    "word": "airport",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
