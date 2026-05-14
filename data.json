@@ -486,10 +486,10 @@
     "type": "number",
     "topic": "grammar",
     "example": "I have one sister.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-042",
@@ -4350,10 +4350,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "I think you are wrong.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-364",
@@ -4494,10 +4494,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "She wore a black dress.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-376",
@@ -4698,10 +4698,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She moved to the south of the country.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-393",
@@ -4770,10 +4770,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She gave me a wonderful present.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-399",
@@ -5130,10 +5130,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She wanted to become a singer.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-429",
@@ -7266,10 +7266,10 @@
     "type": "noun",
     "topic": "business",
     "example": "Please log into your account.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-607",
@@ -7722,10 +7722,10 @@
     "type": "noun",
     "topic": "general",
     "example": "The wedding is in June.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-645",
@@ -9631,9 +9631,9 @@
     "topic": "general",
     "example": "This is a serious matter.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-804",
@@ -11047,9 +11047,9 @@
     "topic": "general",
     "example": "The company is based in London.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-922",
