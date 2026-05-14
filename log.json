@@ -304,5 +304,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:32:50.988Z",
+    "wordId": "word-433",
+    "word": "gave",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
