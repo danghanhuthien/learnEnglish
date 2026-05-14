@@ -1150,5 +1150,14 @@
     "mode": "type",
     "correct": true,
     "userAns": "tried"
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:15:28.656Z",
+    "wordId": "word-783",
+    "word": "education",
+    "mode": "type",
+    "correct": true,
+    "userAns": "education"
   }
 ]
