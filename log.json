@@ -988,5 +988,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:11:36.835Z",
+    "wordId": "what-006",
+    "word": "What happened?",
+    "mode": "type",
+    "correct": false,
+    "userAns": "happen"
   }
 ]
