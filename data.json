@@ -5022,10 +5022,10 @@
     "type": "noun",
     "topic": "general",
     "example": "The king ruled for thirty years.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-420",
@@ -5190,10 +5190,10 @@
     "type": "verb",
     "topic": "general",
     "example": "He gave me a birthday gift.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-434",
@@ -5214,10 +5214,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She always gives helpful advice.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-436",
@@ -5238,10 +5238,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She goes to work by bike.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-438",
@@ -5382,10 +5382,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She has long black hair.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-450",
@@ -5442,10 +5442,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "Let's go outside for fresh air.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-455",
@@ -5538,10 +5538,10 @@
     "type": "noun",
     "topic": "general",
     "example": "Human beings need social connection.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-463",
@@ -5574,10 +5574,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "She looks very happy today.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-466",
@@ -7602,10 +7602,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She followed the instructions carefully.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-635",
@@ -12294,10 +12294,10 @@
     "type": "question",
     "topic": "what-questions",
     "example": "What are you playing? — I'm playing chess.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "what-015",
