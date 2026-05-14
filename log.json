@@ -1141,5 +1141,14 @@
     "mode": "type",
     "correct": true,
     "userAns": "after"
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:15:24.224Z",
+    "wordId": "word-241",
+    "word": "tried",
+    "mode": "type",
+    "correct": true,
+    "userAns": "tried"
   }
 ]
