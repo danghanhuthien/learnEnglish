@@ -250,5 +250,14 @@
     "mode": "choice",
     "correct": false,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:32:29.601Z",
+    "wordId": "word-962",
+    "word": "deep",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
