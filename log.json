@@ -1132,5 +1132,14 @@
     "mode": "type",
     "correct": false,
     "userAns": "owns"
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:15:21.156Z",
+    "wordId": "word-086",
+    "word": "after",
+    "mode": "type",
+    "correct": true,
+    "userAns": "after"
   }
 ]
