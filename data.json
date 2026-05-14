@@ -114,10 +114,10 @@
     "type": "verb",
     "topic": "grammar",
     "example": "He was happy yesterday.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-011",
@@ -126,10 +126,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "I bought flowers for you.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-012",
@@ -150,10 +150,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "The book is on the table.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-014",
@@ -174,10 +174,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "She went to the park with her friend.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-016",
@@ -186,10 +186,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "I am a student.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-017",
@@ -222,10 +222,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "The letter was written by him.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-020",
@@ -414,10 +414,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "I gave her the book.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-036",
@@ -738,10 +738,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "No, I don't want to go.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-063",
@@ -1458,10 +1458,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "You are absolutely right.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-123",
@@ -7614,10 +7614,10 @@
     "type": "noun",
     "topic": "general",
     "example": "On the basis of this evidence, she won.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-636",
