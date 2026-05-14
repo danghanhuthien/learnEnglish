@@ -18,10 +18,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "This is a book of poetry.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-003",
@@ -570,10 +570,10 @@
     "type": "verb",
     "topic": "grammar",
     "example": "Do you like music?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-049",
@@ -846,10 +846,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "This is my book.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-072",
@@ -1242,10 +1242,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "Please sit down.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-105",
@@ -2634,10 +2634,10 @@
     "type": "adverb",
     "topic": "general",
     "example": "How far is the station?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-221",
@@ -3462,10 +3462,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She has beautiful blue eyes.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-290",
@@ -3498,10 +3498,10 @@
     "type": "verb",
     "topic": "general",
     "example": "You need to act quickly.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-293",
@@ -4218,10 +4218,10 @@
     "type": "noun",
     "topic": "general",
     "example": "Every child deserves a good education.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-353",
@@ -6102,10 +6102,10 @@
     "type": "adjective",
     "topic": "grammar",
     "example": "She is able to speak three languages.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-510",
@@ -7914,10 +7914,10 @@
     "type": "noun",
     "topic": "general",
     "example": "The structure of the essay is clear.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-661",
