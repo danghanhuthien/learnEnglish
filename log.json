@@ -142,5 +142,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:31:28.486Z",
+    "wordId": "word-186",
+    "word": "came",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
