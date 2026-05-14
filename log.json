@@ -898,5 +898,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:41:44.032Z",
+    "wordId": "word-656",
+    "word": "foreign",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
