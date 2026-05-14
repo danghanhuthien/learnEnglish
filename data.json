@@ -354,10 +354,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "They are coming tomorrow.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-031",
@@ -450,10 +450,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "There is a park near my house.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-039",
@@ -822,10 +822,10 @@
     "type": "adjective",
     "topic": "grammar",
     "example": "The other students were quiet.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-070",
@@ -1782,10 +1782,10 @@
     "type": "verb",
     "topic": "general",
     "example": "Please come in.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-150",
@@ -2214,10 +2214,10 @@
     "type": "adjective",
     "topic": "grammar",
     "example": "I have a few questions.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-186",
@@ -3618,10 +3618,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She lives in a rural county.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-303",
@@ -4159,9 +4159,9 @@
     "topic": "grammar",
     "example": "Have you ever been to Europe?",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-348",
@@ -4458,10 +4458,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "She easily passed the test.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-373",
@@ -5934,10 +5934,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She stood in the middle of the room.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-496",
@@ -6642,10 +6642,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "She did the work herself.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-555",
@@ -12419,7 +12419,7 @@
     "review_count": 0,
     "learned": false
   },
-    {
+  {
     "id": "dir-001",
     "word": "go straight",
     "meaning": "đi thẳng",
@@ -12755,7 +12755,6 @@
     "review_count": 0,
     "learned": false
   },
-
   {
     "id": "sure-001",
     "word": "ensure",
