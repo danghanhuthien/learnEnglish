@@ -43,5 +43,14 @@
     "mode": "choice",
     "correct": false,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:29:31.821Z",
+    "wordId": "word-069",
+    "word": "other",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
