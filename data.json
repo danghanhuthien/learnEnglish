@@ -11998,5 +11998,17 @@
     "wrong_count": 0,
     "review_count": 0,
     "learned": false
+  },
+  {
+    "id": "775286e9-b42f-4098-84e8-77609eb6fcc6",
+    "word": "Not Sure",
+    "meaning": "chưa chắc",
+    "type": "adj",
+    "topic": "general",
+    "example": "I’m not sure about that.",
+    "accuracy": 0,
+    "wrong_count": 0,
+    "review_count": 0,
+    "learned": false
   }
 ]
