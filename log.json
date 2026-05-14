@@ -241,5 +241,14 @@
     "mode": "choice",
     "correct": false,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:32:21.556Z",
+    "wordId": "word-777",
+    "word": "lower",
+    "mode": "choice",
+    "correct": false,
+    "userAns": null
   }
 ]
