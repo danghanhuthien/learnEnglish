@@ -1042,5 +1042,14 @@
     "mode": "type",
     "correct": true,
     "userAns": "way"
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:12:17.172Z",
+    "wordId": "word-189",
+    "word": "around",
+    "mode": "type",
+    "correct": true,
+    "userAns": "around "
   }
 ]
