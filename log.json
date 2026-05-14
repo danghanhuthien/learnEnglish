@@ -1051,5 +1051,14 @@
     "mode": "type",
     "correct": true,
     "userAns": "around "
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:12:24.473Z",
+    "wordId": "word-359",
+    "word": "areas",
+    "mode": "type",
+    "correct": true,
+    "userAns": "areas"
   }
 ]
