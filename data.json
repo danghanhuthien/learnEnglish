@@ -1926,10 +1926,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "It was a long journey.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-162",
@@ -1998,10 +1998,10 @@
     "type": "verb",
     "topic": "general",
     "example": "Put the book on the shelf.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-168",
@@ -2226,10 +2226,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She came home late.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-187",
@@ -3882,10 +3882,10 @@
     "type": "noun",
     "topic": "business",
     "example": "We need more data to decide.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-325",
@@ -4326,10 +4326,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She went to see the doctor.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-362",
@@ -4410,10 +4410,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She is looking for a new job.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-369",
@@ -4890,10 +4890,10 @@
     "type": "noun",
     "topic": "general",
     "example": "My feet are tired from walking.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-409",
@@ -6006,10 +6006,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "She is single and happy.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-502",
@@ -6234,10 +6234,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She is a member of the club.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-521",
@@ -11874,10 +11874,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She went to college in the US.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-991",
