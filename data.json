@@ -66,10 +66,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "She lives in Paris.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-007",
@@ -594,10 +594,10 @@
     "type": "adjective",
     "topic": "grammar",
     "example": "I need more time.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-051",
@@ -774,10 +774,10 @@
     "type": "noun",
     "topic": "general",
     "example": "Time flies so fast.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-066",
@@ -978,10 +978,10 @@
     "type": "verb",
     "topic": "grammar",
     "example": "Did you finish your homework?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-083",
@@ -2382,10 +2382,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "This is the second time I've visited.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-200",
@@ -2598,10 +2598,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "They live in a big house.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-218",
@@ -2647,9 +2647,9 @@
     "topic": "general",
     "example": "In fact, she was right.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-222",
@@ -2850,10 +2850,10 @@
     "type": "verb",
     "topic": "general",
     "example": "This seat is already taken.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-239",
@@ -5526,10 +5526,10 @@
     "type": "verb",
     "topic": "general",
     "example": "What time does the train leave?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-462",
@@ -12210,10 +12210,10 @@
     "type": "question",
     "topic": "what-questions",
     "example": "What's wrong? — I feel sick.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "what-008",
