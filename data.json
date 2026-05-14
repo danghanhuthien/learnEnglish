@@ -1026,10 +1026,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "I will call you after dinner.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-087",
@@ -2886,10 +2886,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She tried her best to pass the exam.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-242",
@@ -3150,10 +3150,10 @@
     "type": "noun",
     "topic": "general",
     "example": "Stand on this side of the road.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-264",
@@ -8238,10 +8238,10 @@
     "type": "noun",
     "topic": "business",
     "example": "She works in an open-plan office.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-688",
@@ -8874,10 +8874,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "She walked towards the exit.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-741",
@@ -9390,10 +9390,10 @@
     "type": "noun",
     "topic": "general",
     "example": "Education is the key to success.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-784",
@@ -9583,9 +9583,9 @@
     "topic": "general",
     "example": "She owns her own business.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-800",
@@ -9738,10 +9738,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "The park is open to the public.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-813",
@@ -9810,10 +9810,10 @@
     "type": "noun",
     "topic": "business",
     "example": "Her income increased this year.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-819",
@@ -11622,10 +11622,10 @@
     "type": "noun",
     "topic": "general",
     "example": "The new year starts in January.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-970",
