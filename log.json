@@ -745,5 +745,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:36:13.429Z",
+    "wordId": "word-104",
+    "word": "down",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
