@@ -970,5 +970,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:42:35.441Z",
+    "wordId": "word-257",
+    "word": "better",
+    "mode": "choice",
+    "correct": false,
+    "userAns": null
   }
 ]
