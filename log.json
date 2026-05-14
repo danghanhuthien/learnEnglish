@@ -835,5 +835,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:36:57.791Z",
+    "wordId": "word-035",
+    "word": "her",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
