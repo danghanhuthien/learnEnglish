@@ -1006,5 +1006,14 @@
     "mode": "type",
     "correct": true,
     "userAns": "together"
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:11:44.642Z",
+    "wordId": "word-172",
+    "word": "home",
+    "mode": "type",
+    "correct": false,
+    "userAns": "go home"
   }
 ]
