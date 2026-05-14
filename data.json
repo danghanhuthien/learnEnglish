@@ -1231,9 +1231,9 @@
     "topic": "grammar",
     "example": "Those are my shoes.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-104",
@@ -6594,10 +6594,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "Is this a real diamond?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-551",
@@ -7758,10 +7758,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She is planning a trip to Europe.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-648",
@@ -9319,9 +9319,9 @@
     "topic": "general",
     "example": "Prices are lower here.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-778",
@@ -9487,9 +9487,9 @@
     "topic": "business",
     "example": "She works at a law firm.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-792",
@@ -11370,10 +11370,10 @@
     "type": "noun",
     "topic": "general",
     "example": "Working conditions have improved.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-949",
@@ -11538,10 +11538,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "The ocean is very deep.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-963",
@@ -11814,10 +11814,10 @@
     "type": "noun",
     "topic": "business",
     "example": "The customer service is excellent.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-986",
@@ -11947,9 +11947,9 @@
     "topic": "general",
     "example": "She made a statement to the press.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-997",
@@ -12354,10 +12354,10 @@
     "type": "phrase",
     "topic": "no-expressions",
     "example": "I have no time to watch TV today.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "no-005",
