@@ -529,5 +529,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:34:23.564Z",
+    "wordId": "word-606",
+    "word": "account",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
