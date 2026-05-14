@@ -6,10 +6,10 @@
     "type": "article",
     "topic": "grammar",
     "example": "The sun rises in the east.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-002",
@@ -42,10 +42,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "I want to go to school.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-005",
@@ -618,10 +618,10 @@
     "type": "pronoun",
     "topic": "grammar",
     "example": "Who is your teacher?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-053",
@@ -1122,10 +1122,10 @@
     "type": "adverb",
     "topic": "general",
     "example": "Come back soon.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-095",
@@ -1170,10 +1170,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She has lived here for three years.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-099",
@@ -1578,10 +1578,10 @@
     "type": "verb",
     "topic": "general",
     "example": "How do you use this app?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-133",
@@ -2178,10 +2178,10 @@
     "type": "noun",
     "topic": "general",
     "example": "She is passionate about art.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-183",
@@ -4734,10 +4734,10 @@
     "type": "verb",
     "topic": "general",
     "example": "I study English every evening.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-396",
@@ -6774,10 +6774,10 @@
     "type": "verb",
     "topic": "general",
     "example": "Please share your ideas with us.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-566",
@@ -7074,10 +7074,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She studies medicine.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-591",
