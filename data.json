@@ -2310,10 +2310,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "That was a bad idea.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-194",
@@ -2574,10 +2574,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "Why are you late?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-216",
@@ -2586,10 +2586,10 @@
     "type": "adjective",
     "topic": "grammar",
     "example": "I read every day.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-217",
@@ -2670,10 +2670,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "I really appreciate your help.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-224",
@@ -3690,10 +3690,10 @@
     "type": "verb",
     "topic": "general",
     "example": "The report covers all main topics.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-309",
@@ -4278,10 +4278,10 @@
     "type": "verb",
     "topic": "grammar",
     "example": "I am a student.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-358",
@@ -6054,10 +6054,10 @@
     "type": "number",
     "topic": "grammar",
     "example": "The shop opens at nine.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-506",
@@ -6126,10 +6126,10 @@
     "type": "noun",
     "topic": "general",
     "example": "Music makes life more beautiful.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-512",
@@ -6138,10 +6138,10 @@
     "type": "adjective",
     "topic": "general",
     "example": "It is normal to feel nervous.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-513",
@@ -12738,10 +12738,10 @@
     "type": "noun",
     "topic": "port-words",
     "example": "We need to be at the airport two hours early.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "port-007",
