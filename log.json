@@ -637,5 +637,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:35:17.055Z",
+    "wordId": "word-461",
+    "word": "leave",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
