@@ -997,5 +997,14 @@
     "mode": "type",
     "correct": false,
     "userAns": "happen"
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:11:41.021Z",
+    "wordId": "word-277",
+    "word": "together",
+    "mode": "type",
+    "correct": true,
+    "userAns": "together"
   }
 ]
