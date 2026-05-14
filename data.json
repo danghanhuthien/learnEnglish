@@ -1134,10 +1134,10 @@
     "type": "noun",
     "topic": "general",
     "example": "Which way is the station?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-096",
@@ -1158,10 +1158,10 @@
     "type": "adjective",
     "topic": "grammar",
     "example": "There are many students in class.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-098",
@@ -2059,9 +2059,9 @@
     "topic": "general",
     "example": "I want to go home.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-173",
@@ -2262,10 +2262,10 @@
     "type": "preposition",
     "topic": "grammar",
     "example": "There are trees around the house.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-190",
@@ -3318,10 +3318,10 @@
     "type": "adverb",
     "topic": "general",
     "example": "Let's work together.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-278",
@@ -3894,10 +3894,10 @@
     "type": "adverb",
     "topic": "grammar",
     "example": "Once upon a time there was a princess.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-326",
@@ -4302,10 +4302,10 @@
     "type": "noun",
     "topic": "general",
     "example": "There are many areas to improve.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-360",
@@ -6246,10 +6246,10 @@
     "type": "noun",
     "topic": "general",
     "example": "The price of oil dropped sharply.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-522",
@@ -9462,10 +9462,10 @@
     "type": "verb",
     "topic": "general",
     "example": "She is thinking about changing jobs.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "word-790",
@@ -12199,9 +12199,9 @@
     "topic": "what-questions",
     "example": "What happened? — There was an accident.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true
   },
   {
     "id": "what-007",
