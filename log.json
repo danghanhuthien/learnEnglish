@@ -520,5 +520,14 @@
     "mode": "choice",
     "correct": false,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:34:20.076Z",
+    "wordId": "word-644",
+    "word": "June",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
