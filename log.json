@@ -448,5 +448,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T13:33:43.874Z",
+    "wordId": "word-428",
+    "word": "wanted",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
