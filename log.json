@@ -1033,5 +1033,14 @@
     "mode": "type",
     "correct": true,
     "userAns": "oil"
+  },
+  {
+    "date": "2026-05-14",
+    "ts": "2026-05-14T15:12:05.526Z",
+    "wordId": "word-095",
+    "word": "way",
+    "mode": "type",
+    "correct": true,
+    "userAns": "way"
   }
 ]
