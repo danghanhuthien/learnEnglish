@@ -2194,5 +2194,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:32:02.973Z",
+    "wordId": "word-591",
+    "word": "remember",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
