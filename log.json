@@ -2113,5 +2113,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:31:29.782Z",
+    "wordId": "word-204",
+    "word": "bank",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
