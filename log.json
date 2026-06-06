@@ -2050,5 +2050,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:30:59.230Z",
+    "wordId": "word-165",
+    "word": "hope",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
