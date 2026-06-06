@@ -97,5 +97,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T02:00:19.685Z",
+    "wordId": "word-064",
+    "word": "said",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
