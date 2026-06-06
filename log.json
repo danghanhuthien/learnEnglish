@@ -466,5 +466,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T02:02:56.378Z",
+    "wordId": "word-149",
+    "word": "come",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
