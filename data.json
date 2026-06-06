@@ -9,7 +9,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ðə/"
   },
   {
@@ -22,7 +22,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/əv/"
   },
   {
@@ -48,7 +48,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/tuː/"
   },
   {
@@ -74,7 +74,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ɪn/"
   },
   {
@@ -126,7 +126,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/wəz/"
   },
   {
@@ -139,7 +139,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/fɔːr/"
   },
   {
@@ -165,7 +165,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ɒn/"
   },
   {
@@ -191,7 +191,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/wɪð/"
   },
   {
@@ -204,7 +204,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/aɪ/"
   },
   {
@@ -243,7 +243,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/baɪ/"
   },
   {
@@ -386,7 +386,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ðeɪ/"
   },
   {
@@ -451,7 +451,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/hɜːr/"
   },
   {
@@ -490,7 +490,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ðɛr/"
   },
   {
@@ -529,7 +529,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/wʌn/"
   },
   {
@@ -620,7 +620,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/duː/"
   },
   {
@@ -646,7 +646,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/mɔːr/"
   },
   {
@@ -672,7 +672,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/huː/"
   },
   {
@@ -802,7 +802,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/noʊ/"
   },
   {
@@ -841,7 +841,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/taɪm/"
   },
   {
@@ -893,7 +893,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈʌðər/"
   },
   {
@@ -919,7 +919,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/maɪ/"
   },
   {
@@ -932,7 +932,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/meɪ/"
   },
   {
@@ -1036,7 +1036,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/miː/"
   },
   {
@@ -1062,7 +1062,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/dɪd/"
   },
   {
@@ -1075,7 +1075,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈpiːpəl/"
   },
   {
@@ -1114,7 +1114,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈæftər/"
   },
   {
@@ -1127,7 +1127,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ʃʊd/"
   },
   {
@@ -1218,7 +1218,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/bæk/"
   },
   {
@@ -1231,7 +1231,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/weɪ/"
   },
   {
@@ -1257,7 +1257,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈmɛni/"
   },
   {
@@ -1270,7 +1270,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/jɪrz/"
   },
   {
@@ -1335,7 +1335,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ðoʊz/"
   },
   {
@@ -1348,7 +1348,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/daʊn/"
   },
   {
@@ -1478,7 +1478,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/θriː/"
   },
   {
@@ -1582,7 +1582,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/raɪt/"
   },
   {
@@ -1686,7 +1686,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ɔːr/"
   },
   {
@@ -1712,7 +1712,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/juːz/"
   },
   {
@@ -1933,7 +1933,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/kʌm/"
   },
   {
@@ -2089,7 +2089,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/lɒŋ/"
   },
   {
@@ -2167,7 +2167,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/pʊt/"
   },
   {
@@ -2219,7 +2219,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈænsər/"
   },
   {
@@ -2232,7 +2232,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/hoʊm/"
   },
   {
@@ -2362,7 +2362,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ɑːrt/"
   },
   {
@@ -2401,7 +2401,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/fjuː/"
   },
   {
@@ -2414,7 +2414,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/keɪm/"
   },
   {
@@ -2453,7 +2453,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/əˈraʊnd/"
   },
   {
@@ -2505,7 +2505,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/bæd/"
   },
   {
@@ -2583,7 +2583,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈsɛkənd/"
   },
   {
@@ -2778,7 +2778,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈɒfən/"
   },
   {
@@ -2791,7 +2791,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/waɪ/"
   },
   {
@@ -2804,7 +2804,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈɛvri/"
   },
   {
@@ -2817,7 +2817,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/bɪɡ/"
   },
   {
@@ -2856,7 +2856,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/fɑːr/"
   },
   {
@@ -2869,7 +2869,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/fækt/"
   },
   {
@@ -2895,7 +2895,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈriːəli/"
   },
   {
@@ -3090,7 +3090,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈteɪkən/"
   },
   {
@@ -3129,7 +3129,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/traɪd/"
   },
   {
@@ -3415,7 +3415,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/saɪd/"
   },
   {
@@ -3597,7 +3597,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/təˈɡɛðər/"
   },
   {
@@ -3753,7 +3753,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/aɪz/"
   },
   {
@@ -3792,7 +3792,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ækt/"
   },
   {
@@ -3922,7 +3922,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈkaʊnti/"
   },
   {
@@ -4000,7 +4000,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈkʌvər/"
   },
   {
@@ -4208,7 +4208,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈdeɪtə/"
   },
   {
@@ -4221,7 +4221,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/wʌns/"
   },
   {
@@ -4507,7 +4507,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈɛvər/"
   },
   {
@@ -4572,7 +4572,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/tʃaɪld/"
   },
   {
@@ -4637,7 +4637,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/æm/"
   },
   {
@@ -4663,7 +4663,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈɛəriəz/"
   },
   {
@@ -4689,7 +4689,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈdɒktər/"
   },
   {
@@ -4715,7 +4715,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/rɒŋ/"
   },
   {
@@ -4780,7 +4780,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈlʊkɪŋ/"
   },
   {
@@ -4832,7 +4832,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈiːzɪli/"
   },
   {
@@ -4871,7 +4871,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/blæk/"
   },
   {
@@ -5092,7 +5092,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/saʊθ/"
   },
   {
@@ -5131,7 +5131,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈstʌdi/"
   },
   {
@@ -5170,7 +5170,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈprɛzənt/"
   },
   {
@@ -5300,7 +5300,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/fiːt/"
   },
   {
@@ -5443,7 +5443,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/kɪŋ/"
   },
   {
@@ -5560,7 +5560,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈwɒntɪd/"
   },
   {
@@ -5625,7 +5625,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ɡeɪv/"
   },
   {
@@ -5651,7 +5651,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ɡɪvz/"
   },
   {
@@ -5677,7 +5677,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ɡoʊz/"
   },
   {
@@ -5833,7 +5833,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/hɛər/"
   },
   {
@@ -5898,7 +5898,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˌaʊtˈsaɪd/"
   },
   {
@@ -5989,7 +5989,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/liːv/"
   },
   {
@@ -6002,7 +6002,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈhjuːmən/"
   },
   {
@@ -6041,7 +6041,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈhæpi/"
   },
   {
@@ -6431,7 +6431,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈmɪdəl/"
   },
   {
@@ -6509,7 +6509,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈsɪŋɡəl/"
   },
   {
@@ -6561,7 +6561,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/naɪn/"
   },
   {
@@ -6613,7 +6613,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈeɪbəl/"
   },
   {
@@ -6639,7 +6639,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈmjuːzɪk/"
   },
   {
@@ -6652,7 +6652,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈnɔːrməl/"
   },
   {
@@ -6756,7 +6756,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈmɛmbər/"
   },
   {
@@ -6769,7 +6769,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ɔɪl/"
   },
   {
@@ -6977,7 +6977,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/tɛst/"
   },
   {
@@ -7146,7 +7146,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/riːəl/"
   },
   {
@@ -7198,7 +7198,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/hɜːrˈsɛlf/"
   },
   {
@@ -7341,7 +7341,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ʃɛər/"
   },
   {
@@ -7666,7 +7666,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈstʌdiz/"
   },
   {
@@ -7874,7 +7874,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/əˈkaʊnt/"
   },
   {
@@ -8238,7 +8238,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈfɒloʊd/"
   },
   {
@@ -8251,7 +8251,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈbeɪsɪs/"
   },
   {
@@ -8368,7 +8368,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/dʒuːn/"
   },
   {
@@ -8407,7 +8407,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈplænɪŋ/"
   },
   {
@@ -8576,7 +8576,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈstrʌktʃər/"
   },
   {
@@ -8927,7 +8927,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈɒfɪs/"
   },
   {
@@ -9616,7 +9616,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/təˈwɔːrdz/"
   },
   {
@@ -10097,7 +10097,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈloʊər/"
   },
   {
@@ -10175,7 +10175,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˌɛdʒʊˈkeɪʃən/"
   },
   {
@@ -10253,7 +10253,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈθɪŋkɪŋ/"
   },
   {
@@ -10279,7 +10279,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/fɜːrm/"
   },
   {
@@ -10383,7 +10383,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/oʊn/"
   },
   {
@@ -10435,7 +10435,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈsɪəriəs/"
   },
   {
@@ -10552,7 +10552,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈpʌblɪk/"
   },
   {
@@ -10630,7 +10630,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈɪnkʌm/"
   },
   {
@@ -11397,7 +11397,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈprɛzɪdənt/"
   },
   {
@@ -11969,7 +11969,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/beɪst/"
   },
   {
@@ -12320,7 +12320,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/kənˈdɪʃənz/"
   },
   {
@@ -12502,7 +12502,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/diːp/"
   },
   {
@@ -12593,7 +12593,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈdʒænjuəri/"
   },
   {
@@ -12801,7 +12801,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈsɜːrvɪs/"
   },
   {
@@ -12866,7 +12866,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈkɒlɪdʒ/"
   },
   {
@@ -12944,7 +12944,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈsteɪtmənt/"
   },
   {
@@ -13217,7 +13217,7 @@
     "accuracy": 0,
     "wrong_count": 1,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/wɒt ˈhæpənd/"
   },
   {
@@ -13230,7 +13230,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/wɒts rɒŋ/"
   },
   {
@@ -13321,7 +13321,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/wɒt ɑː juː ˈpleɪɪŋ/"
   },
   {
@@ -13386,7 +13386,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/noʊ taɪm/"
   },
   {
@@ -13802,7 +13802,7 @@
     "accuracy": 100,
     "wrong_count": 0,
     "review_count": 1,
-    "learned": true,
+    "learned": false,
     "ipa": "/ˈɛəpɔːrt/"
   },
   {
