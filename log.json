@@ -1915,5 +1915,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:29:50.730Z",
+    "wordId": "word-602",
+    "word": "production",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
