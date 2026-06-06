@@ -2329,5 +2329,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:33:34.677Z",
+    "wordId": "let-005",
+    "word": "Let me try",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
