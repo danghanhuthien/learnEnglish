@@ -340,5 +340,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T02:01:54.751Z",
+    "wordId": "word-554",
+    "word": "herself",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
