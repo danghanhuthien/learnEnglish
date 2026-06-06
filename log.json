@@ -1753,5 +1753,14 @@
     "mode": "choice",
     "correct": false,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:26:53.001Z",
+    "wordId": "word-833",
+    "word": "while",
+    "mode": "choice",
+    "correct": false,
+    "userAns": null
   }
 ]
