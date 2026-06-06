@@ -1942,5 +1942,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:30:03.883Z",
+    "wordId": "word-363",
+    "word": "wrong",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
