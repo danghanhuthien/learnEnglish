@@ -84,10 +84,10 @@
     "type": "conjunction",
     "topic": "grammar-core",
     "example": "I think that she is right.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ðæt/"
   },
   {
@@ -175,10 +175,10 @@
     "type": "verb",
     "topic": "grammar-core",
     "example": "I want to be a doctor.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/biː/"
   },
   {
@@ -203,8 +203,8 @@
     "example": "I am a student.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/aɪ/"
   },
   {
@@ -344,10 +344,10 @@
     "type": "pronoun",
     "topic": "grammar-core",
     "example": "That is his car.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/hɪz/"
   },
   {
@@ -450,8 +450,8 @@
     "example": "I gave her the book.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/hɜːr/"
   },
   {
@@ -825,10 +825,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "She said she was tired.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/sɛd/"
   },
   {
@@ -1217,8 +1217,8 @@
     "example": "Come back soon.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/bæk/"
   },
   {
@@ -2112,10 +2112,10 @@
     "type": "particle",
     "topic": "grammar-core",
     "example": "I'm very excited.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/m/"
   },
   {
@@ -2268,10 +2268,10 @@
     "type": "pronoun",
     "topic": "grammar-core",
     "example": "Is anyone home?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈɛniwʌn/"
   },
   {
@@ -2307,10 +2307,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "I want to learn English.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/wɒnt/"
   },
   {
@@ -2723,10 +2723,10 @@
     "type": "noun",
     "topic": "people-society",
     "example": "Women make up half of the team.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈwɪmɪn/"
   },
   {
@@ -3178,10 +3178,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "I will call you tonight.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/kɔːl/"
   },
   {
@@ -3596,8 +3596,8 @@
     "example": "Let's work together.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/təˈɡɛðər/"
   },
   {
@@ -3607,10 +3607,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "She ate the whole cake.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/hoʊl/"
   },
   {
@@ -3906,10 +3906,10 @@
     "type": "noun",
     "topic": "politics-law",
     "example": "War brings nothing but suffering.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/wɔːr/"
   },
   {
@@ -4348,10 +4348,10 @@
     "type": "preposition",
     "topic": "grammar-core",
     "example": "The temperature is above 30 degrees.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/əˈbʌv/"
   },
   {
@@ -5063,10 +5063,10 @@
     "type": "noun",
     "topic": "daily-life",
     "example": "The shopping centre is nearby.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈsɛntər/"
   },
   {
@@ -5310,10 +5310,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "This is my final answer.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈfaɪnəl/"
   },
   {
@@ -5375,10 +5375,10 @@
     "type": "noun",
     "topic": "nature-world",
     "example": "She likes to eat fish.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/fɪʃ/"
   },
   {
@@ -5401,10 +5401,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "She works at a hospital.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/wɜːrks/"
   },
   {
@@ -5583,10 +5583,10 @@
     "type": "noun",
     "topic": "nature-world",
     "example": "The sun sets in the west.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/wɛst/"
   },
   {
@@ -5635,10 +5635,10 @@
     "type": "noun",
     "topic": "people-society",
     "example": "The girl is singing beautifully.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ɡɜːrl/"
   },
   {
@@ -5687,10 +5687,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "Sorry I am late.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/leɪt/"
   },
   {
@@ -5947,10 +5947,10 @@
     "type": "noun",
     "topic": "people-society",
     "example": "She is a strong woman.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈwʊmən/"
   },
   {
@@ -6103,10 +6103,10 @@
     "type": "noun",
     "topic": "daily-life",
     "example": "Turn on the light, please.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/laɪt/"
   },
   {
@@ -6129,10 +6129,10 @@
     "type": "noun",
     "topic": "daily-life",
     "example": "Make a list of things to buy.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/lɪst/"
   },
   {
@@ -6155,10 +6155,10 @@
     "type": "noun",
     "topic": "daily-life",
     "example": "She lives for her family.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/lɪvz/"
   },
   {
@@ -6638,8 +6638,8 @@
     "example": "Music makes life more beautiful.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/ˈmjuːzɪk/"
   },
   {
@@ -8846,10 +8846,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "The answer is simple.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈsɪmpəl/"
   },
   {
@@ -13292,10 +13292,10 @@
     "type": "question",
     "topic": "daily-conversation",
     "example": "What do you think? — I think it's a great idea.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/wɒt duː juː θɪŋk/"
   },
   {
