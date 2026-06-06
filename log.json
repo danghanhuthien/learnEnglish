@@ -907,5 +907,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T02:07:25.603Z",
+    "wordId": "word-640",
+    "word": "record",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
