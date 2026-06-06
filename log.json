@@ -2266,5 +2266,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:33:09.972Z",
+    "wordId": "word-487",
+    "word": "male",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
