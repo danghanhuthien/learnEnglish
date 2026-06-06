@@ -8,8 +8,8 @@
     "example": "The sun rises in the east.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/ðə/"
   },
   {
@@ -97,10 +97,10 @@
     "type": "verb",
     "topic": "grammar-core",
     "example": "She is a teacher.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ɪz/"
   },
   {
@@ -318,10 +318,10 @@
     "type": "verb",
     "topic": "grammar-core",
     "example": "I have two brothers.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/hæv/"
   },
   {
@@ -786,10 +786,10 @@
     "type": "verb",
     "topic": "grammar-core",
     "example": "Could you open the window?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/kʊd/"
   },
   {
@@ -918,8 +918,8 @@
     "example": "This is my book.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/maɪ/"
   },
   {
@@ -1046,10 +1046,10 @@
     "type": "adverb",
     "topic": "time-numbers",
     "example": "I need to leave now.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/naʊ/"
   },
   {
@@ -1085,10 +1085,10 @@
     "type": "adjective",
     "topic": "time-numbers",
     "example": "She was the first to arrive.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/fɜːrst/"
   },
   {
@@ -1269,8 +1269,8 @@
     "example": "She has lived here for three years.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/jɪrz/"
   },
   {
@@ -1358,10 +1358,10 @@
     "type": "adverb",
     "topic": "grammar-core",
     "example": "How are you today?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/haʊ/"
   },
   {
@@ -1436,10 +1436,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "Can you get me a glass of water?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ɡɛt/"
   },
   {
@@ -1644,10 +1644,10 @@
     "type": "adjective",
     "topic": "time-numbers",
     "example": "I saw her last week.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/læst/"
   },
   {
@@ -1800,10 +1800,10 @@
     "type": "verb",
     "topic": "grammar-core",
     "example": "They're very happy today.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ər/"
   },
   {
@@ -2790,8 +2790,8 @@
     "example": "Why are you late?",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/waɪ/"
   },
   {
@@ -3282,10 +3282,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "She looked tired yesterday.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/lʊkt/"
   },
   {
@@ -3698,10 +3698,10 @@
     "type": "noun",
     "topic": "daily-life",
     "example": "She joined the English club.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/klʌb/"
   },
   {
@@ -4220,8 +4220,8 @@
     "example": "Once upon a time there was a princess.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/wʌns/"
   },
   {
@@ -4492,9 +4492,9 @@
     "topic": "daily-life",
     "example": "Forget the past and move on.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/pæst/"
   },
   {
@@ -4530,10 +4530,10 @@
     "type": "noun",
     "topic": "nature-world",
     "example": "Health is more important than wealth.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/hɛlθ/"
   },
   {
@@ -5624,8 +5624,8 @@
     "example": "He gave me a birthday gift.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/ɡeɪv/"
   },
   {
@@ -5676,8 +5676,8 @@
     "example": "She goes to work by bike.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/ɡoʊz/"
   },
   {
@@ -5856,10 +5856,10 @@
     "type": "noun",
     "topic": "business-work",
     "example": "I have a meeting at 10 AM.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈmiːtɪŋ/"
   },
   {
@@ -6091,9 +6091,9 @@
     "topic": "daily-life",
     "example": "She wrote a letter to her friend.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈlɛtər/"
   },
   {
@@ -6181,10 +6181,10 @@
     "type": "noun",
     "topic": "education-knowledge",
     "example": "English is a global language.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈlæŋɡwɪdʒ/"
   },
   {
@@ -6533,9 +6533,9 @@
     "topic": "actions-verbs",
     "example": "They plan to move next month.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/muːv/"
   },
   {
@@ -6805,10 +6805,10 @@
     "type": "noun",
     "topic": "daily-life",
     "example": "Let's take a walk in the park.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/pɑːrk/"
   },
   {
@@ -6909,10 +6909,10 @@
     "type": "noun",
     "topic": "business-work",
     "example": "What are your plans for the weekend?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/plænz/"
   },
   {
@@ -7026,10 +7026,10 @@
     "type": "noun",
     "topic": "business-work",
     "example": "Prices are rising every year.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/praɪsɪz/"
   },
   {
@@ -7039,10 +7039,10 @@
     "type": "noun",
     "topic": "education-knowledge",
     "example": "She answered all the questions correctly.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈkwɛstʃənz/"
   },
   {
@@ -7091,10 +7091,10 @@
     "type": "verb",
     "topic": "education-knowledge",
     "example": "Reading is a great habit.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈriːdɪŋ/"
   },
   {
@@ -10081,10 +10081,10 @@
     "type": "preposition",
     "topic": "grammar-core",
     "example": "She worked hard throughout the year.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/θruːˈaʊt/"
   },
   {
