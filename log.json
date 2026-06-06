@@ -70,5 +70,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T01:59:47.341Z",
+    "wordId": "word-335",
+    "word": "above",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
