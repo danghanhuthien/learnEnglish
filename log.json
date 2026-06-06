@@ -673,5 +673,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T02:05:04.151Z",
+    "wordId": "word-437",
+    "word": "goes",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
