@@ -214,10 +214,10 @@
     "type": "pronoun",
     "topic": "grammar-core",
     "example": "He is my brother.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/hiː/"
   },
   {
@@ -266,10 +266,10 @@
     "type": "preposition",
     "topic": "grammar-core",
     "example": "Meet me at the station.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/æt/"
   },
   {
@@ -734,10 +734,10 @@
     "type": "pronoun",
     "topic": "grammar-core",
     "example": "The dog wagged its tail.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ɪts/"
   },
   {
@@ -1020,10 +1020,10 @@
     "type": "adjective",
     "topic": "grammar-core",
     "example": "Do you have any questions?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈɛni/"
   },
   {
@@ -1059,10 +1059,10 @@
     "type": "verb",
     "topic": "grammar-core",
     "example": "Did you finish your homework?",
-    "accuracy": 100,
-    "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "accuracy": 50,
+    "wrong_count": 1,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/dɪd/"
   },
   {
@@ -1099,9 +1099,9 @@
     "topic": "grammar-core",
     "example": "She is very smart.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈvɛri/"
   },
   {
@@ -5206,10 +5206,10 @@
     "type": "pronoun",
     "topic": "grammar-core",
     "example": "Everyone is welcome here.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈɛvriwʌn/"
   },
   {
@@ -8561,9 +8561,9 @@
     "topic": "grammar-core",
     "example": "Either option works for me.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈiːðər/"
   },
   {
@@ -9601,9 +9601,9 @@
     "topic": "grammar-core",
     "example": "She trained hard, thus she won.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ðʌs/"
   },
   {
@@ -10758,9 +10758,9 @@
     "topic": "grammar-core",
     "example": "This is beyond my expectations.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/biˈɒnd/"
   },
   {
