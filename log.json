@@ -2167,5 +2167,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:31:53.926Z",
+    "wordId": "word-831",
+    "word": "attempt",
+    "mode": "choice",
+    "correct": false,
+    "userAns": null
   }
 ]
