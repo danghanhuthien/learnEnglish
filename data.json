@@ -190,8 +190,8 @@
     "example": "She went to the park with her friend.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/wɪð/"
   },
   {
@@ -227,10 +227,10 @@
     "type": "conjunction",
     "topic": "grammar-core",
     "example": "She works as a nurse.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/æz/"
   },
   {
@@ -331,10 +331,10 @@
     "type": "verb",
     "topic": "grammar-core",
     "example": "She had a great time.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/hæd/"
   },
   {
@@ -489,8 +489,8 @@
     "example": "There is a park near my house.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/ðɛr/"
   },
   {
@@ -565,10 +565,10 @@
     "type": "particle",
     "topic": "grammar-core",
     "example": "I don't know the answer.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/nt/"
   },
   {
@@ -671,8 +671,8 @@
     "example": "Who is your teacher?",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/huː/"
   },
   {
@@ -799,10 +799,10 @@
     "type": "adverb",
     "topic": "grammar-core",
     "example": "No, I don't want to go.",
-    "accuracy": 100,
-    "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "accuracy": 50,
+    "wrong_count": 1,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/noʊ/"
   },
   {
@@ -892,8 +892,8 @@
     "example": "The other students were quiet.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/ˈʌðər/"
   },
   {
@@ -1241,10 +1241,10 @@
     "type": "pronoun",
     "topic": "grammar-core",
     "example": "This is our school.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/aʊər/"
   },
   {
@@ -2255,10 +2255,10 @@
     "type": "preposition",
     "topic": "grammar-core",
     "example": "Please reply within 24 hours.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/wɪˈðɪn/"
   },
   {
