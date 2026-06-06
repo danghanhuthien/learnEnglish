@@ -1987,5 +1987,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:30:33.499Z",
+    "wordId": "word-257",
+    "word": "better",
+    "mode": "choice",
+    "correct": false,
+    "userAns": null
   }
 ]
