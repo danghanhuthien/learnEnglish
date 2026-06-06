@@ -73,8 +73,8 @@
     "example": "She lives in Paris.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/ɪn/"
   },
   {
@@ -253,10 +253,10 @@
     "type": "pronoun",
     "topic": "grammar-core",
     "example": "You are very kind.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/juː/"
   },
   {
@@ -385,8 +385,8 @@
     "example": "They are coming tomorrow.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/ðeɪ/"
   },
   {
@@ -422,10 +422,10 @@
     "type": "article",
     "topic": "grammar-core",
     "example": "She ate an apple.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ən/"
   },
   {
@@ -968,10 +968,10 @@
     "type": "adverb",
     "topic": "grammar-core",
     "example": "I also want to come.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈɔːlsoʊ/"
   },
   {
@@ -1007,10 +1007,10 @@
     "type": "pronoun",
     "topic": "grammar-core",
     "example": "Is this your bag?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/jɔːr/"
   },
   {
@@ -1631,10 +1631,10 @@
     "type": "adverb",
     "topic": "grammar-core",
     "example": "It is too hot today.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/tuː/"
   },
   {
@@ -1943,10 +1943,10 @@
     "type": "noun",
     "topic": "nature-world",
     "example": "The air is fresh here.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ɛr/"
   },
   {
@@ -2047,10 +2047,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "That is an old building.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/oʊld/"
   },
   {
@@ -2060,10 +2060,10 @@
     "type": "adverb",
     "topic": "description",
     "example": "I have never been to Japan.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈnɛvər/"
   },
   {
@@ -2086,10 +2086,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "It was a long journey.",
-    "accuracy": 100,
-    "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "accuracy": 50,
+    "wrong_count": 1,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/lɒŋ/"
   },
   {
@@ -3763,10 +3763,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "She always comes on time.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/kʌmz/"
   },
   {
@@ -4465,10 +4465,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "She is using a new app.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈjuːzɪŋ/"
   },
   {
@@ -4517,10 +4517,10 @@
     "type": "noun",
     "topic": "nature-world",
     "example": "The road to success is not easy.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/roʊd/"
   },
   {
@@ -4907,10 +4907,10 @@
     "type": "number",
     "topic": "time-numbers",
     "example": "She works eight hours a day.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/eɪt/"
   },
   {
@@ -4920,10 +4920,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "She wore a white shirt.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/waɪt/"
   },
   {
@@ -5323,10 +5323,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "I am fine, thank you.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/faɪn/"
   },
   {
@@ -5362,10 +5362,10 @@
     "type": "noun",
     "topic": "nature-world",
     "example": "The fire was quickly put out.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈfaɪər/"
   },
   {
@@ -5492,10 +5492,10 @@
     "type": "noun",
     "topic": "people-society",
     "example": "She is my best friend.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/frɛnd/"
   },
   {
@@ -7364,10 +7364,10 @@
     "type": "noun",
     "topic": "time-numbers",
     "example": "The meeting lasted thirty minutes.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈmɪnɪts/"
   },
   {
@@ -7429,10 +7429,10 @@
     "type": "noun",
     "topic": "daily-life",
     "example": "Please write on a piece of paper.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈpeɪpər/"
   },
   {
@@ -7637,10 +7637,10 @@
     "type": "noun",
     "topic": "nature-world",
     "example": "She lives on a quiet street.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/striːt/"
   },
   {
@@ -8926,8 +8926,8 @@
     "example": "She works in an open-plan office.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/ˈɒfɪs/"
   },
   {
@@ -9756,10 +9756,10 @@
     "type": "preposition",
     "topic": "grammar-core",
     "example": "Once upon a time...",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/əˈpɒn/"
   },
   {
@@ -10953,9 +10953,9 @@
     "topic": "grammar-core",
     "example": "She is particularly good at maths.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/pərˈtɪkjʊləli/"
   },
   {
@@ -11264,10 +11264,10 @@
     "type": "noun",
     "topic": "business-work",
     "example": "They launched a new product.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈprɒdʌkt/"
   },
   {
@@ -11498,10 +11498,10 @@
     "type": "noun",
     "topic": "daily-life",
     "example": "She applied for the position.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/pəˈzɪʃən/"
   },
   {
@@ -11524,10 +11524,10 @@
     "type": "noun",
     "topic": "education-knowledge",
     "example": "Practice makes perfect.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈpræktɪs/"
   },
   {
@@ -13110,10 +13110,10 @@
     "type": "adv",
     "topic": "description",
     "example": "Maybe I'll go later.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈmeɪbi/"
   },
   {
@@ -13385,8 +13385,8 @@
     "example": "I have no time to watch TV today.",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/noʊ taɪm/"
   },
   {
