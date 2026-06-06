@@ -2230,5 +2230,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:32:39.061Z",
+    "wordId": "word-498",
+    "word": "although",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
