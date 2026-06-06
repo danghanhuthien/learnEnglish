@@ -1843,5 +1843,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:28:31.861Z",
+    "wordId": "word-074",
+    "word": "over",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
