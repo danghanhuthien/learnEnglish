@@ -7404,9 +7404,9 @@
     "topic": "actions-verbs",
     "example": "She is taking an English course.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈteɪkɪŋ/"
   },
   {
@@ -7572,10 +7572,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "She started learning English at age 5.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈstɑːrtɪd/"
   },
   {
@@ -7585,10 +7585,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "Can you stay for dinner?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/steɪ/"
   },
   {
@@ -7650,10 +7650,10 @@
     "type": "noun",
     "topic": "education-knowledge",
     "example": "The students worked hard.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈstjuːdənts/"
   },
   {
@@ -7793,10 +7793,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "She achieved greater success this year.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈɡreɪtər/"
   },
   {
@@ -7923,10 +7923,10 @@
     "type": "noun",
     "topic": "business-work",
     "example": "A large amount of money was raised.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/əˈmaʊnt/"
   },
   {
@@ -7988,10 +7988,10 @@
     "type": "noun",
     "topic": "daily-life",
     "example": "You need to get some rest.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/rɛst/"
   },
   {
@@ -8015,9 +8015,9 @@
     "topic": "daily-conversation",
     "example": "According to the report, sales are up.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/əˈkɔːrdɪŋ tuː/"
   },
   {
@@ -8093,9 +8093,9 @@
     "topic": "actions-verbs",
     "example": "She led the team to victory.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/lɛd/"
   },
   {
@@ -8275,9 +8275,9 @@
     "topic": "education-knowledge",
     "example": "There is clear evidence of improvement.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈɛvɪdəns/"
   },
   {
@@ -8313,10 +8313,10 @@
     "type": "noun",
     "topic": "daily-life",
     "example": "She broke the world record.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈrɛkərd/"
   },
   {
@@ -8378,10 +8378,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "She attended a royal ceremony.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈrɔɪəl/"
   },
   {
@@ -9198,9 +9198,9 @@
     "topic": "politics-law",
     "example": "Please read the terms and conditions.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/tɜːrmz/"
   },
   {
@@ -9288,10 +9288,10 @@
     "type": "conjunction",
     "topic": "grammar-core",
     "example": "She has lived here since 2010.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/sɪns/"
   },
   {
@@ -9327,10 +9327,10 @@
     "type": "conjunction",
     "topic": "grammar-core",
     "example": "She smiled though she was tired.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ðoʊ/"
   },
   {
@@ -9665,10 +9665,10 @@
     "type": "adverb",
     "topic": "grammar-core",
     "example": "She finally finished her thesis.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈfaɪnəli/"
   },
   {
@@ -9730,10 +9730,10 @@
     "type": "noun",
     "topic": "education-knowledge",
     "example": "She always maintains a high standard.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈstændərd/"
   },
   {
@@ -10094,10 +10094,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "Prices are lower here.",
-    "accuracy": 0,
+    "accuracy": 50,
     "wrong_count": 1,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/ˈloʊər/"
   },
   {
@@ -10108,9 +10108,9 @@
     "topic": "daily-life",
     "example": "This is your chance to shine.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/tʃɑːns/"
   },
   {
@@ -10263,10 +10263,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "Thank you for your support.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/səˈpɔːrt/"
   },
   {
@@ -10640,10 +10640,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "Please continue with your work.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/kənˈtɪnjuː/"
   },
   {
@@ -10705,10 +10705,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "Can you be more specific?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/spɪˈsɪfɪk/"
   },
   {
@@ -10784,9 +10784,9 @@
     "topic": "description",
     "example": "She kept the original painting.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/əˈrɪdʒɪnəl/"
   },
   {
@@ -11044,9 +11044,9 @@
     "topic": "description",
     "example": "It is an industrial area.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ɪnˈdʌstriəl/"
   },
   {
@@ -11563,10 +11563,10 @@
     "type": "adjective",
     "topic": "description",
     "example": "She had a very successful career.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/səkˈsɛsfəl/"
   },
   {
@@ -11927,10 +11927,10 @@
     "type": "noun",
     "topic": "daily-life",
     "example": "She has her own unique style.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/staɪl/"
   },
   {
@@ -12279,9 +12279,9 @@
     "topic": "description",
     "example": "She was well prepared for the interview.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/prɪˈpɛərd/"
   },
   {
@@ -12344,9 +12344,9 @@
     "topic": "daily-life",
     "example": "To what extent is she involved?",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ɪkˈstɛnt/"
   },
   {
@@ -12409,9 +12409,9 @@
     "topic": "description",
     "example": "This is a very effective method.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ɪˈfɛktɪv/"
   },
   {
@@ -12642,10 +12642,10 @@
     "type": "verb",
     "topic": "actions-verbs",
     "example": "She was raised in a small town.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/reɪzd/"
   },
   {
