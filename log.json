@@ -2068,5 +2068,14 @@
     "mode": "choice",
     "correct": false,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:31:05.541Z",
+    "wordId": "word-034",
+    "word": "were",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
