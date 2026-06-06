@@ -2284,5 +2284,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:33:17.632Z",
+    "wordId": "word-387",
+    "word": "event",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
