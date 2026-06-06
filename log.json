@@ -1735,5 +1735,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:26:42.903Z",
+    "wordId": "word-077",
+    "word": "these",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
