@@ -493,5 +493,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T02:03:06.272Z",
+    "wordId": "word-151",
+    "word": "'d",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
