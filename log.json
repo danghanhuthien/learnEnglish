@@ -790,5 +790,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T02:05:48.077Z",
+    "wordId": "word-008",
+    "word": "is",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
