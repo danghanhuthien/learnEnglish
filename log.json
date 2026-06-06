@@ -1969,5 +1969,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:30:26.903Z",
+    "wordId": "word-439",
+    "word": "seems",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
