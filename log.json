@@ -574,5 +574,14 @@
     "mode": "choice",
     "correct": false,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T02:03:58.791Z",
+    "wordId": "word-532",
+    "word": "plans",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
