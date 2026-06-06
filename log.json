@@ -1825,5 +1825,14 @@
     "mode": "choice",
     "correct": false,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:28:09.411Z",
+    "wordId": "word-036",
+    "word": "she",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
