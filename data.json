@@ -619,8 +619,8 @@
     "example": "Do you like music?",
     "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 1,
-    "learned": false,
+    "review_count": 2,
+    "learned": true,
     "ipa": "/duː/"
   },
   {
@@ -773,10 +773,10 @@
     "type": "pronoun",
     "topic": "grammar-core",
     "example": "I saw them yesterday.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ðɛm/"
   },
   {
@@ -851,10 +851,10 @@
     "type": "adverb",
     "topic": "grammar-core",
     "example": "I only have five minutes.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈoʊnli/"
   },
   {
@@ -1150,10 +1150,10 @@
     "type": "conjunction",
     "topic": "grammar-core",
     "example": "She is taller than me.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ðæn/"
   },
   {
@@ -9379,10 +9379,10 @@
     "type": "preposition",
     "topic": "grammar-core",
     "example": "Let's go inside, it's cold.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˌɪnˈsaɪd/"
   },
   {
