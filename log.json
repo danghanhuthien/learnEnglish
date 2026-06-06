@@ -2239,5 +2239,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:32:42.611Z",
+    "wordId": "word-852",
+    "word": "police",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
