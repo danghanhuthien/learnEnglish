@@ -1722,10 +1722,10 @@
     "type": "conjunction",
     "topic": "grammar-core",
     "example": "I was tired; however, I kept working.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/haʊˈɛvər/"
   },
   {
@@ -1826,10 +1826,10 @@
     "type": "adverb",
     "topic": "grammar-core",
     "example": "Come here, please.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/hɪr/"
   },
   {
@@ -1969,10 +1969,10 @@
     "type": "adjective",
     "topic": "grammar-core",
     "example": "Can I have another glass of water?",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/əˈnʌðər/"
   },
   {
@@ -2424,10 +2424,10 @@
     "type": "pronoun",
     "topic": "grammar-core",
     "example": "I want to tell you something.",
-    "accuracy": 0,
+    "accuracy": 100,
     "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/ˈsʌmθɪŋ/"
   },
   {
@@ -9588,9 +9588,9 @@
     "topic": "grammar-core",
     "example": "She drove through the tunnel.",
     "accuracy": 0,
-    "wrong_count": 0,
-    "review_count": 0,
-    "learned": false,
+    "wrong_count": 1,
+    "review_count": 1,
+    "learned": true,
     "ipa": "/θruː/"
   },
   {
