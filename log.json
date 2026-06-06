@@ -1519,5 +1519,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T03:24:41.968Z",
+    "wordId": "word-048",
+    "word": "do",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
