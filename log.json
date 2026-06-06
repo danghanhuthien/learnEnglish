@@ -52,5 +52,14 @@
     "mode": "choice",
     "correct": true,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T01:59:38.054Z",
+    "wordId": "word-430",
+    "word": "west",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
