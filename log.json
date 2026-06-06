@@ -1006,5 +1006,14 @@
     "mode": "choice",
     "correct": false,
     "userAns": null
+  },
+  {
+    "date": "2026-06-06",
+    "ts": "2026-06-06T02:08:21.072Z",
+    "wordId": "word-600",
+    "word": "greater",
+    "mode": "choice",
+    "correct": true,
+    "userAns": null
   }
 ]
